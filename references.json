@@ -1,476 +1,220 @@
 [
   {
-    "publisher": "The Royal Society",
-    "issue": "141",
-    "abstract": "<jats:p>Deep learning describes a class of machine learning algorithms that are capable of combining raw inputs into layers of intermediate features. These algorithms have recently shown impressive results across a variety of domains. Biology and medicine are data-rich disciplines, but the data are complex and often ill-understood. Hence, deep learning techniques may be particularly well suited to solve problems of these fields. We examine applications of deep learning to a variety of biomedical problems—patient classification, fundamental biological processes and treatment of patients—and discuss whether deep learning will be able to transform these tasks or if the biomedical sphere poses unique challenges. Following from an extensive literature review, we find that deep learning has yet to revolutionize biomedicine or definitively resolve any of the most pressing challenges in the field, but promising advances have been made on the prior state of the art. Even though improvements over previous baselines have been modest in general, the recent progress indicates that deep learning methods will provide valuable means for speeding up or aiding human investigation. Though progress has been made linking a specific neural network's prediction to input features, understanding how users should interpret these models to make testable hypotheses about the system under study remains an open challenge. Furthermore, the limited amount of labelled data for training presents problems in some domains, as do legal and privacy constraints on work with sensitive health records. Nonetheless, we foresee deep learning enabling changes at both bench and bedside with the potential to transform several areas of biology and medicine.</jats:p>",
-    "DOI": "10.1098/rsif.2017.0387",
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "7",
+    "DOI": "10.1038/s41592-019-0456-1",
     "type": "article-journal",
-    "page": "20170387",
+    "page": "607-610",
     "source": "Crossref",
-    "title": "Opportunities and obstacles for deep learning in biology and medicine",
-    "volume": "15",
+    "title": "Pathway-level information extractor (PLIER) for gene expression data",
+    "volume": "16",
     "author": [
       {
-        "given": "Travers",
-        "family": "Ching"
+        "given": "Weiguang",
+        "family": "Mao"
       },
       {
-        "given": "Daniel S.",
-        "family": "Himmelstein"
+        "given": "Elena",
+        "family": "Zaslavsky"
       },
       {
-        "given": "Brett K.",
-        "family": "Beaulieu-Jones"
+        "given": "Boris M.",
+        "family": "Hartmann"
       },
       {
-        "given": "Alexandr A.",
-        "family": "Kalinin"
+        "given": "Stuart C.",
+        "family": "Sealfon"
       },
       {
-        "given": "Brian T.",
-        "family": "Do"
-      },
-      {
-        "given": "Gregory P.",
-        "family": "Way"
-      },
-      {
-        "given": "Enrico",
-        "family": "Ferrero"
-      },
-      {
-        "given": "Paul-Michael",
-        "family": "Agapow"
-      },
-      {
-        "given": "Michael",
-        "family": "Zietz"
-      },
-      {
-        "given": "Michael M.",
-        "family": "Hoffman"
-      },
-      {
-        "given": "Wei",
-        "family": "Xie"
-      },
-      {
-        "given": "Gail L.",
-        "family": "Rosen"
-      },
-      {
-        "given": "Benjamin J.",
-        "family": "Lengerich"
-      },
-      {
-        "given": "Johnny",
-        "family": "Israeli"
-      },
-      {
-        "given": "Jack",
-        "family": "Lanchantin"
-      },
-      {
-        "given": "Stephen",
-        "family": "Woloszynek"
-      },
-      {
-        "given": "Anne E.",
-        "family": "Carpenter"
-      },
-      {
-        "given": "Avanti",
-        "family": "Shrikumar"
-      },
-      {
-        "given": "Jinbo",
-        "family": "Xu"
-      },
-      {
-        "given": "Evan M.",
-        "family": "Cofer"
-      },
-      {
-        "given": "Christopher A.",
-        "family": "Lavender"
-      },
-      {
-        "given": "Srinivas C.",
-        "family": "Turaga"
-      },
-      {
-        "given": "Amr M.",
-        "family": "Alexandari"
-      },
-      {
-        "given": "Zhiyong",
-        "family": "Lu"
-      },
-      {
-        "given": "David J.",
-        "family": "Harris"
-      },
-      {
-        "given": "Dave",
-        "family": "DeCaprio"
-      },
-      {
-        "given": "Yanjun",
-        "family": "Qi"
-      },
-      {
-        "given": "Anshul",
-        "family": "Kundaje"
-      },
-      {
-        "given": "Yifan",
-        "family": "Peng"
-      },
-      {
-        "given": "Laura K.",
-        "family": "Wiley"
-      },
-      {
-        "given": "Marwin H. S.",
-        "family": "Segler"
-      },
-      {
-        "given": "Simina M.",
-        "family": "Boca"
-      },
-      {
-        "given": "S. Joshua",
-        "family": "Swamidass"
-      },
-      {
-        "given": "Austin",
-        "family": "Huang"
-      },
-      {
-        "given": "Anthony",
-        "family": "Gitter"
-      },
-      {
-        "given": "Casey S.",
-        "family": "Greene"
+        "given": "Maria",
+        "family": "Chikina"
       }
     ],
-    "container-title": "Journal of The Royal Society Interface",
+    "container-title": "Nature Methods",
     "language": "en",
-    "issued": {
-      "date-parts": [
-        [
-          2018,
-          4
-        ]
-      ]
-    },
-    "URL": "https://doi.org/gddkhn",
-    "container-title-short": "J. R. Soc. Interface.",
-    "PMCID": "PMC5938574",
-    "PMID": "29618526",
-    "id": "PZMP42Ak",
-    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1098/rsif.2017.0387"
-  },
-  {
-    "publisher": "Public Library of Science (PLoS)",
-    "issue": "6",
-    "DOI": "10.1371/journal.pcbi.1007128",
-    "type": "article-journal",
-    "page": "e1007128",
-    "source": "Crossref",
-    "title": "Open collaborative writing with Manubot",
-    "volume": "15",
-    "author": [
-      {
-        "given": "Daniel S.",
-        "family": "Himmelstein"
-      },
-      {
-        "given": "Vincent",
-        "family": "Rubinetti"
-      },
-      {
-        "given": "David R.",
-        "family": "Slochower"
-      },
-      {
-        "given": "Dongbo",
-        "family": "Hu"
-      },
-      {
-        "given": "Venkat S.",
-        "family": "Malladi"
-      },
-      {
-        "given": "Casey S.",
-        "family": "Greene"
-      },
-      {
-        "given": "Anthony",
-        "family": "Gitter"
-      }
-    ],
-    "container-title": "PLOS Computational Biology",
-    "language": "en",
-    "editor": [
-      {
-        "given": "Dina",
-        "family": "Schneidman-Duhovny"
-      }
-    ],
     "issued": {
       "date-parts": [
         [
           2019,
           6,
-          24
+          27
         ]
       ]
     },
-    "URL": "https://doi.org/c7np",
-    "container-title-short": "PLoS Comput Biol",
-    "PMCID": "PMC6611653",
-    "PMID": "31233491",
-    "id": "YuJbg3zO",
-    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1371/journal.pcbi.1007128"
+    "URL": "https://doi.org/gf75g6",
+    "container-title-short": "Nat Methods",
+    "PMCID": "PMC7262669",
+    "PMID": "31249421",
+    "id": "Ki2ij7zE",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41592-019-0456-1"
   },
   {
-    "publisher": "eLife Sciences Publications, Ltd",
-    "abstract": "<jats:p>The website Sci-Hub enables users to download PDF versions of scholarly articles, including many articles that are paywalled at their journal’s site. Sci-Hub has grown rapidly since its creation in 2011, but the extent of its coverage has been unclear. Here we report that, as of March 2017, Sci-Hub’s database contains 68.9% of the 81.6 million scholarly articles registered with Crossref and 85.1% of articles published in toll access journals. We find that coverage varies by discipline and publisher, and that Sci-Hub preferentially covers popular, paywalled content. For toll access articles, we find that Sci-Hub provides greater coverage than the University of Pennsylvania, a major research university in the United States. Green open access to toll access articles via licit services, on the other hand, remains quite limited. Our interactive browser at https://greenelab.github.io/scihub allows users to explore these findings in more detail. For the first time, nearly all scholarly literature is available gratis to anyone with an Internet connection, suggesting the toll access business model may become unsustainable.</jats:p>",
-    "DOI": "10.7554/elife.32822",
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "26",
+    "abstract": "<jats:p>Individuals with Down syndrome (DS) display chronic hyperactivation of interferon signaling. However, the clinical impacts of interferon hyperactivity in DS are ill-defined. Here, we describe a multiomics investigation of interferon signaling in hundreds of individuals with DS. Using interferon scores derived from the whole blood transcriptome, we defined the proteomic, immune, metabolic, and clinical features associated with interferon hyperactivity in DS. Interferon hyperactivity associates with a distinct proinflammatory phenotype and dysregulation of major growth signaling and morphogenic pathways. Individuals with the highest interferon activity display the strongest remodeling of the peripheral immune system, including increased cytotoxic T cells, B cell depletion, and monocyte activation. Interferon hyperactivity accompanies key metabolic changes, most prominently dysregulated tryptophan catabolism. High interferon signaling stratifies a subpopulation with elevated rates of congenital heart disease and autoimmunity. Last, a longitudinal case study demonstrated that JAK inhibition normalizes interferon signatures with therapeutic benefit in DS. Together, these results justify the testing of immune-modulatory therapies in DS.</jats:p>",
+    "DOI": "10.1126/sciadv.adg6218",
     "type": "article-journal",
     "source": "Crossref",
-    "title": "Sci-Hub provides access to nearly all scholarly literature",
-    "volume": "7",
+    "title": "Multidimensional definition of the interferonopathy of Down syndrome and its response to JAK inhibition",
+    "volume": "9",
     "author": [
       {
-        "given": "Daniel S",
-        "family": "Himmelstein"
+        "given": "Matthew D.",
+        "family": "Galbraith"
       },
       {
-        "given": "Ariel Rodriguez",
-        "family": "Romero"
+        "given": "Angela L.",
+        "family": "Rachubinski"
       },
       {
-        "given": "Jacob G",
-        "family": "Levernier"
+        "given": "Keith P.",
+        "family": "Smith"
       },
       {
-        "given": "Thomas Anthony",
-        "family": "Munro"
+        "given": "Paula",
+        "family": "Araya"
       },
       {
-        "given": "Stephen Reid",
-        "family": "McLaughlin"
+        "given": "Katherine A.",
+        "family": "Waugh"
       },
       {
-        "given": "Bastian",
-        "family": "Greshake Tzovaras"
+        "given": "Belinda",
+        "family": "Enriquez-Estrada"
       },
       {
-        "given": "Casey S",
-        "family": "Greene"
+        "given": "Kayleigh",
+        "family": "Worek"
+      },
+      {
+        "given": "Ross E.",
+        "family": "Granrath"
+      },
+      {
+        "given": "Kohl T.",
+        "family": "Kinning"
+      },
+      {
+        "given": "Neetha",
+        "family": "Paul Eduthan"
+      },
+      {
+        "given": "Michael P.",
+        "family": "Ludwig"
+      },
+      {
+        "given": "Elena W. Y.",
+        "family": "Hsieh"
+      },
+      {
+        "given": "Kelly D.",
+        "family": "Sullivan"
+      },
+      {
+        "given": "Joaquin M.",
+        "family": "Espinosa"
       }
     ],
-    "container-title": "eLife",
+    "container-title": "Science Advances",
     "language": "en",
     "issued": {
       "date-parts": [
         [
-          2018,
-          3,
-          1
+          2023,
+          6,
+          30
         ]
       ]
     },
-    "URL": "https://doi.org/ckcj",
-    "PMCID": "PMC5832410",
-    "PMID": "29424689",
-    "id": "IhliSZDo",
-    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.7554/elife.32822"
+    "URL": "https://doi.org/gtt8b2",
+    "container-title-short": "Sci. Adv.",
+    "PMCID": "PMC10306300",
+    "PMID": "37379383",
+    "id": "khD7RJrY",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: doi:10.1126/sciadv.adg6218"
   },
   {
-    "id": "zBPP9YKu",
-    "type": "book",
-    "call-number": "Z286.O63 S83 2012",
-    "collection-title": "MIT Press essential knowledge series",
-    "event-place": "Cambridge, Mass",
-    "ISBN": "9780262517638",
-    "note": "OCLC: ocn754518563\nThis CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: isbn:9780262517638",
-    "number-of-pages": "242",
-    "publisher": "MIT Press",
-    "publisher-place": "Cambridge, Mass",
-    "source": "Library of Congress ISBN",
-    "title": "Open access",
-    "author": [
-      {
-        "family": "Suber",
-        "given": "Peter"
-      }
-    ],
+    "title": "Multidimensional definition of the interferonopathy of Down syndrome and its response to JAK inhibition.",
+    "volume": "9",
+    "issue": "26",
+    "page": "eadg6218",
+    "container-title": "Science advances",
+    "container-title-short": "Sci Adv",
+    "ISSN": "2375-2548",
     "issued": {
       "date-parts": [
         [
-          "2012"
-        ]
-      ]
-    }
-  },
-  {
-    "source": "PubMed",
-    "accessed": {
-      "date-parts": [
-        [
-          2024,
-          5,
-          2
+          2023,
+          6,
+          28
         ]
       ]
     },
-    "id": "mSMVRkoc",
-    "title": "Reproducibility of computational workflows is automated using continuous analysis",
     "author": [
       {
-        "family": "Beaulieu-Jones",
-        "given": "Brett K"
+        "given": "Matthew D",
+        "family": "Galbraith"
       },
       {
-        "family": "Greene",
-        "given": "Casey S"
+        "given": "Angela L",
+        "family": "Rachubinski"
+      },
+      {
+        "given": "Keith P",
+        "family": "Smith"
+      },
+      {
+        "given": "Paula",
+        "family": "Araya"
+      },
+      {
+        "given": "Katherine A",
+        "family": "Waugh"
+      },
+      {
+        "given": "Belinda",
+        "family": "Enriquez-Estrada"
+      },
+      {
+        "given": "Kayleigh",
+        "family": "Worek"
+      },
+      {
+        "given": "Ross E",
+        "family": "Granrath"
+      },
+      {
+        "given": "Kohl T",
+        "family": "Kinning"
+      },
+      {
+        "given": "Neetha",
+        "family": "Paul Eduthan"
+      },
+      {
+        "given": "Michael P",
+        "family": "Ludwig"
+      },
+      {
+        "given": "Elena W Y",
+        "family": "Hsieh"
+      },
+      {
+        "given": "Kelly D",
+        "family": "Sullivan"
+      },
+      {
+        "given": "Joaquin M",
+        "family": "Espinosa"
       }
     ],
-    "container-title-short": "Nat Biotechnol",
-    "container-title": "Nature biotechnology",
-    "publisher-place": "United States",
-    "ISSN": "1087-0156",
-    "issued": {
-      "date-parts": [
-        [
-          2017,
-          4
-        ]
-      ]
-    },
-    "page": "342-346",
-    "volume": "35",
-    "issue": "4",
-    "PMID": "28288103",
-    "PMCID": "PMC6103790",
-    "DOI": "10.1038/nbt.3780",
+    "PMID": "37379383",
+    "PMCID": "PMC10306300",
+    "DOI": "10.1126/sciadv.adg6218",
+    "abstract": "Individuals with Down syndrome (DS) display chronic hyperactivation of interferon signaling. However, the clinical impacts of interferon hyperactivity in DS are ill-defined. Here, we describe a multiomics investigation of interferon signaling in hundreds of individuals with DS. Using interferon scores derived from the whole blood transcriptome, we defined the proteomic, immune, metabolic, and clinical features associated with interferon hyperactivity in DS. Interferon hyperactivity associates with a distinct proinflammatory phenotype and dysregulation of major growth signaling and morphogenic pathways. Individuals with the highest interferon activity display the strongest remodeling of the peripheral immune system, including increased cytotoxic T cells, B cell depletion, and monocyte activation. Interferon hyperactivity accompanies key metabolic changes, most prominently dysregulated tryptophan catabolism. High interferon signaling stratifies a subpopulation with elevated rates of congenital heart disease and autoimmunity. Last, a longitudinal case study demonstrated that JAK inhibition normalizes interferon signatures with therapeutic benefit in DS. Together, these results justify the testing of immune-modulatory therapies in DS.",
+    "URL": "https://www.ncbi.nlm.nih.gov/pubmed/37379383",
     "type": "article-journal",
-    "URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/",
-    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: pmc:PMC6103790"
-  },
-  {
-    "title": "Bitcoin for the biological literature.",
-    "volume": "566",
-    "issue": "7742",
-    "page": "141-142",
-    "container-title": "Nature",
-    "container-title-short": "Nature",
-    "ISSN": "1476-4687",
-    "issued": {
-      "date-parts": [
-        [
-          2019,
-          2
-        ]
-      ]
-    },
-    "author": [
-      {
-        "given": "Douglas",
-        "family": "Heaven"
-      }
-    ],
-    "PMID": "30718888",
-    "DOI": "10.1038/d41586-019-00447-9",
-    "URL": "https://www.ncbi.nlm.nih.gov/pubmed/30718888",
-    "type": "article-journal",
-    "id": "126Wi5Us4",
-    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: pubmed:30718888"
-  },
-  {
-    "id": "1GGGHdsew",
-    "type": "report",
-    "language": "en-US",
-    "publisher": "Manubot",
-    "source": "greenelab.github.io",
-    "title": "Open collaborative writing with Manubot",
-    "URL": "https://greenelab.github.io/meta-review/",
-    "author": [
-      {
-        "family": "Himmelstein",
-        "given": "Daniel S."
-      },
-      {
-        "family": "Rubinetti",
-        "given": "Vincent"
-      },
-      {
-        "family": "Slochower",
-        "given": "David R."
-      },
-      {
-        "family": "Hu",
-        "given": "Dongbo"
-      },
-      {
-        "family": "Malladi",
-        "given": "Venkat S."
-      },
-      {
-        "family": "Greene",
-        "given": "Casey S."
-      },
-      {
-        "family": "Gitter",
-        "given": "Anthony"
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2024",
-          5,
-          2
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "2020",
-          5,
-          25
-        ]
-      ]
-    },
-    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: url:https://greenelab.github.io/meta-review/"
-  },
-  {
-    "id": "QhC8yJ7V",
-    "type": "document",
-    "note": "QID: Q56458321\nThis CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: wikidata:Q56458321",
-    "source": "Wikidata",
-    "title": "Plan S: Accelerating the transition to full and immediate Open Access to scientific publications",
-    "title-short": "Plan S",
-    "author": [
-      {
-        "family": "S",
-        "given": "cOAlition"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2018",
-          9,
-          4
-        ]
-      ]
-    },
-    "URL": "https://www.wikidata.org/wiki/Q56458321"
+    "id": "NiRcKt2e",
+    "note": "This CSL Item was generated by Manubot v0.5.6 from its persistent identifier (standard_id).\nstandard_id: pubmed:37379383"
   }
 ]
