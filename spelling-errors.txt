@@ -1,5 +1,14 @@
+datasets
+eQTLs
+GWAS
 janeroe
 johndoe
-PLIER
+omnigenic
+PhenoPLIER
+phenotypes
+QTL
+sQTLs
+TFs
+Transcriptome
 XXXX
 XXXXXXXX
