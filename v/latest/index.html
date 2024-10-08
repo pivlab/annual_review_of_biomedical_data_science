@@ -7,8 +7,8 @@
   <meta name="author" content="Marc Subirana-Granés" />
   <meta name="author" content="Milton Pividori" />
   <meta name="dcterms.date" content="2024-10-08" />
-  <meta name="keywords" content="markdown, publishing, manubot" />
-  <title>Genetic studies through the lens of gene-gene networks</title>
+  <meta name="keywords" content="genetic studies, gwas, twas, gene modules, gene co-expression networks, QTL, complex traits" />
+  <title>Genetic studies through the lens of gene networks</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -47,15 +47,15 @@
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="Genetic studies through the lens of gene-gene networks" />
-  <meta name="citation_title" content="Genetic studies through the lens of gene-gene networks" />
-  <meta property="og:title" content="Genetic studies through the lens of gene-gene networks" />
-  <meta property="twitter:title" content="Genetic studies through the lens of gene-gene networks" />
+  <meta name="dc.title" content="Genetic studies through the lens of gene networks" />
+  <meta name="citation_title" content="Genetic studies through the lens of gene networks" />
+  <meta property="og:title" content="Genetic studies through the lens of gene networks" />
+  <meta property="twitter:title" content="Genetic studies through the lens of gene networks" />
   <meta name="dc.date" content="2024-10-08" />
   <meta name="citation_publication_date" content="2024-10-08" />
   <meta property="article:published_time" content="2024-10-08" />
-  <meta name="dc.modified" content="2024-10-08T18:04:33+00:00" />
-  <meta property="article:modified_time" content="2024-10-08T18:04:33+00:00" />
+  <meta name="dc.modified" content="2024-10-08T18:08:53+00:00" />
+  <meta property="article:modified_time" content="2024-10-08T18:08:53+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -67,18 +67,19 @@
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@johndoe" />
   <meta name="citation_author" content="Milton Pividori" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_institution" content="Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO 80045, USA" />
+  <meta name="citation_author_institution" content="Colorado Center for Personalized Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-3035-4403" />
+  <meta name="twitter:creator" content="@miltondp" />
   <link rel="canonical" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta property="og:url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta property="twitter:url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2d5ef19e1d9fd90053292a1f7042b8c651beb0ab/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2d5ef19e1d9fd90053292a1f7042b8c651beb0ab/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2d5ef19e1d9fd90053292a1f7042b8c651beb0ab/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c8cdd37c6bcb04e9f354aa2f64844f7a0ead0b34/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c8cdd37c6bcb04e9f354aa2f64844f7a0ead0b34/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c8cdd37c6bcb04e9f354aa2f64844f7a0ead0b34/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -91,13 +92,16 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Genetic studies through the lens of gene-gene networks</h1>
+<h1 class="title">Genetic studies through the lens of gene networks</h1>
 </header>
+<p><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"></p>
+<p><span class="banner lightblue"><i class="fas fa-info-circle fa-lg"></i> <strong>When citing this paper, please use the following:</strong><br><br>
+<em>Subirana-Granés M, Hoffman J, Zhang H, Nandi S, Akirtava C, Fotso K, Pividori M. Genetic studies through the lens of gene networks. 2025. Annu. Rev. Biomed. Data Sci. 8. https://doi.org/10.1146/annurev-biodatasci-103123-095355</em></span></p>
 <p><small><em>
 This manuscript
-(<a href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2d5ef19e1d9fd90053292a1f7042b8c651beb0ab/">permalink</a>)
+(<a href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c8cdd37c6bcb04e9f354aa2f64844f7a0ead0b34/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/2d5ef19e1d9fd90053292a1f7042b8c651beb0ab">pivlab/annual_review_of_biomedical_data_science@2d5ef19</a>
+from <a href="https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/c8cdd37c6bcb04e9f354aa2f64844f7a0ead0b34">pivlab/annual_review_of_biomedical_data_science@c8cdd37</a>
 on October 8, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -120,12 +124,17 @@ Department of Something, University of Whatever
 <li><p><strong>Milton Pividori</strong>
 <sup><a href="#correspondence">✉</a></sup><br>
 <img src="images/orcid.svg" class="inline_icon" width="16" height="16" alt="ORCID icon" />
-<a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a>
+<a href="https://orcid.org/0000-0002-3035-4403">0000-0002-3035-4403</a>
 · <img src="images/github.svg" class="inline_icon" width="16" height="16" alt="GitHub icon" />
 <a href="https://github.com/miltondp">miltondp</a>
+· <img src="images/twitter.svg" class="inline_icon" width="16" height="16" alt="Twitter icon" />
+<a href="https://twitter.com/miltondp">miltondp</a>
+· <img src="images/mastodon.svg" class="inline_icon" width="16" height="16" alt="Mastodon icon" />
+<a href="https://genomic.social/@miltondp">@miltondp@genomic.social</a>
 <br>
 <small>
-Department of Something, University of Whatever; Department of Whatever, University of Something
+Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO 80045, USA; Colorado Center for Personalized Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO, USA
+· Funded by The National Human Genome Research Institute (K99/R00 HG011898); The Eunice Kennedy Shriver National Institute of Child Health and Human Development (R01 HD109765)
 </small></p></li>
 </ul>
 <div id="correspondence">
