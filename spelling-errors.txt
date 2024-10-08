@@ -73,7 +73,7 @@ sQTLs
 Subirana
 TFs
 TIGAR
-transcriptome
+Transcriptome
 underpowered
 XXXX
 XXXXXXXX

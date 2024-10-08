@@ -23,8 +23,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-08" />
   <meta name="citation_publication_date" content="2024-10-08" />
   <meta property="article:published_time" content="2024-10-08" />
-  <meta name="dc.modified" content="2024-10-08T18:02:18+00:00" />
-  <meta property="article:modified_time" content="2024-10-08T18:02:18+00:00" />
+  <meta name="dc.modified" content="2024-10-08T18:04:33+00:00" />
+  <meta property="article:modified_time" content="2024-10-08T18:04:33+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/b59472a6fa8e8cb091af2cc532aceb6ca8a8bb11/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/b59472a6fa8e8cb091af2cc532aceb6ca8a8bb11/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/b59472a6fa8e8cb091af2cc532aceb6ca8a8bb11/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2d5ef19e1d9fd90053292a1f7042b8c651beb0ab/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2d5ef19e1d9fd90053292a1f7042b8c651beb0ab/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2d5ef19e1d9fd90053292a1f7042b8c651beb0ab/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/b59472a6fa8e8cb091af2cc532aceb6ca8a8bb11/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2d5ef19e1d9fd90053292a1f7042b8c651beb0ab/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@b59472a](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/b59472a6fa8e8cb091af2cc532aceb6ca8a8bb11)
+from [pivlab/annual_review_of_biomedical_data_science@2d5ef19](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/2d5ef19e1d9fd90053292a1f7042b8c651beb0ab)
 on October 8, 2024.
 </em></small>
 
