@@ -1,5 +1,5 @@
 ---
-title: "Manuscript Title"
+title: "Genetic studies through the lens of gene-gene networks"
 date: null  # Defaults to date generated, but can specify like '2022-10-31'.
 keywords:
   - markdown
@@ -8,8 +8,8 @@ keywords:
 lang: en-US
 authors:
   - github: johndoe
-    name: John Doe
-    initials: JD
+    name: Marc Subirana-Granés
+    initials: MSG
     orcid: XXXX-XXXX-XXXX-XXXX
     twitter: johndoe
     mastodon: johndoe
@@ -19,11 +19,11 @@ authors:
       - Department of Something, University of Whatever
     funders:
       - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
+  - github: miltondp
+    name: Milton Pividori
+    initials: MP
     orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+    email: milton.pividori@cuanschutz.edu
     affiliations:
       - Department of Something, University of Whatever
       - Department of Whatever, University of Something
