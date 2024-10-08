@@ -15,3 +15,4 @@ content/02.introduction.md:13:GWAS
 content/02.introduction.md:13:PhenoPLIER
 content/02.introduction.md:14:omnigenic
 content/02.introduction.md:14:TFs
+content/04.from-single-genes-to-gene-networks.md:1:omnigenic

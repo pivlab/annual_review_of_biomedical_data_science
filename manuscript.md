@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2024-09-27'
+date-meta: '2024-10-08'
 author-meta:
 - John Doe
 - Jane Roe
@@ -20,11 +20,11 @@ header-includes: |
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2024-09-27" />
-  <meta name="citation_publication_date" content="2024-09-27" />
-  <meta property="article:published_time" content="2024-09-27" />
-  <meta name="dc.modified" content="2024-09-27T15:52:51+00:00" />
-  <meta property="article:modified_time" content="2024-09-27T15:52:51+00:00" />
+  <meta name="dc.date" content="2024-10-08" />
+  <meta name="citation_publication_date" content="2024-10-08" />
+  <meta property="article:published_time" content="2024-10-08" />
+  <meta name="dc.modified" content="2024-10-08T12:50:06+00:00" />
+  <meta property="article:modified_time" content="2024-10-08T12:50:06+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8791f3f5252090e925ae4ea699c6a24e4ea52f9b/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8791f3f5252090e925ae4ea699c6a24e4ea52f9b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8791f3f5252090e925ae4ea699c6a24e4ea52f9b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/fc5abd165c4fe97acceba1c54d47254af23f9550/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/fc5abd165c4fe97acceba1c54d47254af23f9550/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/fc5abd165c4fe97acceba1c54d47254af23f9550/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,10 +69,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8791f3f5252090e925ae4ea699c6a24e4ea52f9b/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/fc5abd165c4fe97acceba1c54d47254af23f9550/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@8791f3f](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/8791f3f5252090e925ae4ea699c6a24e4ea52f9b)
-on September 27, 2024.
+from [pivlab/annual_review_of_biomedical_data_science@fc5abd1](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/fc5abd165c4fe97acceba1c54d47254af23f9550)
+on October 8, 2024.
 </em></small>
 
 
@@ -141,6 +141,24 @@ Such methods transcend basic differential expression analyses by capturing highe
 Tools like MAGMA and the more recent PhenoPLIER exemplify this integrative approach by combining variant-trait associations from GWAS or variant-gene expression-trait associations from TWAS with groups of functionally related genes, thereby enhancing the reliability of gene modules by mitigating false positives through additional layers of evidence.
 Furthermore, these gene modules can be refined using quantitative omnigenic models that incorporate transcription factors (TFs) to better elucidate gene-gene interactions and potentially include aspects of alternative splicing.
 Ongoing research continues to explore and develop novel methods that more effectively link expression patterns with genetic variation, aiming to provide a more comprehensive mechanistic understanding of the genetic basis of complex traits.
+
+
+## Single-variant / single-gene approaches {.page_break_before}
+
+
+## From single genes to gene networks: the omnigenic model for complex traits {.page_break_before}
+
+
+## From gene networks to machine learning derived gene modules: hands-on strategies for inferring gene-gene interactions {.page_break_before}
+
+
+## A gene module perspective for genetic studies {.page_break_before}
+
+
+## Future perspectives {.page_break_before}
+
+
+## Conclusions {.page_break_before}
 
 
 ## References {.page_break_before}
