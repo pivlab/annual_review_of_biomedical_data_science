@@ -1,3 +1,11 @@
+content/00.front-matter.md:11:Akirtava
+content/00.front-matter.md:11:Annu
+content/00.front-matter.md:11:Biomed
+content/00.front-matter.md:11:Fotso
+content/00.front-matter.md:11:Granés
+content/00.front-matter.md:11:Nandi
+content/00.front-matter.md:11:Pividori
+content/00.front-matter.md:11:Zhang
 content/02.introduction.md:3:GWAS
 content/02.introduction.md:3:phenotypes
 content/02.introduction.md:4:GWAS

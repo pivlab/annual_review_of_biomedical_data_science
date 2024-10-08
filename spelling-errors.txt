@@ -1,9 +1,13 @@
 acetylation
 acetylome
+Akirtava
+Annu
+Anschutz
 ASD
 ATG
 autophagy
 Biobank
+Biomed
 caspase
 colorectal
 covariate
@@ -19,6 +23,7 @@ epistatic
 eQTL
 eQTLs
 EWAS
+Fotso
 frameshift
 generalizable
 genomic
@@ -27,6 +32,7 @@ Granés
 GWAS
 haQTLs
 HAWAS
+HD
 heritability
 histone
 HLA
@@ -47,6 +53,7 @@ mQTLs
 MultiXcan
 MUTYH
 MWAS
+Nandi
 omics
 omnigenic
 pathogenesis
@@ -67,6 +74,7 @@ PWAS’s
 QTL
 QTLs
 Shen
+Shriver
 SNP
 SNPs
 sQTLs
@@ -77,3 +85,4 @@ Transcriptome
 underpowered
 XXXX
 XXXXXXXX
+Zhang
