@@ -54,8 +54,8 @@
   <meta name="dc.date" content="2024-10-08" />
   <meta name="citation_publication_date" content="2024-10-08" />
   <meta property="article:published_time" content="2024-10-08" />
-  <meta name="dc.modified" content="2024-10-08T14:18:20+00:00" />
-  <meta property="article:modified_time" content="2024-10-08T14:18:20+00:00" />
+  <meta name="dc.modified" content="2024-10-08T18:02:18+00:00" />
+  <meta property="article:modified_time" content="2024-10-08T18:02:18+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -76,9 +76,9 @@
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/400e22f9b57213d0d270b98863ba6ce5ec3e0538/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/400e22f9b57213d0d270b98863ba6ce5ec3e0538/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/400e22f9b57213d0d270b98863ba6ce5ec3e0538/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/b59472a6fa8e8cb091af2cc532aceb6ca8a8bb11/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/b59472a6fa8e8cb091af2cc532aceb6ca8a8bb11/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/b59472a6fa8e8cb091af2cc532aceb6ca8a8bb11/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -95,9 +95,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/400e22f9b57213d0d270b98863ba6ce5ec3e0538/">permalink</a>)
+(<a href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/b59472a6fa8e8cb091af2cc532aceb6ca8a8bb11/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/400e22f9b57213d0d270b98863ba6ce5ec3e0538">pivlab/annual_review_of_biomedical_data_science@400e22f</a>
+from <a href="https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/b59472a6fa8e8cb091af2cc532aceb6ca8a8bb11">pivlab/annual_review_of_biomedical_data_science@b59472a</a>
 on October 8, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -152,7 +152,111 @@ Such methods transcend basic differential expression analyses by capturing highe
 Tools like MAGMA and the more recent PhenoPLIER exemplify this integrative approach by combining variant-trait associations from GWAS or variant-gene expression-trait associations from TWAS with groups of functionally related genes, thereby enhancing the reliability of gene modules by mitigating false positives through additional layers of evidence.
 Furthermore, these gene modules can be refined using quantitative omnigenic models that incorporate transcription factors (TFs) to better elucidate gene-gene interactions and potentially include aspects of alternative splicing.
 Ongoing research continues to explore and develop novel methods that more effectively link expression patterns with genetic variation, aiming to provide a more comprehensive mechanistic understanding of the genetic basis of complex traits.</p>
-<h2 class="page_break_before" id="single-variant-single-gene-approaches">Single-variant / single-gene approaches</h2>
+<h2 id="single-variant-single-gene-approaches">Single-variant / single-gene approaches</h2>
+<div id="fig:fig1" class="fignos">
+<figure>
+<img src="images/fig1.svg" style="width:100.0%" alt="Figure 1: Major approaches based on single-variant/single-gene strategies to understand the genetic basis of complex traits. From left to right GWAS, TWAS, PWAS, HAWAS and MWAS." />
+<figcaption aria-hidden="true"><span>Figure 1:</span> <strong>Major approaches based on single-variant/single-gene strategies to understand the genetic basis of complex traits</strong>.
+From left to right GWAS, TWAS, PWAS, HAWAS and MWAS.</figcaption>
+</figure>
+</div>
+<p>Understanding the genetic underpinnings of complex traits and diseases has been a pivotal pursuit in the field of human genetics.
+Early endeavors predominantly utilized genome-wide association studies (GWAS), which have been instrumental in identifying a foundational map of genomic regions linked to traits, offering valuable insights into the heritable components of complex diseases.</p>
+<p>Building upon GWAS findings, efforts have been made to link these associated variants to specific genes, operating under the premise that variation in a single gene can elucidate disease-relevant biology.
+Techniques such as Transcriptome-Wide Association Studies (TWAS) have emerged, integrating GWAS data with gene expression profiles to pinpoint genes whose expression levels correlate with phenotypic variation.
+These approaches have advanced our understanding by moving from variant-level associations to functional gene-level insights.</p>
+<h3 id="from-genetic-variants-to-traits-genome-wide-association-study-gwas">From genetic variants to traits: genome-wide association study (GWAS)</h3>
+<p>In a simple trait, a single gene can be responsible for the disease, for example in the case of Sickle Cell Anemia and Huntington’s disease.
+However, most traits are not so simplistic and are the result of many mutations across the genome.
+Even these monogenic traits are impacted by the polygenic background <span class="citation" data-cites="VqGYQMXO">[<a href="#ref-VqGYQMXO" role="doc-biblioref">1</a>]</span>.
+Genome-wide association studies (GWAS) examine the relationship between genetic variants and specific phenotypes by comparing allele frequencies in individuals of similar ancestry with distinct phenotypic traits (<strong>Figure <a href="#fig:fig1">1</a></strong>).
+The statistical associations are typically assessed using linear regression for continuous traits and logistic regression for binary traits.
+It is crucial to control for covariates such as age, sex, population structure, and ancestry to minimize confounding effects <span class="citation" data-cites="ofSdSqvD 1873zCaaX">[<a href="#ref-ofSdSqvD" role="doc-biblioref">2</a>,<a href="#ref-1873zCaaX" role="doc-biblioref">3</a>]</span>.
+As many variants are found to be significant and due to the phenomena of linkage disequilibrium between causal and non-causal variants, the results of GWAS are often grouped into risk loci.
+These loci represent clusters of variants that demonstrate significant associations, although not every variant may be causal.
+Since the first GWAS or age-related macular degeneration (AMD) in 2005, the GWAS catalog rapidly expanded, containing ~400,000 curated SNP-trait associations from &gt;45,000 published GWAS across &gt;5,000 human traits <span class="citation" data-cites="VRCjjZ9L">[<a href="#ref-VRCjjZ9L" role="doc-biblioref">4</a>]</span>.
+These studies have successfully identified risk loci for a variety of traits and diseases such as type 2 diabetes, auto-immune disease, schizophrenia, major depressive disorder, and more <span class="citation" data-cites="17B4AigZT yqBcaXHD">[<a href="#ref-17B4AigZT" role="doc-biblioref">5</a>,<a href="#ref-yqBcaXHD" role="doc-biblioref">6</a>]</span>.
+As GWAS participants increase, more loci are able to be identified.
+For example, a study investigating insomnia with a sample size of &gt;1M identified 202 risk loci <span class="citation" data-cites="sBTrhvlJ">[<a href="#ref-sBTrhvlJ" role="doc-biblioref">7</a>]</span>, compared to earlier studies with a sample size of ~110,00, which were only able to identify 3 risk loci <span class="citation" data-cites="crCAymA1">[<a href="#ref-crCAymA1" role="doc-biblioref">8</a>]</span>.
+The increased sample sizes allows for identification of more common variants as well as rare and low-frequency variants <span class="citation" data-cites="17B4AigZT">[<a href="#ref-17B4AigZT" role="doc-biblioref">5</a>]</span>.
+Beyond the identification of risk loci, GWAS has also led to the discovery of novel biological mechanisms.
+In Crohn’s disease, a novel SNP was identified through GWAS in the gene <em>ATG16L1</em> (rs2241880) <span class="citation" data-cites="s6z5ZuY3">[<a href="#ref-s6z5ZuY3" role="doc-biblioref">9</a>]</span>.
+This SNP causes a missense mutation that enhances caspase-3-mediated cleavage of <em>ATG16L1</em> and diminished autophagy.
+As a result, intracellular bacterial clearance is impaired causing a chronic inflammatory state <span class="citation" data-cites="gxwza7fO">[<a href="#ref-gxwza7fO" role="doc-biblioref">10</a>]</span>.
+A potential clinical application of GWAS involves quantifying a patient’s risk for a specific disease based on relevant SNPs represented by a polygenic risk score (PRS) <span class="citation" data-cites="ElanTkaD">[<a href="#ref-ElanTkaD" role="doc-biblioref">11</a>]</span>.
+PRS’s can eventually be combined with current risk prediction models that include clinical, biochemical, and lifestyle features.
+However, due to the majority of GWAS participants being from European ancestry, PRS has shown to not be generalizable to other groups.</p>
+<p>Although GWAS have identified numerous genetic variants associated with complex traits, translating these findings into biological insights remains challenging <span class="citation" data-cites="17B4AigZT">[<a href="#ref-17B4AigZT" role="doc-biblioref">5</a>]</span>.
+Many significant GWAS variants are located in non-coding regions, making it difficult to identify the specific genes that drive trait associations <span class="citation" data-cites="BqjxxhyF">[<a href="#ref-BqjxxhyF" role="doc-biblioref">12</a>]</span>.
+A simple strategy to link GWAS-associated variants with a gene is by physical proximity, which typically selects the closest gene to the most significant SNP at each locus.
+However, SNPs can have distal effects on the expression of the target gene <span class="citation" data-cites="9Pr9idng">[<a href="#ref-9Pr9idng" role="doc-biblioref">13</a>]</span>.
+Genes can also have epistatic interactions, a secondary loci affecting a primary loci.
+The peripheral effect of the secondary loci are often too small to be picked up through GWAS alone <span class="citation" data-cites="IrGVpNji">[<a href="#ref-IrGVpNji" role="doc-biblioref">14</a>]</span></p>
+<p>Recent approaches combine multi-omics data from various cell types and tissues with GWAS to identify potential mechanisms of SNPs and the associated gene through molecular quantitative trait loci (moQTLs) <span class="citation" data-cites="QIEm5ZWK">[<a href="#ref-QIEm5ZWK" role="doc-biblioref">15</a>]</span> (<strong>Figure <a href="#fig:fig1">1</a></strong>).
+An expression quantitative trait loci (eQTL) is a genetic region where variants are associated with the expression levels of a nearby or distant gene <span class="citation" data-cites="1FHKg3JK5">[<a href="#ref-1FHKg3JK5" role="doc-biblioref">16</a>]</span>.
+eQTL studies estimate that most causal genes linked to GWAS loci are not the proximal ones <span class="citation" data-cites="14ZMJkeR2">[<a href="#ref-14ZMJkeR2" role="doc-biblioref">17</a>]</span>.
+They have also allowed for insight on epistatic interactions.
+A large eQTL study was able to detect epistatic interactions, showing that many primary loci affecting gene expression were also modified by secondary eQTLs <span class="citation" data-cites="IrGVpNji">[<a href="#ref-IrGVpNji" role="doc-biblioref">14</a>]</span>.
+Splicing quantitative trait loci (sQTLs) are another major causal mechanism in GWAS loci, but are complex to interpret due to the production of unknown isoforms <span class="citation" data-cites="p13D2SfG">[<a href="#ref-p13D2SfG" role="doc-biblioref">18</a>]</span>.
+To overcome this, LeafCutter <span class="citation" data-cites="WqkQN8X">[<a href="#ref-WqkQN8X" role="doc-biblioref">19</a>]</span> maps variable splicing events, alleviating the need for transcript annotations.
+how this moqtls other mechanisms</p>
+<p>Both GWAS and QTL studies have been penalized by their large multiple testing burden, causing the need to adopt a high level of significance.
+This results in GWAS being underpowered to detect all heritability explained by SNPs <span class="citation" data-cites="17B4AigZT">[<a href="#ref-17B4AigZT" role="doc-biblioref">5</a>]</span>.
+A strategy to combat this limitation is reducing the number of tests performed by focusing on gene co-expression modules or other prioritized genes [ttps://doi.org/10.1038/s41576-019-0127-1].</p>
+<p>There are many strategies for leveraging GWAS data to identify gene sets related to a trait such as MAGMA <span class="citation" data-cites="19XiXgYmd">[<a href="#ref-19XiXgYmd" role="doc-biblioref">20</a>]</span> and FLAGS <span class="citation" data-cites="6CLIWmu2">[<a href="#ref-6CLIWmu2" role="doc-biblioref">21</a>]</span>.
+FLAGS uses predefined gene sets from prior knowledge while MAGMA is able to infer its own gene sets by first correlating genes with phenotypes and other genes.
+Both methods then statistically associate these modules with specific phenotypes.
+These tools are able to include trans-interactions, which TWAS misses, however by looking at the effect of SNPs on a gene set, specific SNP gene connections are lost <span class="citation" data-cites="bjkAXJ07">[<a href="#ref-bjkAXJ07" role="doc-biblioref">22</a>]</span>.</p>
+<h3 id="from-gwas-to-gene-transcriptome-wide-association-studies-twas">From GWAS to gene: transcriptome-wide association studies (TWAS)</h3>
+<p>Transcriptome-wide association studies (TWAS) address this gap by integrating GWAS data with gene expression data (<strong>Figure <a href="#fig:fig1">1</a></strong>), typically derived from eQTL studies, to prioritize genes whose expression across different tissues is influenced by GWAS variants <span class="citation" data-cites="ReOPt75u l6ogswV3">[<a href="#ref-ReOPt75u" role="doc-biblioref">23</a>,<a href="#ref-l6ogswV3" role="doc-biblioref">24</a>]</span>.
+By leveraging predicted gene expression levels, TWAS provides a mechanistic link between genetic variants and traits, allowing researchers to move beyond associations with individual SNPs to identify putatively causal genes <span class="citation" data-cites="l6ogswV3">[<a href="#ref-l6ogswV3" role="doc-biblioref">24</a>]</span>.
+Since TWAS models the genetic regulation of gene expression, the approach allows researchers to impute expression levels in GWAS cohorts where expression data may not be available.
+A key advantage of TWAS over GWAS lies in its ability to increase interpretability by providing a gene-trait association: TWAS connects trait-associated SNPs (which are mostly non-coding) to genes, which are biologically functional units.</p>
+<p>Several TWAS approaches have been introduced <span class="citation" data-cites="RmhTH35O">[<a href="#ref-RmhTH35O" role="doc-biblioref">25</a>]</span>, including PrediXcan <span class="citation" data-cites="Z8bvDdVq">[<a href="#ref-Z8bvDdVq" role="doc-biblioref">26</a>]</span>, FUSION <span class="citation" data-cites="1D63fEEPb">[<a href="#ref-1D63fEEPb" role="doc-biblioref">27</a>]</span> and TIGAR <span class="citation" data-cites="19Klmizj8">[<a href="#ref-19Klmizj8" role="doc-biblioref">28</a>]</span>.
+However, all of them implement a similar framework that consists in three steps: 1) model training, 2) gene expression imputation, and 3) gene-trait association.
+For example, during 1), PrediXcan, builds one expression prediction model per gene and tissue using penalized linear regression with ElasticNet to model sparse genetic architectures.
+These models contain weights for each SNP used as predictor for a gene expression in a tissue.
+Given genotype data in a cohort without measured gene expression, during 2), the SNPs weights from the models can be used to impute tissue-specific gene expression for individuals.
+During 3), a gene-tissue-trait association is computed by correlating the tissue-specific imputed gene expression with the trait of interest.
+Most methods (such as Summary-PrediXcan <span class="citation" data-cites="vLyTudUB">[<a href="#ref-vLyTudUB" role="doc-biblioref">29</a>]</span> or S-PrediXcan), however, offer a shortcut by computing a gene-tissue-trait association directly from GWAS summary statistics without the need of individual-level data.
+This process, however, requires the user to select a tissue of interest, which might not be straightforward <span class="citation" data-cites="l6ogswV3">[<a href="#ref-l6ogswV3" role="doc-biblioref">24</a>]</span>.
+To address this limitation, approaches such as MultiXcan <span class="citation" data-cites="1FFzCXo1s">[<a href="#ref-1FFzCXo1s" role="doc-biblioref">30</a>]</span> or UTMOST <span class="citation" data-cites="93R9hBin">[<a href="#ref-93R9hBin" role="doc-biblioref">31</a>]</span> combine information across tissues to generate a gene-trait association.
+These multi-tissue approaches are generally more powerful than single-tissue ones, although they do not provide a direction of effect (i.e., whether a higher or lower predicted expression is associated with a higher or lower disease risk).</p>
+<h3 id="going-beyond-twas">Going beyond TWAS</h3>
+<p>The flexibility of this 3-step framework can also be used to test whether other molecular phenotypes might mediate the association between GWAS variants and a trait of interest.
+In addition to integrating eQTLs, the framework has been implemented also with splicing QTLs (sQTLs), protein QTLs (pQTLs), histone acetylation QTLs (haQTLs) and methylation QTLs (mQTLs).</p>
+<h3 id="mapping-protein-function-to-disease-protein-wide-association-studies-pwas">Mapping protein function to disease: protein-wide association studies (PWAS)</h3>
+<p>PWAS complements GWAS and TWAS by aggregating genetic variations in protein-coding regions to assess their combined impact on protein function and phenotypes (<strong>Figure <a href="#fig:fig1">1</a></strong>) <span class="citation" data-cites="1Dsj6bEd3">[<a href="#ref-1Dsj6bEd3" role="doc-biblioref">32</a>]</span>.
+While GWAS focuses on individual variant associations, PWAS emphasizes the broader functional consequences of coding variants, providing a more comprehensive view of potential links to disease.
+By aggregating multiple variants of a gene, PWAS reduces the multiple testing burden and reveals complex inheritance patterns, such as dominant and recessive traits.
+PWAS shares a methodology with GWAS, using genotype, phenotype, and covariate data, but extends this approach by evaluating the cumulative impact of multiple variants on protein function.</p>
+<p>To evaluate how genetic variants—such as missense, nonsense, and frameshift mutations—affect protein function, PWAS uses the FIRM machine learning model to assign impairment scores <span class="citation" data-cites="1Dsj6bEd3">[<a href="#ref-1Dsj6bEd3" role="doc-biblioref">32</a>]</span>.
+Genes are then evaluated for dominant and recessive inheritance patterns, followed by statistical tests to determine significant associations between gene-level scores and phenotypes.
+For example, using PWAS with the UK Biobank confirmed the association of <em>MUTYH</em> with colorectal cancer, even though no individual variant reached genome-wide significance in GWAS <span class="citation" data-cites="1Dsj6bEd3">[<a href="#ref-1Dsj6bEd3" role="doc-biblioref">32</a>]</span>.
+This demonstrates PWAS’s ability to uncover functional associations missed by other methods.
+Similarly, PWAS identified associations in genes like <em>HLA-DQA2</em> and <em>PSMB9</em> in asthma, highlighting its utility in exploring the genetic components of complex diseases.
+<span class="citation" data-cites="CthLehGE">[<a href="#ref-CthLehGE" role="doc-biblioref">33</a>]</span>.
+However, PWAS relies heavily on high-quality proteomic data and may overlook associations driven by non-coding variants.
+It is also computationally intensive, and future efforts may focus on incorporating rare variants and more diverse data.</p>
+<h3 id="enhancing-genetic-studies-with-epigenetic-data-epigenome-wide-association-studies-ewas">Enhancing genetic studies with epigenetic data: Epigenome-wide association studies (EWAS)</h3>
+<p>Epigenome-wide association studies (EWAS) offer another valuable approach to understanding complex traits, specifically by exploring single-variant and single-gene relationships within the epigenetic context.
+Unlike GWAS, which primarily investigate genetic variants, EWAS focuses on epigenetic markers such as DNA methylation and histone modifications to uncover their roles in gene regulation and disease etiology <span class="citation" data-cites="TPqvAJda">[<a href="#ref-TPqvAJda" role="doc-biblioref">34</a>]</span>.
+Within the EWAS framework, methylome-wide association studies (MWAS) (<strong>Figure <a href="#fig:fig1">1</a></strong>) and histone acetylome-wide association studies (HAWAS) (<strong>Figure <a href="#fig:fig1">1</a></strong>), based on haQTLs and mQLTs respectability, represent specialized methodologies targeting specific types of epigenetic modifications .
+MWAS concentrates on DNA methylation patterns, enabling the identification of methylation changes at individual loci associated with particular traits or diseases.
+For instance, a MWAS conducted by Shen et al.
+provided evidence for a causal relationship between DNAm and depression, suggesting that epigenetic modifications may mediate the genetic risk for depression, exemplifying the effectiveness of EWAS in uncovering the biological mechanisms that link genetic predisposition to psychiatric disorders <span class="citation" data-cites="1DNxNkLsT">[<a href="#ref-1DNxNkLsT" role="doc-biblioref">35</a>]</span>.
+HAWAS focuses on histone acetylation modifications, which are crucial for regulating chromatin structure and gene expression.
+Sun et al.
+conducted a HAWAS on autism spectrum disorder (ASD) and identified thousands of differential acetylation loci in the brains of individuals with ASD, indicating that histone acetylation plays a significant role in ASD pathogenesis <span class="citation" data-cites="J7SRKSJl">[<a href="#ref-J7SRKSJl" role="doc-biblioref">36</a>]</span>.</p>
+<p>The tissue-specific nature of epigenetic modifications, alongside the capacity to capture cellular plasticity and environmental influences, enhances our insight into the effects of genetic variants across distinct tissues, temporal cellular states, and gene-environment interactions.
+This understanding contributes to a more detailed knowledge of the molecular mechanisms and regulatory dynamics underlying complex diseases, thereby supplementing the findings from GWAS <span class="citation" data-cites="FeaSnwhX KfWCLspO">[<a href="#ref-FeaSnwhX" role="doc-biblioref">37</a>,<a href="#ref-KfWCLspO" role="doc-biblioref">38</a>]</span>.</p>
+<h3 id="single-gene-approaches-are-not-enough">Single-gene approaches are not enough</h3>
+<p>Despite the advancements facilitated by single-variant and single-gene methodologies, a common thread persists: the focus remains on one gene at a time.
+The underlying expectation is that identifying a gene linked to a trait will directly unveil the biological mechanisms driving disease processes.
+While this has been successful in certain monogenic disorders, complex traits often involve intricate interactions among multiple genes and environmental factors.
+Consequently, the one-gene-at-a-time paradigm may oversimplify the multifaceted nature of these traits.
+In light of these considerations, it becomes imperative to reevaluate our approaches to dissecting the genetic architecture of complex traits.
+This necessitates a shift towards methodologies that can capture the polygenic and network-based interactions inherent in complex diseases.</p>
 <h2 class="page_break_before" id="from-single-genes-to-gene-networks-the-omnigenic-model-for-complex-traits">From single genes to gene networks: the omnigenic model for complex traits</h2>
 <h2 class="page_break_before" id="from-gene-networks-to-machine-learning-derived-gene-modules-hands-on-strategies-for-inferring-gene-gene-interactions">From gene networks to machine learning derived gene modules: hands-on strategies for inferring gene-gene interactions</h2>
 <h2 class="page_break_before" id="a-gene-module-perspective-for-genetic-studies">A gene module perspective for genetic studies</h2>
@@ -160,8 +264,121 @@ Ongoing research continues to explore and develop novel methods that more effect
 <h2 class="page_break_before" id="conclusions">Conclusions</h2>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
-<div id="refs" role="doc-bibliography">
-
+<div id="refs" class="references csl-bib-body" role="doc-bibliography">
+<div id="ref-VqGYQMXO" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Polygenic background modifies penetrance of monogenic variants for tier 1 genomic conditions</strong> <div class="csl-block">Akl C Fahed, Minxian Wang, Julian R Homburger, Aniruddh P Patel, Alexander G Bick, Cynthia L Neben, Carmen Lai, Deanna Brockman, Anthony Philippakis, Patrick T Ellinor, … Amit V Khera</div> <em>Nature Communications</em> (2020-08-20) <a href="https://doi.org/gg9hqv">https://doi.org/gg9hqv</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41467-020-17374-3">10.1038/s41467-020-17374-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32820175">32820175</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7441381">PMC7441381</a></div></div>
+</div>
+<div id="ref-ofSdSqvD" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>Genome-wide association studies</strong> <div class="csl-block">Emil Uffelmann, Qin Qin Huang, Nchangwi Syntia Munung, Jantina de Vries, Yukinori Okada, Alicia R Martin, Hilary C Martin, Tuuli Lappalainen, Danielle Posthuma</div> <em>Nature Reviews Methods Primers</em> (2021-08-26) <a href="https://doi.org/gmk7p2">https://doi.org/gmk7p2</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s43586-021-00056-9">10.1038/s43586-021-00056-9</a></div></div>
+</div>
+<div id="ref-1873zCaaX" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>Open problems in human trait genetics</strong> <div class="csl-block">Nadav Brandes, Omer Weissbrod, Michal Linial</div> <em>Genome Biology</em> (2022-06-20) <a href="https://doi.org/gqc962">https://doi.org/gqc962</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13059-022-02697-9">10.1186/s13059-022-02697-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/35725481">35725481</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9208223">PMC9208223</a></div></div>
+</div>
+<div id="ref-VRCjjZ9L" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>The NHGRI-EBI GWAS Catalog: knowledgebase and deposition resource</strong> <div class="csl-block">Elliot Sollis, Abayomi Mosaku, Ala Abid, Annalisa Buniello, Maria Cerezo, Laurent Gil, Tudor Groza, Osman Güneş, Peggy Hall, James Hayhurst, … Laura W Harris</div> <em>Nucleic Acids Research</em> (2022-11-09) <a href="https://doi.org/gq73r5">https://doi.org/gq73r5</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkac1010">10.1093/nar/gkac1010</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36350656">36350656</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9825413">PMC9825413</a></div></div>
+</div>
+<div id="ref-17B4AigZT" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>Benefits and limitations of genome-wide association studies</strong> <div class="csl-block">Vivian Tam, Nikunj Patel, Michelle Turcotte, Yohan Bossé, Guillaume Paré, David Meyre</div> <em>Nature Reviews Genetics</em> (2019-05-08) <a href="https://doi.org/ggcxxb">https://doi.org/ggcxxb</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41576-019-0127-1">10.1038/s41576-019-0127-1</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31068683">31068683</a></div></div>
+</div>
+<div id="ref-yqBcaXHD" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>10 Years of GWAS Discovery: Biology, Function, and Translation</strong> <div class="csl-block">Peter M Visscher, Naomi R Wray, Qian Zhang, Pamela Sklar, Mark I McCarthy, Matthew A Brown, Jian Yang</div> <em>The American Journal of Human Genetics</em> (2017-07) <a href="https://doi.org/gcsmnm">https://doi.org/gcsmnm</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.ajhg.2017.06.005">10.1016/j.ajhg.2017.06.005</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28686856">28686856</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5501872">PMC5501872</a></div></div>
+</div>
+<div id="ref-sBTrhvlJ" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>Genome-wide analysis of insomnia in 1,331,010 individuals identifies new risk loci and functional pathways</strong><div class="csl-block">, Philip R Jansen, Kyoko Watanabe, Sven Stringer, Nathan Skene, Julien Bryois, Anke R Hammerschlag, Christiaan A de Leeuw, Jeroen S Benjamins, Ana B Muñoz-Manchado, … Danielle Posthuma</div> <em>Nature Genetics</em> (2019-02-25) <a href="https://doi.org/gfv4p2">https://doi.org/gfv4p2</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41588-018-0333-3">10.1038/s41588-018-0333-3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30804565">30804565</a></div></div>
+</div>
+<div id="ref-crCAymA1" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>Genome-wide association analysis of insomnia complaints identifies risk genes and genetic overlap with psychiatric and metabolic traits</strong> <div class="csl-block">Anke R Hammerschlag, Sven Stringer, Christiaan A de Leeuw, Suzanne Sniekers, Erdogan Taskesen, Kyoko Watanabe, Tessa F Blanken, Kim Dekker, Bart HW te Lindert, Rick Wassing, … Danielle Posthuma</div> <em>Nature Genetics</em> (2017-06-12) <a href="https://doi.org/gbhzs5">https://doi.org/gbhzs5</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/ng.3888">10.1038/ng.3888</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28604731">28604731</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5600256">PMC5600256</a></div></div>
+</div>
+<div id="ref-s6z5ZuY3" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>A genome-wide association scan of nonsynonymous SNPs identifies a susceptibility variant for Crohn disease in ATG16L1</strong> <div class="csl-block">Jochen Hampe, Andre Franke, Philip Rosenstiel, Andreas Till, Markus Teuber, Klaus Huse, Mario Albrecht, Gabriele Mayr, Francisco M De La Vega, Jason Briggs, … Stefan Schreiber</div> <em>Nature Genetics</em> (2006-12-31) <a href="https://doi.org/b9fr2w">https://doi.org/b9fr2w</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/ng1954">10.1038/ng1954</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/17200669">17200669</a></div></div>
+</div>
+<div id="ref-gxwza7fO" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline"><strong>A Crohn’s disease variant in Atg16l1 enhances its degradation by caspase 3</strong> <div class="csl-block">Aditya Murthy, Yun Li, Ivan Peng, Mike Reichelt, Anand Kumar Katakam, Rajkumar Noubade, Merone Roose-Girma, Jason DeVoss, Lauri Diehl, Robert R Graham, Menno van Lookeren Campagne</div> <em>Nature</em> (2014-02) <a href="https://doi.org/f5r7wh">https://doi.org/f5r7wh</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/nature13044">10.1038/nature13044</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24553140">24553140</a></div></div>
+</div>
+<div id="ref-ElanTkaD" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline"><strong>Polygenic risk scores: from research tools to clinical instruments</strong> <div class="csl-block">Cathryn M Lewis, Evangelos Vassos</div> <em>Genome Medicine</em> (2020-05-18) <a href="https://doi.org/ghdnpx">https://doi.org/ghdnpx</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13073-020-00742-5">10.1186/s13073-020-00742-5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32423490">32423490</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7236300">PMC7236300</a></div></div>
+</div>
+<div id="ref-BqjxxhyF" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">12. </div><div class="csl-right-inline"><strong>Demystifying non-coding GWAS variants: an overview of computational tools and methods</strong> <div class="csl-block">Marijn Schipper, Danielle Posthuma</div> <em>Human Molecular Genetics</em> (2022-08-16) <a href="https://doi.org/grqdp7">https://doi.org/grqdp7</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/hmg/ddac198">10.1093/hmg/ddac198</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/35972862">35972862</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9585674">PMC9585674</a></div></div>
+</div>
+<div id="ref-9Pr9idng" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">13. </div><div class="csl-right-inline"><strong>The GTEx Consortium atlas of genetic regulatory effects across human tissues</strong><div class="csl-block">, François Aguet, Shankara Anand, Kristin G Ardlie, Stacey Gabriel, Gad A Getz, Aaron Graubert, Kane Hadley, Robert E Handsaker, Katherine H Huang, … Simona Volpi</div> <em>Science</em> (2020-09-11) <a href="https://doi.org/ghbnhr">https://doi.org/ghbnhr</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1126/science.aaz1776">10.1126/science.aaz1776</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32913098">32913098</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7737656">PMC7737656</a></div></div>
+</div>
+<div id="ref-IrGVpNji" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">14. </div><div class="csl-right-inline"><strong>Molecular mechanisms of epistasis within and between genes</strong> <div class="csl-block">Ben Lehner</div> <em>Trends in Genetics</em> (2011-08) <a href="https://doi.org/fk3d5b">https://doi.org/fk3d5b</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.tig.2011.05.007">10.1016/j.tig.2011.05.007</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21684621">21684621</a></div></div>
+</div>
+<div id="ref-QIEm5ZWK" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">15. </div><div class="csl-right-inline"><strong>Strengthening Causal Inference for Complex Disease Using Molecular Quantitative Trait Loci</strong> <div class="csl-block">Sonja Neumeyer, Gibran Hemani, Eleftheria Zeggini</div> <em>Trends in Molecular Medicine</em> (2020-02) <a href="https://doi.org/ggmq94">https://doi.org/ggmq94</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.molmed.2019.10.004">10.1016/j.molmed.2019.10.004</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31718940">31718940</a></div></div>
+</div>
+<div id="ref-1FHKg3JK5" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">16. </div><div class="csl-right-inline"><strong>eQTL studies: from bulk tissues to single cells</strong> <div class="csl-block">Jingfei Zhang, Hongyu Zhao</div> <em>Journal of Genetics and Genomics</em> (2023-12) <a href="https://doi.org/g7n6d9">https://doi.org/g7n6d9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.jgg.2023.05.003">10.1016/j.jgg.2023.05.003</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/37207929">37207929</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10656365">PMC10656365</a></div></div>
+</div>
+<div id="ref-14ZMJkeR2" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">17. </div><div class="csl-right-inline"><strong>The omnigenic model and polygenic prediction of complex traits</strong> <div class="csl-block">Iain Mathieson</div> <em>The American Journal of Human Genetics</em> (2021-09) <a href="https://doi.org/gmv9s5">https://doi.org/gmv9s5</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.ajhg.2021.07.003">10.1016/j.ajhg.2021.07.003</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34331855">34331855</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8456163">PMC8456163</a></div></div>
+</div>
+<div id="ref-p13D2SfG" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">18. </div><div class="csl-right-inline"><strong>Splicing QTL analysis focusing on coding sequences reveals mechanisms for disease susceptibility loci</strong> <div class="csl-block">Kensuke Yamaguchi, Kazuyoshi Ishigaki, Akari Suzuki, Yumi Tsuchida, Haruka Tsuchiya, Shuji Sumitomo, Yasuo Nagafuchi, Fuyuki Miya, Tatsuhiko Tsunoda, Hirofumi Shoda, … Yuta Kochi</div> <em>Nature Communications</em> (2022-08-24) <a href="https://doi.org/gqr76q">https://doi.org/gqr76q</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41467-022-32358-1">10.1038/s41467-022-32358-1</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/36002455">36002455</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9402578">PMC9402578</a></div></div>
+</div>
+<div id="ref-WqkQN8X" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">19. </div><div class="csl-right-inline"><strong>Annotation-free quantification of RNA splicing using LeafCutter</strong> <div class="csl-block">Yang I Li, David A Knowles, Jack Humphrey, Alvaro N Barbeira, Scott P Dickinson, Hae Kyung Im, Jonathan K Pritchard</div> <em>Nature Genetics</em> (2017-12-11) <a href="https://doi.org/gcwk77">https://doi.org/gcwk77</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41588-017-0004-9">10.1038/s41588-017-0004-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29229983">29229983</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5742080">PMC5742080</a></div></div>
+</div>
+<div id="ref-19XiXgYmd" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">20. </div><div class="csl-right-inline"><strong>MAGMA: Generalized Gene-Set Analysis of GWAS Data</strong> <div class="csl-block">Christiaan A de Leeuw, Joris M Mooij, Tom Heskes, Danielle Posthuma</div> <em>PLOS Computational Biology</em> (2015-04-17) <a href="https://doi.org/gf92gp">https://doi.org/gf92gp</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pcbi.1004219">10.1371/journal.pcbi.1004219</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25885710">25885710</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4401657">PMC4401657</a></div></div>
+</div>
+<div id="ref-6CLIWmu2" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">21. </div><div class="csl-right-inline"><strong>FLAGS: A Flexible and Adaptive Association Test for Gene Sets Using Summary Statistics</strong> <div class="csl-block">Jianfei Huang, Kai Wang, Peng Wei, Xiangtao Liu, Xiaoming Liu, Kai Tan, Eric Boerwinkle, James B Potash, Shizhong Han</div> <em>Genetics</em> (2016-01-14) <a href="https://doi.org/f8db5f">https://doi.org/f8db5f</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1534/genetics.115.185009">10.1534/genetics.115.185009</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26773050">26773050</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4788129">PMC4788129</a></div></div>
+</div>
+<div id="ref-bjkAXJ07" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">22. </div><div class="csl-right-inline"><strong>A transcriptome-wide association study implicates specific pre- and post-synaptic abnormalities in schizophrenia</strong> <div class="csl-block">Lynsey S Hall, Christopher W Medway, Oliver Pain, Antonio F Pardiñas, Elliott G Rees, Valentina Escott-Price, Andrew Pocklington, Nicholas J Bray, Peter A Holmans, James TR Walters, … Michael C O’Donovan</div> <em>Human Molecular Genetics</em> (2019-11-06) <a href="https://doi.org/gst8k8">https://doi.org/gst8k8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/hmg/ddz253">10.1093/hmg/ddz253</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31691811">31691811</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7416679">PMC7416679</a></div></div>
+</div>
+<div id="ref-ReOPt75u" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">23. </div><div class="csl-right-inline"><strong>From GWAS to Gene: Transcriptome-Wide Association Studies and Other Methods to Functionally Understand GWAS Discoveries</strong> <div class="csl-block">Binglan Li, Marylyn D Ritchie</div> <em>Frontiers in Genetics</em> (2021-09-30) <a href="https://doi.org/g7n6kb">https://doi.org/g7n6kb</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3389/fgene.2021.713230">10.3389/fgene.2021.713230</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34659337">34659337</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8515949">PMC8515949</a></div></div>
+</div>
+<div id="ref-l6ogswV3" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">24. </div><div class="csl-right-inline"><strong>Opportunities and challenges for transcriptome-wide association studies</strong> <div class="csl-block">Michael Wainberg, Nasa Sinnott-Armstrong, Nicholas Mancuso, Alvaro N Barbeira, David A Knowles, David Golan, Raili Ermel, Arno Ruusalepp, Thomas Quertermous, Ke Hao, … Anshul Kundaje</div> <em>Nature Genetics</em> (2019-03-29) <a href="https://doi.org/gf3hmr">https://doi.org/gf3hmr</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41588-019-0385-z">10.1038/s41588-019-0385-z</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30926968">30926968</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6777347">PMC6777347</a></div></div>
+</div>
+<div id="ref-RmhTH35O" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">25. </div><div class="csl-right-inline"><strong>Transcriptome-wide association studies: recent advances in methods, applications and available databases</strong> <div class="csl-block">Jialin Mai, Mingming Lu, Qianwen Gao, Jingyao Zeng, Jingfa Xiao</div> <em>Communications Biology</em> (2023-09-01) <a href="https://doi.org/gs9f8r">https://doi.org/gs9f8r</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s42003-023-05279-y">10.1038/s42003-023-05279-y</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/37658226">37658226</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10474133">PMC10474133</a></div></div>
+</div>
+<div id="ref-Z8bvDdVq" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">26. </div><div class="csl-right-inline"><strong>A gene-based association method for mapping traits using reference transcriptome data</strong> <div class="csl-block">Eric R Gamazon, Heather E Wheeler, Kaanan P Shah, Sahar V Mozaffari, Keston Aquino-Michaels, Robert J Carroll, Anne E Eyler, Joshua C Denny, Dan L Nicolae, … Hae Kyung Im</div> <em>Nature Genetics</em> (2015-08-10) <a href="https://doi.org/f7p9zv">https://doi.org/f7p9zv</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/ng.3367">10.1038/ng.3367</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26258848">26258848</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4552594">PMC4552594</a></div></div>
+</div>
+<div id="ref-1D63fEEPb" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">27. </div><div class="csl-right-inline"><strong>Integrative approaches for large-scale transcriptome-wide association studies</strong> <div class="csl-block">Alexander Gusev, Arthur Ko, Huwenbo Shi, Gaurav Bhatia, Wonil Chung, Brenda WJH Penninx, Rick Jansen, Eco JC de Geus, Dorret I Boomsma, Fred A Wright, … Bogdan Pasaniuc</div> <em>Nature Genetics</em> (2016-02-08) <a href="https://doi.org/f3vf4p">https://doi.org/f3vf4p</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/ng.3506">10.1038/ng.3506</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26854917">26854917</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4767558">PMC4767558</a></div></div>
+</div>
+<div id="ref-19Klmizj8" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">28. </div><div class="csl-right-inline"><strong>TIGAR: An Improved Bayesian Tool for Transcriptomic Data Imputation Enhances Gene Mapping of Complex Traits</strong> <div class="csl-block">Sini Nagpal, Xiaoran Meng, Michael P Epstein, Lam C Tsoi, Matthew Patrick, Greg Gibson, Philip L De Jager, David A Bennett, Aliza P Wingo, Thomas S Wingo, Jingjing Yang</div> <em>The American Journal of Human Genetics</em> (2019-08) <a href="https://doi.org/g7n6dv">https://doi.org/g7n6dv</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.ajhg.2019.05.018">10.1016/j.ajhg.2019.05.018</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31230719">31230719</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6698804">PMC6698804</a></div></div>
+</div>
+<div id="ref-vLyTudUB" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">29. </div><div class="csl-right-inline"><strong>Exploring the phenotypic consequences of tissue specific gene expression variation inferred from GWAS summary statistics</strong> <div class="csl-block">Alvaro N Barbeira, Scott P Dickinson, Rodrigo Bonazzola, Jiamao Zheng, Heather E Wheeler, Jason M Torres, Eric S Torstenson, Kaanan P Shah, Tzintzuni Garcia, Todd L Edwards, … Hae Kyung Im</div> <em>Nature Communications</em> (2018-05-08) <a href="https://doi.org/gdjvp5">https://doi.org/gdjvp5</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41467-018-03621-1">10.1038/s41467-018-03621-1</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29739930">29739930</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5940825">PMC5940825</a></div></div>
+</div>
+<div id="ref-1FFzCXo1s" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">30. </div><div class="csl-right-inline"><strong>Integrating predicted transcriptome from multiple tissues improves association detection</strong> <div class="csl-block">Alvaro N Barbeira, Milton Pividori, Jiamao Zheng, Heather E Wheeler, Dan L Nicolae, Hae Kyung Im</div> <em>PLOS Genetics</em> (2019-01-22) <a href="https://doi.org/ghs8vx">https://doi.org/ghs8vx</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1371/journal.pgen.1007889">10.1371/journal.pgen.1007889</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30668570">30668570</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6358100">PMC6358100</a></div></div>
+</div>
+<div id="ref-93R9hBin" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">31. </div><div class="csl-right-inline"><strong>A statistical framework for cross-tissue transcriptome-wide association analysis</strong><div class="csl-block">, Yiming Hu, Mo Li, Qiongshi Lu, Haoyi Weng, Jiawei Wang, Seyedeh M Zekavat, Zhaolong Yu, Boyang Li, Jianlei Gu, … Hongyu Zhao</div> <em>Nature Genetics</em> (2019-02-25) <a href="https://doi.org/gjjt5f">https://doi.org/gjjt5f</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1038/s41588-019-0345-7">10.1038/s41588-019-0345-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/30804563">30804563</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6788740">PMC6788740</a></div></div>
+</div>
+<div id="ref-1Dsj6bEd3" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">32. </div><div class="csl-right-inline"><strong>PWAS: proteome-wide association study—linking genes and phenotypes by functional variation in proteins</strong> <div class="csl-block">Nadav Brandes, Nathan Linial, Michal Linial</div> <em>Genome Biology</em> (2020-07-14) <a href="https://doi.org/gnvtr9">https://doi.org/gnvtr9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13059-020-02089-x">10.1186/s13059-020-02089-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32665031">32665031</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7386203">PMC7386203</a></div></div>
+</div>
+<div id="ref-CthLehGE" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">33. </div><div class="csl-right-inline"><strong>PWAS Hub: Exploring Gene-Based Associations of Common Complex Diseases</strong> <div class="csl-block">Guy Kelman, Roei Zucker, Nadav Brandes, Michal Linial</div> <em>Cold Spring Harbor Laboratory</em> (2024-01-22) <a href="https://doi.org/g7n6hx">https://doi.org/g7n6hx</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1101/2024.01.20.23300645">10.1101/2024.01.20.23300645</a></div></div>
+</div>
+<div id="ref-TPqvAJda" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">34. </div><div class="csl-right-inline"><strong>Epigenome-wide association studies: current knowledge, strategies and recommendations</strong> <div class="csl-block">Maria Pia Campagna, Alexandre Xavier, Jeannette Lechner-Scott, Vicky Maltby, Rodney J Scott, Helmut Butzkueven, Vilija G Jokubaitis, Rodney A Lea</div> <em>Clinical Epigenetics</em> (2021-12) <a href="https://doi.org/gn3kds">https://doi.org/gn3kds</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13148-021-01200-8">10.1186/s13148-021-01200-8</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/34863305">34863305</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8645110">PMC8645110</a></div></div>
+</div>
+<div id="ref-1DNxNkLsT" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">35. </div><div class="csl-right-inline"><strong>DNA methylome-wide association study of genetic risk for depression implicates antigen processing and immune responses</strong> <div class="csl-block">Xueyi Shen, Doretta Caramaschi, Mark J Adams, Rosie M Walker, Josine L Min, Alex Kwong, Gibran Hemani, Miruna C Barbu, Heather C Whalley, … Andrew M McIntosh</div> <em>Genome Medicine</em> (2022-03-31) <a href="https://doi.org/g7n6jn">https://doi.org/g7n6jn</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13073-022-01039-5">10.1186/s13073-022-01039-5</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/35354486">35354486</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8969265">PMC8969265</a></div></div>
+</div>
+<div id="ref-J7SRKSJl" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">36. </div><div class="csl-right-inline"><strong>Histone Acetylome-wide Association Study of Autism Spectrum Disorder</strong> <div class="csl-block">Wenjie Sun, Jeremie Poschmann, Ricardo Cruz-Herrera del Rosario, Neelroop N Parikshak, Hajira Shreen Hajan, Vibhor Kumar, Ramalakshmi Ramasamy, TGrant Belgard, Bavani Elanggovan, Chloe Chung Yi Wong, … Shyam Prabhakar</div> <em>Cell</em> (2016-11) <a href="https://doi.org/f9dpzf">https://doi.org/f9dpzf</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.cell.2016.10.031">10.1016/j.cell.2016.10.031</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27863250">27863250</a></div></div>
+</div>
+<div id="ref-FeaSnwhX" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">37. </div><div class="csl-right-inline"><strong>Histone Variants: Guardians of Genome Integrity</strong> <div class="csl-block">Juliette Ferrand, Beatrice Rondinelli, Sophie E Polo</div> <em>Cells</em> (2020-11-05) <a href="https://doi.org/g6vwfw">https://doi.org/g6vwfw</a> <div class="csl-block">DOI: <a href="https://doi.org/10.3390/cells9112424">10.3390/cells9112424</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/33167489">33167489</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7694513">PMC7694513</a></div></div>
+</div>
+<div id="ref-KfWCLspO" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">38. </div><div class="csl-right-inline"><strong>Epigenetics: The DNA Methylation Profile of Tissue-Dependent and Differentially Methylated Regions in Cells</strong> <div class="csl-block">J Ohgane, S Yagi, K Shiota</div> <em>Placenta</em> (2008-03) <a href="https://doi.org/dfph4p">https://doi.org/dfph4p</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.placenta.2007.09.011">10.1016/j.placenta.2007.09.011</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/18031808">18031808</a></div></div>
+</div>
 </div>
 <!-- default theme -->
 
