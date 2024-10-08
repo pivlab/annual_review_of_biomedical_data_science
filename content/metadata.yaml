@@ -11,18 +11,50 @@ keywords:
   - complex traits
 lang: en-US
 authors:
-  - github: johndoe
+  - github: msubirana
     name: Marc Subirana-Granés
     initials: MSG
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    mastodon: johndoe
-    mastodon-server: mastodon.social
-    email: john.doe@something.com
+    orcid: 0000-0003-3934-839X
+    twitter: msubirana20
+    email: marc.subiranagranes@cuanschutz.edu
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
+      - Department of Biomedical Informatics, University of Colorado Anschutz Medical Campus, Aurora, CO, USA
+  - github: jillhoffman
+    name: Jill Hoffman
+    initials: JH
+    orcid: 0000-0002-2690-2593
+    email: jill.hoffman@cuanschutz.edu
+    affiliations:
+      - Department of Biomedical Informatics, University of Colorado Anschutz Medical Campus, Aurora, CO, USA
+  - github: haoyu-zc
+    name: Haoyu Zhang
+    initials: HZ
+    orcid: 0009-0005-6025-0217
+    email: haoyu.zhang@cuanschutz.edu
+    affiliations:
+      - Department of Biomedical Informatics, University of Colorado Anschutz Medical Campus, Aurora, CO, USA
+  - github: snandi-DS
+    name: Sutanu Nandi
+    initials: SN
+    orcid: 0009-0001-5887-999X
+    email: sutanu.nandi@cuanschutz.edu
+    affiliations:
+      - Department of Pharmacology, University of Colorado Anschutz Medical Campus, Aurora, CO, USA
+  - github: bio2data
+    name: Christina Akirtava
+    initials: CA
+    orcid: 0000-0001-7587-2303
+    twitter: bio2data
+    email: christina.akirtava@cuanschutz.edu
+    affiliations:
+      - Department of Biochemistry and Molecular Genetics, RNA Bioscience Initiative, University of Colorado Anschutz Medical Campus, Aurora, CO, USA
+  - github: 
+    name: Kevin Fotso
+    initials: KF
+    orcid: XXX
+    email: XXX
+    affiliations:
+      - Office of Information Technology, University of Colorado Anschutz Medical Campus, Aurora, CO, USA
   - github: miltondp
     name: Milton Pividori
     initials: MP
