@@ -1,4 +1,4 @@
-name: manubot-annual-review
+name: manubot
 channels:
   - conda-forge
 dependencies:
