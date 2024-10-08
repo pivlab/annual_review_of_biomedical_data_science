@@ -1,5 +1,5 @@
 ---
-title: Manuscript Title
+title: Genetic studies through the lens of gene-gene networks
 keywords:
 - markdown
 - publishing
@@ -7,8 +7,8 @@ keywords:
 lang: en-US
 date-meta: '2024-10-08'
 author-meta:
-- John Doe
-- Jane Roe
+- Marc Subirana-Granés
+- Milton Pividori
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -16,26 +16,26 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta name="dc.title" content="Genetic studies through the lens of gene-gene networks" />
+  <meta name="citation_title" content="Genetic studies through the lens of gene-gene networks" />
+  <meta property="og:title" content="Genetic studies through the lens of gene-gene networks" />
+  <meta property="twitter:title" content="Genetic studies through the lens of gene-gene networks" />
   <meta name="dc.date" content="2024-10-08" />
   <meta name="citation_publication_date" content="2024-10-08" />
   <meta property="article:published_time" content="2024-10-08" />
-  <meta name="dc.modified" content="2024-10-08T12:50:06+00:00" />
-  <meta property="article:modified_time" content="2024-10-08T12:50:06+00:00" />
+  <meta name="dc.modified" content="2024-10-08T14:18:20+00:00" />
+  <meta property="article:modified_time" content="2024-10-08T14:18:20+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="Marc Subirana-Granés" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
+  <meta name="citation_author" content="Milton Pividori" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
@@ -45,9 +45,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/fc5abd165c4fe97acceba1c54d47254af23f9550/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/fc5abd165c4fe97acceba1c54d47254af23f9550/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/fc5abd165c4fe97acceba1c54d47254af23f9550/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/400e22f9b57213d0d270b98863ba6ce5ec3e0538/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/400e22f9b57213d0d270b98863ba6ce5ec3e0538/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/400e22f9b57213d0d270b98863ba6ce5ec3e0538/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/fc5abd165c4fe97acceba1c54d47254af23f9550/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/400e22f9b57213d0d270b98863ba6ce5ec3e0538/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@fc5abd1](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/fc5abd165c4fe97acceba1c54d47254af23f9550)
+from [pivlab/annual_review_of_biomedical_data_science@400e22f](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/400e22f9b57213d0d270b98863ba6ce5ec3e0538)
 on October 8, 2024.
 </em></small>
 
@@ -81,7 +81,7 @@ on October 8, 2024.
 
 
 
-+ **John Doe**
++ **Marc Subirana-Granés**
   <br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
@@ -97,12 +97,12 @@ on October 8, 2024.
      · Funded by Grant XXXXXXXX
   </small>
 
-+ **Jane Roe**
++ **Milton Pividori**
   ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)
+    [miltondp](https://github.com/miltondp)
     <br>
   <small>
      Department of Something, University of Whatever; Department of Whatever, University of Something
@@ -112,7 +112,7 @@ on October 8, 2024.
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/pivlab/annual_review_of_biomedical_data_science/issues)
 or email to
-Jane Roe \<jane.roe@whatever.edu\>.
+Milton Pividori \<milton.pividori@cuanschutz.edu\>.
 
 
 :::

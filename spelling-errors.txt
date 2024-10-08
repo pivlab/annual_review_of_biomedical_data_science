@@ -1,13 +1,16 @@
 datasets
 eQTLs
+Granés
 GWAS
-janeroe
 johndoe
+miltondp
 omnigenic
 PhenoPLIER
 phenotypes
+Pividori
 QTL
 sQTLs
+Subirana
 TFs
 Transcriptome
 XXXX
