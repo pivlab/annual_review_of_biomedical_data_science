@@ -52,6 +52,7 @@ EWAS
 expiMap
 Fotso
 frameshift
+FTO
 generalizability
 genomic
 GenomicSuperSignature
@@ -73,8 +74,9 @@ hQTLs
 HTP
 hyperlipidemia
 interpretability
-interpretable
+Interpretable
 iological
+IRX
 jillhoffman
 karyotype
 KCNJ
@@ -114,13 +116,13 @@ Nicotinic
 NumPy
 omics
 omni
-omnigenic
+Omnigenic
 pathogenesis
 pathophysiological
 PCA
 phecode
 PhenoPLIER
-Phenotypes
+phenotypes
 phenotypic
 Pividori
 pleiotropy

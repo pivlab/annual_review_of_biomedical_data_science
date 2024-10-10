@@ -32,8 +32,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-10" />
   <meta name="citation_publication_date" content="2024-10-10" />
   <meta property="article:published_time" content="2024-10-10" />
-  <meta name="dc.modified" content="2024-10-10T18:49:27+00:00" />
-  <meta property="article:modified_time" content="2024-10-10T18:49:27+00:00" />
+  <meta name="dc.modified" content="2024-10-10T22:07:45+00:00" />
+  <meta property="article:modified_time" content="2024-10-10T22:07:45+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -70,9 +70,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c213a22b1a038348f3a47b835a50d5d5e35f8e7b/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c213a22b1a038348f3a47b835a50d5d5e35f8e7b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c213a22b1a038348f3a47b835a50d5d5e35f8e7b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/517d43c379923fb79c0ec18f4a2aa10ed2beb727/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/517d43c379923fb79c0ec18f4a2aa10ed2beb727/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/517d43c379923fb79c0ec18f4a2aa10ed2beb727/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -99,9 +99,9 @@ _Subirana-Granés M, Hoffman J, Zhang H, Nandi S, Akirtava C, Fotso K, Pividori 
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c213a22b1a038348f3a47b835a50d5d5e35f8e7b/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/517d43c379923fb79c0ec18f4a2aa10ed2beb727/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@c213a22](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/c213a22b1a038348f3a47b835a50d5d5e35f8e7b)
+from [pivlab/annual_review_of_biomedical_data_science@517d43c](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/517d43c379923fb79c0ec18f4a2aa10ed2beb727)
 on October 10, 2024.
 </em></small>
 
@@ -213,38 +213,38 @@ And this are the conclusions.
 And this is in **boldface**.
 
 
-## Introduction 
-Understanding the genetics of complex traits remains a formidable challenge.
-Genome-Wide Association Studies (GWAS) have been instrumental in advancing our understanding of the genetics behind complex traits.
-By scanning the genomes of large populations, GWAS identify associations between genetic variants and traits, providing valuable insights into the genetic architecture of diseases and other phenotypic traits.
-This approach has been particularly successful in identifying thousands of variant-trait associations, shedding light on potential genetic factors involved in a wide range of conditions.
-However, a significant limitation of GWAS is that most associated variants reside in non-coding regions of the genome, underscoring the critical role of gene regulation in generating diverse phenotypes from identical DNA sequences.
+## Introduction
 
+Understanding the genetics of complex traits remains one of the key challenges in modern genomics.
+Genome-wide association studies (GWAS) have significantly advanced our knowledge by identifying associations between genetic variants and traits, shedding light on the genetic architecture underlying a variety of diseases and phenotypic conditions.
+Since the first GWAS on age-related macular degeneration in 2005, the GWAS catalog has grown to include over 5,000 human traits, encompassing risk loci for conditions such as type 2 diabetes, schizophrenia, and rheumatoid arthritis [@doi:10.1093/nar/gkac1010, @doi:10.1038/s41576-019-0127-1, @doi:10.1038/s41588-022-01213-w].
+However, most GWAS-identified variants reside in non-coding regions, underscoring the importance of gene regulation in generating phenotypic diversity [@doi:10.1093/hmg/ddac198; @doi:10.1126/science.aaz1776].
+This gap presents a major challenge in translating GWAS findings into biological insights.
 
-To bridge this gap, various methods have been developed to enhance the interpretation of GWAS findings.
-One such approach is MAGMA, which assigns variants to genes based on physical proximity without considering gene expression data.
-However, it has been shown that the closest gene to a variant is not necessarily the gene influenced by that variant, revealing the limitations of proximity-based methods.
-Transcriptome-Wide Association Studies (TWAS) overcome this limitation by linking genetic variants to gene expression (eQTLs).
-TWAS has evolved into a more general framework to test other molecular phenotypes (molQTLs).
+To address this limitation, numerous methods have been developed to link GWAS variants to functional outcomes.
+Proximity-based methods, such as MAGMA, have been widely used to link GWAS variants to nearby genes based on physical distance [@doi:10.1371/journal.pcbi.1004219].
+However, these methods may not consider long-range acting SNPs, such as the variants in the *FTO* locus that are associated with obesity, which have been shown to influence the *IRX3* gene through long-range interactions [@doi:10.1038/nature13138].
+While useful, proximity-based approaches may miss causal genes if they are not the closest ones.
+Transcriptome-wide association studies (TWAS) have proven effective by linking genetic variants to gene expression, thereby enhancing our ability to identify putatively causal genes for various traits [@doi:10.3389/fgene.2021.713230, @doi:10.1038/s41588-019-0385-z].
+TWAS employs expression quantitative trait loci (eQTL) data to prioritize genes that are influenced by GWAS variants, offering a more mechanistic link between genetic variation and phenotypic changes.
+Nevertheless, TWAS and similar methods typically focus on individual genes or variants, overlooking the complex interactions among genes that are increasingly recognized as vital to understanding complex traits [@doi:10.1016/j.cell.2017.05.038].
 
-Despite their advancements, TWAS and similar approaches typically focus on single variants or individual genes, thereby overlooking the intricate gene–gene interactions that are pivotal according to modern theories such as the omnigenic model of genetic architecture for complex traits.
-Capturing these interactions necessitates more sophisticated methodologies.
-One effective approach involves leveraging gene modules based on co-expression patterns.
-Machine learning methods, such as decomposition techniques and autoencoders, have demonstrated superior performance in identifying these co-expression modules by capturing latent patterns in high-dimensional datasets.
-However, the reliance on co-expression alone can lead to false positives, limiting the accuracy of these modules.
+The omnigenic model, introduced by Boyle et al. [@doi:10.1016/j.cell.2017.05.038], proposes that the genetic architecture of complex traits involves highly interconnected gene networks.
+According to this model, core genes directly contribute to a trait, while peripheral genes modulate these core genes through regulatory networks.
+This conceptual shift emphasizes the need for methodologies capable of capturing polygenic and network-based interactions inherent in complex diseases.
+Machine learning approaches, particularly those that leverage gene co-expression patterns, are well-suited to this task.
+Methods such as non-negative matrix factorization and variational autoencoders (VAEs) have demonstrated the ability to extract biologically meaningful gene modules, which represent groups of genes with coordinated expression under specific conditions [@doi:10.1038/s41592-019-0456-1, @doi:10.1038/s41467-021-26017-0].
 
-To mitigate this, integrating additional data sources is essential.
-For instance, PhenoPLIER exemplifies an integrative approach by combining genetic variant-trait associations from GWAS and variant-gene expression-trait associations from TWAS with groups of functionally related genes.
-This integration strengthens the reliability of gene modules by cross-validating co-expression patterns with genetic evidence, thus reducing the likelihood of false positives and enhancing the biological relevance of the results.
-
-
-In this review, we explore how integrating gene modeling machine learning frameworks with genetic and multi-omics data enhances our understanding of the molecular mechanisms underlying complex traits and diseases, effectively approaching genetic studies through the lens of gene networks.
+In this review, we explore current approaches based on gene modules to integrate genetic studies with other data types.
+We discuss how integrating machine learning-derived gene modules with genetic and multi-omics data enhances our understanding of complex traits and diseases.
+We highlight the PhenoPLIER framework [@doi:10.1038/s41467-023-41057-4], which integrates gene modules derived from transcriptome data with TWAS and drug-induced transcriptional profiles to uncover disease-relevant molecular mechanisms.
+This approach moves beyond single-gene analyses by capturing the broader gene networks that contribute to phenotypic outcomes, offering a more nuanced understanding of the molecular basis of human complex traits and paving the way for more effective, personalized therapeutic strategies.
 
 
 ## Single variant / single gene approaches 
 
 ![
-**Major approaches based on single variant and single gene strategies to understand the genetic basis of complex traits**.
+**Major approaches based on single variant/single gene strategies to understand the genetic basis of complex traits**.
 GWAS identifies associations between DNA variants and traits.
 All the other approaches test how different molecular mechanisms might mediate variant-trait associations from GWAS.
 TWAS uses variants linked to changes in gene expression (i.e., expression quantitative trait loci or eQTLs).
@@ -257,7 +257,7 @@ HAWAS maps histone modifications to traits using hQTLs, while MWAS explores DNA 
 In a simple trait, a single gene can be responsible for the disease (monogenic), for example in the case of Sickle Cell Anemia and Huntington's disease.
 However, most traits are not so simplistic and are the result of many mutations across the genome (polygenic).
 Even monogenic traits can sometimes be influenced by the polygenic background [@doi:10.1038/s41467-020-17374-3].
-GWAS examine the relationship between specific genetic variants and phenotypes by comparing allele frequencies in individuals of similar ancestry with distinct phenotypic traits (**Figure {@fig:fig1}**).
+Genome-wide association studies (GWAS) examine the relationship between specific genetic variants and phenotypes by comparing allele frequencies in individuals of similar ancestry with distinct phenotypic traits (**Figure {@fig:fig1}**).
 Both causal and non-causal variants are found to be significant and due to the phenomena of linkage disequilibrium, the results of GWAS are often grouped into risk loci.
 These loci represent clusters of variants that demonstrate significant associations, although not every variant may be causal [@doi:10.1186/s13059-022-02697-9].
 
@@ -304,11 +304,11 @@ These multi-tissue approaches are generally more powerful than single-tissue one
 ### Going beyond TWAS
 
 The flexibility of this 3-step framework can also be used to test whether other molecular phenotypes might mediate the association between GWAS variants and a trait of interest.
-In addition to integrating eQTLs, the framework has been implemented also with protein QTLs (pQTLs), histone acetylation QTLs (haQTLs), methylation QTLs (mQTLs), and splicing QTLs (sQTLs).
+In addition to integrating eQTLs, the framework has been implemented also with splicing QTLs (sQTLs), protein QTLs (pQTLs), histone acetylation QTLs (haQTLs) and methylation QTLs (mQTLs).
 
 PWAS complements GWAS and TWAS by aggregating genetic variations in protein-coding regions to assess their combined impact on protein function and phenotype (**Figure {@fig:fig1}**) [@doi:10.1186/s13059-020-02089-x].
 Unlike GWAS, which focuses on individual variants, PWAS evaluates the cumulative effects of multiple coding variants, reducing the scale of multiple testing, detecting complex inheritance patterns, and offering deeper insights into potential disease links.
-PWAS employs the Functional Impact Rating at the Molecular-level (FIRM) machine learning model to evaluate how missense variants affect protein function by assigning impairment scores, while other types of variants are assigned scores using rule-based methods [@doi:10.1186/s13059-020-02089-x].
+PWAS employs the FIRM machine learning model to evaluate how variants—such as missense, nonsense, and frameshift mutations—affect protein function by assigning impairment scores [@doi:10.1186/s13059-020-02089-x].
 The aggregate effects of these variants on each gene are then assessed, followed by statistical tests to identify significant associations between gene scores and phenotypes.
 For example, PWAS confirmed the association of *MUTYH* with colorectal cancer using UK Biobank data, even when no individual variant reached genome-wide significance in GWAS, highlighting its ability to uncover functional associations missed by other methods.
 However, PWAS relies on high-quality proteomic data, may miss non-coding variant associations, and is computationally intensive.
