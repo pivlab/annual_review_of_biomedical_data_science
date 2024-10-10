@@ -33,13 +33,6 @@ authors:
     email: haoyu.zhang@cuanschutz.edu
     affiliations:
       - Department of Biomedical Informatics, University of Colorado Anschutz Medical Campus, Aurora, CO, USA
-  - github: snandi-DS
-    name: Sutanu Nandi
-    initials: SN
-    orcid: 0009-0001-5887-999X
-    email: sutanu.nandi@cuanschutz.edu
-    affiliations:
-      - Department of Pharmacology, University of Colorado Anschutz Medical Campus, Aurora, CO, USA
   - github: bio2data
     name: Christina Akirtava
     initials: CA
@@ -48,11 +41,17 @@ authors:
     email: christina.akirtava@cuanschutz.edu
     affiliations:
       - Department of Biochemistry and Molecular Genetics, RNA Bioscience Initiative, University of Colorado Anschutz Medical Campus, Aurora, CO, USA
-  - github: 
+  - github: snandi-DS
+    name: Sutanu Nandi
+    initials: SN
+    orcid: 0009-0001-5887-999X
+    email: sutanu.nandi@cuanschutz.edu
+    affiliations:
+      - Department of Pharmacology, University of Colorado Anschutz Medical Campus, Aurora, CO, USA
+  - github: kf-cuanschutz
     name: Kevin Fotso
     initials: KF
-    orcid: XXX
-    email: XXX
+    email: kevin.fotso@cuanschutz.edu
     affiliations:
       - Office of Information Technology, University of Colorado Anschutz Medical Campus, Aurora, CO, USA
   - github: miltondp
