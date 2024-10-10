@@ -449,3 +449,40 @@ content/06.a-gene-module-perspective-for-genetic-studies.md:93:transcriptional
 content/06.a-gene-module-perspective-for-genetic-studies.md:93:transcriptome
 content/06.a-gene-module-perspective-for-genetic-studies.md:94:interpretable
 content/06.a-gene-module-perspective-for-genetic-studies.md:94:transcriptional
+content/07.future-perspectives .md:4:phenotypes
+content/07.future-perspectives .md:4:phenotypic
+content/07.future-perspectives .md:5:datasets
+content/07.future-perspectives .md:7:datasets
+content/07.future-perspectives .md:7:GWAS
+content/07.future-perspectives .md:7:transcriptional
+content/07.future-perspectives .md:7:transcriptomic
+content/07.future-perspectives .md:8:interpretable
+content/07.future-perspectives .md:8:repurposing
+content/07.future-perspectives .md:10:omnigenic
+content/07.future-perspectives .md:12:cis
+content/07.future-perspectives .md:12:histone
+content/07.future-perspectives .md:17:dataset
+content/07.future-perspectives .md:17:datasets
+content/07.future-perspectives .md:17:transcriptomic
+content/07.future-perspectives .md:20:omnigenic
+content/07.future-perspectives .md:22:datasets
+content/07.future-perspectives .md:23:bioinformatics
+content/07.future-perspectives .md:24:WebAssembly
+content/07.future-perspectives .md:26:bioinformatics
+content/07.future-perspectives .md:28:cupy
+content/07.future-perspectives .md:28:cupy
+content/07.future-perspectives .md:28:CuPy
+content/07.future-perspectives .md:28:NumPy
+content/07.future-perspectives .md:28:Scikit
+content/07.future-perspectives .md:30:PyCUDA
+content/07.future-perspectives .md:32:bioinformatics
+content/07.future-perspectives .md:32:WebAssembly
+content/07.future-perspectives .md:33:bioinformatics
+content/07.future-perspectives .md:34:bioinformatics
+content/07.future-perspectives .md:34:biowasm
+content/07.future-perspectives .md:34:Biowasm
+content/07.future-perspectives .md:34:VirtualWasm
+content/07.future-perspectives .md:34:WebAssembly
+content/07.future-perspectives .md:35:WebAssembly
+content/07.future-perspectives .md:37:bioinformatics
+content/07.future-perspectives .md:37:WebAssembly

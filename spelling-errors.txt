@@ -12,9 +12,11 @@ astrocyes
 astrocytes
 autoencoders
 Biobank
+bioinformatics
 Biomed
 biometricians
 Bioscience
+Biowasm
 BMI
 Cas
 CCC
@@ -29,6 +31,7 @@ compendia
 CRISPR
 Crohn’s
 cuanschutz
+CuPy
 dataset
 datasets
 densitometry
@@ -108,6 +111,7 @@ Nandi
 ncRNA
 ncRNAs
 Nicotinic
+NumPy
 omics
 omni
 omnigenic
@@ -132,11 +136,13 @@ proteomics
 PTMs
 putatively
 PWAS
+PyCUDA
 QTL
 QTLs
 reframes
 reporposing
 repurposing
+Scikit
 Shen
 Shriver
 snandi
@@ -152,7 +158,7 @@ TF
 TIGAR
 tradeoff
 transcriptional
-Transcriptome
+transcriptome
 transcriptomic
 transcriptomics
 translational
@@ -163,6 +169,8 @@ underpowered
 VAE
 VAEs
 variational
+VirtualWasm
+WebAssembly
 WGCNA
 Yengo
 zc
