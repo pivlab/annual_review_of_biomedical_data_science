@@ -6,6 +6,12 @@ content/00.front-matter.md:11:Granés
 content/00.front-matter.md:11:Nandi
 content/00.front-matter.md:11:Pividori
 content/00.front-matter.md:11:Zhang
+content/01.abstract.md:4:GWAS
+content/01.abstract.md:5:Transcriptome
+content/01.abstract.md:7:PhenoPLIER
+content/01.abstract.md:7:transcriptional
+content/01.abstract.md:8:proceses
+content/01.abstract.md:9:interpretability
 content/02.introduction.md:4:GWAS
 content/02.introduction.md:4:phenotypic
 content/02.introduction.md:5:GWAS
@@ -447,7 +453,6 @@ content/06.a-gene-module-perspective-for-genetic-studies.md:79:PhenoPLIER
 content/06.a-gene-module-perspective-for-genetic-studies.md:79:PLIER
 content/06.a-gene-module-perspective-for-genetic-studies.md:79:PLIER
 content/06.a-gene-module-perspective-for-genetic-studies.md:79:PLIER
-content/06.a-gene-module-perspective-for-genetic-studies.md:79:Sutanu
 content/06.a-gene-module-perspective-for-genetic-studies.md:79:trisomy
 content/06.a-gene-module-perspective-for-genetic-studies.md:81:PhenoPLIER
 content/06.a-gene-module-perspective-for-genetic-studies.md:82:Interpretable
@@ -480,8 +485,6 @@ content/07.future-perspectives .md:22:datasets
 content/07.future-perspectives .md:23:bioinformatics
 content/07.future-perspectives .md:24:WebAssembly
 content/07.future-perspectives .md:26:bioinformatics
-content/07.future-perspectives .md:28:cupy
-content/07.future-perspectives .md:28:cupy
 content/07.future-perspectives .md:28:CuPy
 content/07.future-perspectives .md:28:NumPy
 content/07.future-perspectives .md:28:Scikit

@@ -116,7 +116,7 @@ Nicotinic
 NumPy
 omics
 omni
-Omnigenic
+omnigenic
 pathogenesis
 pathophysiological
 PCA
@@ -133,6 +133,7 @@ polygenicity
 PPIs
 pQTLs
 PrediXcan
+proceses
 proteomic
 proteomics
 PTMs

@@ -32,8 +32,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-10" />
   <meta name="citation_publication_date" content="2024-10-10" />
   <meta property="article:published_time" content="2024-10-10" />
-  <meta name="dc.modified" content="2024-10-10T22:07:45+00:00" />
-  <meta property="article:modified_time" content="2024-10-10T22:07:45+00:00" />
+  <meta name="dc.modified" content="2024-10-10T22:08:42+00:00" />
+  <meta property="article:modified_time" content="2024-10-10T22:08:42+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -70,9 +70,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/517d43c379923fb79c0ec18f4a2aa10ed2beb727/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/517d43c379923fb79c0ec18f4a2aa10ed2beb727/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/517d43c379923fb79c0ec18f4a2aa10ed2beb727/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/876267bf5f5cb653b6898a4b032be3be7ca3b9f8/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/876267bf5f5cb653b6898a4b032be3be7ca3b9f8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/876267bf5f5cb653b6898a4b032be3be7ca3b9f8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -99,9 +99,9 @@ _Subirana-Granés M, Hoffman J, Zhang H, Nandi S, Akirtava C, Fotso K, Pividori 
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/517d43c379923fb79c0ec18f4a2aa10ed2beb727/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/876267bf5f5cb653b6898a4b032be3be7ca3b9f8/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@517d43c](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/517d43c379923fb79c0ec18f4a2aa10ed2beb727)
+from [pivlab/annual_review_of_biomedical_data_science@876267b](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/876267bf5f5cb653b6898a4b032be3be7ca3b9f8)
 on October 10, 2024.
 </em></small>
 
@@ -207,10 +207,13 @@ Milton Pividori \<milton.pividori@cuanschutz.edu\>.
 
 ## Abstract {.page_break_before}
 
-This is a very cool paper about something.
-We are doing this and that.
-And this are the conclusions.
-And this is in **boldface**.
+Understanding the genetic basis of complex traits is a longstanding challenge in the field of genomics.
+Genome-wide association studies (GWAS) have identified thousands of variant-trait associations, but most of these variants are located in non-coding regions, making the link to biological function elusive.
+While traditional approaches, such as Transcriptome-wide association studies (TWAS), have advanced our understanding by linking genetic variants to gene expression, they often overlook gene-gene interactions.
+Here, we review current approaches based on gene modules to integrate different molecular data, leveraging machine learning methods to identify gene modules based on co-expression and functional relationships.
+These integrative approaches, like PhenoPLIER, combine TWAS and drug-induced transcriptional profiles to effectively capture biologically meaningful gene networks.
+This integration provides a context-specific understanding of disease proceses while highlighting both core and peripheral genes.
+These insights pave the way for novel therapeutic targets and enhance the interpretability of genetic studies in personalized medicine.
 
 
 ## Introduction
@@ -585,7 +588,7 @@ Approaches based on gene modules have the potential to go beyond prior knowledge
 First, although a gene module can be aligned to a pathway, this does not mean that it is restricted to prior knowledge as in standard pathway analyses.
 Being aligned with pathways means that a module resembles a known mechanism, and this helps in interpretability and also in separating from other patterns that might be related to technical noise but the module could capture other genes as well that are not part of the pathway but potentially also involved the function.
 Second, gene modules can also be extracted from very large, heterogeneous datasets such as recount2, or more specific ones such as the Human Trisome Project, which includes gene expression from people with Down Syndrome (DS).
-Approaches such as PLIER and PhenoPLIER have been fundamental to extract DS-specific gene modules related to obesity, a common co-occurring condition The omni-PLIER framework, combining the PLIER model with the omnigenic approach, uncovers molecular mechanisms linking Down syndrome (DS) and obesity, identifying key latent variables with top genes such as GPX1 and MCL1, which mediate the relationship between trisomy 21 and body mass index (BMI), offering insights into DS-specific and general obesity-related processes. `[CITE Sutanu’s paper]`{.yellow}.
+Approaches such as PLIER and PhenoPLIER have been fundamental to extract DS-specific gene modules related to obesity, a common co-occurring condition The omni-PLIER framework, combining the PLIER model with the omnigenic approach, uncovers molecular mechanisms linking Down syndrome (DS) and obesity, identifying key latent variables with top genes such as GPX1 and MCL1, which mediate the relationship between trisomy 21 and body mass index (BMI), offering insights into DS-specific and general obesity-related processes [@Nandi2024]. 
 
 A disadvantage of the PhenoPLIER approach is that gene modules are generated by an algorithm, and as such, they could represent artifacts or be aligned with technical noise.
 Interpretable methods such as PLIER and some VAE models that help segregate technical noise from relevant biology are key in solving this problem.
@@ -630,7 +633,7 @@ To meet these challenges, we are focusing on accelerating workflows with graphic
 
 Leveraging GPU acceleration holds great promise for significantly speeding up bioinformatics workflows.
 Research has shown that GPU technology can provide remarkable performance boosts, with speed improvements reaching up to 1000x for specific tasks [@doi:10.1093/bib/bbw058].
-Integrating GPU-aware libraries like CuPy [@url:https://github.com/cupy/cupy] and RAPIDS [@url:https://rapids.ai/] into our tools allows for seamless performance upgrades in established frameworks such as NumPy [@doi:10.1038/s41586-020-2649-2] and Scikit-learn [@doi:10.48550/arXiv.1201.0490].
+Integrating GPU-aware libraries like CuPy [@Okuta2017] and RAPIDS [@url:https://rapids.ai/] into our tools allows for seamless performance upgrades in established frameworks such as NumPy [@doi:10.1038/s41586-020-2649-2] and Scikit-learn [@doi:10.48550/arXiv.1201.0490].
 As our tools evolve, we anticipate developing custom GPU kernels, further enhancing speed and optimizing them for specific computational needs.
 Advanced GPU programming with PyCUDA [@doi:10.1016/j.parco.2011.09.001] could also be key to future optimizations.
 
