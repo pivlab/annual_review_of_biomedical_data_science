@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/gh-pages) branch hosts the contents of this directory at <https://pivlab.github.io/annual_review_of_biomedical_data_science/>.
-The permalink for this webpage version is <https://pivlab.github.io/annual_review_of_biomedical_data_science/v/d3fd10990be3fa041e93f303cded32856ae04864/>.
+The permalink for this webpage version is <https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c2524cc88cbe2714df69644fdc4b9d3d5105b835/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://pivlab.github.io/annual_review_of_biomedical_data_science/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`d3fd10990be3fa041e93f303cded32856ae04864`](https://github.com/pivlab/annual_review_of_biomedical_data_science/commit/d3fd10990be3fa041e93f303cded32856ae04864).
+[`c2524cc88cbe2714df69644fdc4b9d3d5105b835`](https://github.com/pivlab/annual_review_of_biomedical_data_science/commit/c2524cc88cbe2714df69644fdc4b9d3d5105b835).
