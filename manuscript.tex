@@ -2,9 +2,9 @@
 \emph{Subirana-Granés M, Hoffman J, Zhang H, Nandi S, Akirtava C, Fotso K, Pividori M. Genetic studies through the lens of gene networks. 2025. Annu. Rev.~Biomed. Data Sci. 8. https://doi.org/10.1146/annurev-biodatasci-103123-095355}}
 
 This manuscript
-(\href{https://pivlab.github.io/annual_review_of_biomedical_data_science/v/66a49f4f63bfcb89ba3bd7ab5a0a44478728a6ec/}{permalink})
+(\href{https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c213a22b1a038348f3a47b835a50d5d5e35f8e7b/}{permalink})
 was automatically generated
-from \href{https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/66a49f4f63bfcb89ba3bd7ab5a0a44478728a6ec}{pivlab/annual\_review\_of\_biomedical\_data\_science@66a49f4}
+from \href{https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/c213a22b1a038348f3a47b835a50d5d5e35f8e7b}{pivlab/annual\_review\_of\_biomedical\_data\_science@c213a22}
 on October 10, 2024.
 
 \hypertarget{authors}{%
@@ -197,6 +197,7 @@ HAWAS focuses on histone acetylation modifications, which are crucial for regula
 Del Rosario et al.conducted a HAWAS identifying over 2,000 differentially acetylated loci in immune cells from Mycobacterium tuberculosis-infected individuals, linking these changes to gene expression and potassium channel genes like \emph{KCNJ15} in modulating apoptosis and Mtb clearance.
 haQTL analysis further revealed variants associated with immune phenotypes, complementing GWAS findings and enhancing understanding of disease mechanisms {[}\protect\hyperlink{ref-1BYHeZlgB}{33}{]}.
 The tissue-specific nature of epigenetic modifications, alongside the capacity to capture cellular plasticity and environmental influences, enhances our insight into the effects of genetic variants across distinct tissues, temporal cellular states, and gene-environment interactions {[}\protect\hyperlink{ref-FeaSnwhX}{34},\protect\hyperlink{ref-KfWCLspO}{35}{]}.
+
 Despite the advancements facilitated by single variant and single gene methodologies, a common thread persists: the focus remains on one gene at a time.
 The underlying expectation is that identifying a gene linked to a trait will directly unveil the biological mechanisms driving disease processes.
 While this has been successful in certain monogenic disorders, complex traits often involve intricate interactions among multiple genes and environmental factors.
@@ -232,12 +233,20 @@ Despite the success of Fisher's infinitesimal model, the actual number of genes 
 Translating genotypes into phenotypes proved challenging due to the complexity of the genetic mechanisms driving trait variation.
 In this context, GWAS brought a new perspective for identifying specific genetic variants with functional effects on complex traits.
 Over a decade of GWAS has led to several unexpected findings:
-The strongest GWAS associations exhibit modest effect sizes on disease risk, collectively accounting for only a minor fraction of the predicted heritability (missing heritability) {[}\protect\hyperlink{ref-RASeYPIy}{39}{]}.
-It is now understood that much of this missing heritability arises from a vast number of common variants with small effects that remain undetected in current sample sizes {[}\protect\hyperlink{ref-1AOy1zxAv}{40}{]}.
-A surprising uniform distribution of these small-effect significant variants exists throughout the genome, including non-coding regions, with a notable concentration in regulatory elements such as enhancers and promoters {[}\protect\hyperlink{ref-mwTa2RUK}{41},\protect\hyperlink{ref-lVJVFaaZ}{42}{]}.
-For instance, it is estimated that 71\%--100\% of 1-MB windows in the genome contribute to heritability for schizophrenia {[}\protect\hyperlink{ref-XvQe1H3A}{43}{]}.
-Trait variation is influenced by the broader genome, not only by genes with direct biological links to specific phenotypes.
-However, the idea that nearly all genomic variants could exert direct additive effects on a given phenotype is biologically unlikely {[}\protect\hyperlink{ref-vpIDZCSa}{36}{]}.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  The strongest GWAS associations exhibit modest effect sizes on disease risk, collectively accounting for only a minor fraction of the predicted heritability (missing heritability) {[}\protect\hyperlink{ref-RASeYPIy}{39}{]}.
+  It is now understood that much of this missing heritability arises from a vast number of common variants with small effects that remain undetected in current sample sizes {[}\protect\hyperlink{ref-1AOy1zxAv}{40}{]}.
+\item
+  A surprising uniform distribution of these small-effect significant variants exists throughout the genome, including non-coding regions, with a notable concentration in regulatory elements such as enhancers and promoters {[}\protect\hyperlink{ref-mwTa2RUK}{41},\protect\hyperlink{ref-lVJVFaaZ}{42}{]}.
+  For instance, it is estimated that 71\%--100\% of 1-MB windows in the genome contribute to heritability for schizophrenia {[}\protect\hyperlink{ref-XvQe1H3A}{43}{]}.
+\item
+  Trait variation is influenced by the broader genome, not only by genes with direct biological links to specific phenotypes.
+  However, the idea that nearly all genomic variants could exert direct additive effects on a given phenotype is biologically unlikely {[}\protect\hyperlink{ref-vpIDZCSa}{36}{]}.
+\end{enumerate}
+
 In response to these unexpected findings, Boyle et al.~proposed the omnigenic model {[}\protect\hyperlink{ref-vpIDZCSa}{36}{]}, a conceptual framework in which the genetic architecture of complex traits could be explained by highly interconnected gene regulatory networks.
 The omnigenic model reframes the earlier infinitesimal model by distinguishing between ``core'' genes, which have a direct biological role in the disease or trait, and ``peripheral'' genes, which influence core genes and thus indirectly affect the disease or trait through regulatory networks {[}\protect\hyperlink{ref-vpIDZCSa}{36}{]}.
 The omnigenic model, unlike the traditional infinitesimal model, offers a mechanistic rationale for complex traits architecture based on molecular and cellular biology, understanding the molecular pathways that connect genetic variation to phenotypic traits (\textbf{Figure \ref{fig:fig2}}).
@@ -273,38 +282,40 @@ This framework facilitates an understanding of the highly polygenic and often su
 While this proves successful in some fields the model exhibits certain limitations and has faced several criticisms.
 
 One major concern is the lack of clear, quantitative methods for identifying peripheral genes or estimating their contribution to heritability.
-While the model suggests that most genetic effects arise from peripheral genes, it remains unclear how to statistically define and measure these effects {[}{[}\protect\hyperlink{ref-82fs3SZo}{48}{]}{]}{[}\protect\hyperlink{ref-doi:10.20900ux2fjpbs.20170014}{\textbf{doi:10.20900/jpbs.20170014?}}{]}.
+While the model suggests that most genetic effects arise from peripheral genes, it remains unclear how to statistically define and measure these effects {[}\protect\hyperlink{ref-82fs3SZo}{48},\protect\hyperlink{ref-javtAG7r}{49}{]}.
 Interestingly, research suggests that most heritability in complex traits is controlled by \emph{trans} effects rather than \emph{cis} effects, despite their small effect sizes {[}\protect\hyperlink{ref-LXvTZzEA}{44}{]}.
 This paradox can be explained by natural selection acting most strongly against variants with large effects, limiting the contribution of directly biologically important genes to heritability {[}\protect\hyperlink{ref-LXvTZzEA}{44}{]}.
 Thus, understanding \emph{trans} effects, where a variant at one locus influences genes at distant loci is crucial for identifying and quantifying peripheral genes and their contribution to core traits.
 However, detecting and quantifying \emph{trans} effects remains a significant challenge due to their weak individual effects.
+
 The omnigenic model postulates that nearly all genes expressed in cells relevant to a given trait have the potential to influence the regulation of core genes.
 However, Yengo et al., in their recent GWAS on height, challenge this view.
 They introduced the first ``saturated'' GWAS, where further increases in sample size are unlikely to yield additional genetic insights unless participant diversity or variant inclusion is expanded.
 Their findings revealed that only a subset of genomic regions (\textasciitilde20\%) seem to contribute to height determination in individuals of European ancestry.
-This suggests that, at least for height, not all genes play a role in the trait as predicted by the omnigenic model {[}\protect\hyperlink{ref-HFRaLwGQ}{49}{]}.
+This suggests that, at least for height, not all genes play a role in the trait as predicted by the omnigenic model {[}\protect\hyperlink{ref-HFRaLwGQ}{50}{]}.
+
 Furthermore, the omnigenic model has been criticized for their binary classification of genes into core and peripheral, which might oversimplify biological systems and potentially underestimate their true complexity {[}\protect\hyperlink{ref-82fs3SZo}{48}{]}.
-It also fails to account for gene-environment interactions, which play a crucial role in shaping complex traits {[}\protect\hyperlink{ref-dg9nKuy0}{50}{]}.
-Additionally, while the model provides a conceptual framework, it remains unclear how to translate it into a practical statistical model {[}\protect\hyperlink{ref-1GlQtJ9Yz}{51}{]}.
+It also fails to account for gene-environment interactions, which play a crucial role in shaping complex traits {[}\protect\hyperlink{ref-dg9nKuy0}{51}{]}.
+Additionally, while the model provides a conceptual framework, it remains unclear how to translate it into a practical statistical model {[}\protect\hyperlink{ref-1GlQtJ9Yz}{52}{]}.
+
 As George E. P. Box remarked, ``all models are wrong, but some are useful.'' While we acknowledge that the omnigenic model simplifies the inherent complexity of biological systems and may not universally apply to all traits, we maintain that it remains a valuable framework for elucidating genetic architectures.
 The model effectively bridges quantitative and molecular genetics offering comprehensive mechanistic insights with predictions on quantitative variation.
 Moreover, the omnigenic model has been instrumental in shifting the focus from single gene analyses to network-based models.
 Recognizing the necessity of translating this model into practical applications, machine learning-derived gene modules, which use this concept to infer gene-gene networks, offer a promising way to ground these theoretical ideas into practical approaches.
 
 \hypertarget{from-gene-networks-to-machine-learning-derived-gene-modules-hands-on-strategies-for-inferring-gene-gene-interactions}{%
-\section{From gene networks to machine learning derived gene modules: hands-on strategies for inferring gene-gene interactions}\label{from-gene-networks-to-machine-learning-derived-gene-modules-hands-on-strategies-for-inferring-gene-gene-interactions}}
+\subsection{From gene networks to machine learning derived gene modules: hands-on strategies for inferring gene-gene interactions}\label{from-gene-networks-to-machine-learning-derived-gene-modules-hands-on-strategies-for-inferring-gene-gene-interactions}}
 
 \begin{figure}
 \hypertarget{fig:fig3}{%
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/fig3.svg}
 \caption{\textbf{Computational methods for machine learning derived gene module detection.}.
-\textbf{a)}.
-Real biological network, where nodes represent genes and edges denote the relationships between them.
+\emph{(a)} Real biological network, where nodes represent genes and edges denote the relationships between them.
 It captures all possible patterns that can link genes.
 Some of these relationships are gene co-expression patterns, which transcriptomics can capture, such as (1), (3) and (4).
 Other patterns, such as protein-protein interactions (2), are not captured by transcriptomics and are thus not reflected in the co-expression analysis.
-\textbf{b).} Different approaches for capturing machine learning-derived gene modules.
+\emph{(b)} Different approaches for capturing machine learning-derived gene modules.
 In this example, transcriptome data is used as input, but other data types such as methylomics, proteomics, and metabolomics can also be applied.
 The first row illustrates the PLIER method, which uses non-negative matrix factorization and prior knowledge to align gene modules with known biological pathways.
 This approach generates interpretable gene modules but only captures linear relationships.
@@ -314,76 +325,78 @@ The third row highlights interpretable VAEs, which incorporate prior knowledge i
 \end{figure}
 
 \hypertarget{from-single-gene-analysis-to-gene-module-discovery-with-machine-learning-approaches}{%
-\subsection{From single gene analysis to gene module discovery with machine learning approaches}\label{from-single-gene-analysis-to-gene-module-discovery-with-machine-learning-approaches}}
+\subsubsection{From single gene analysis to gene module discovery with machine learning approaches}\label{from-single-gene-analysis-to-gene-module-discovery-with-machine-learning-approaches}}
 
 High-throughput technologies, particularly genome-wide gene expression profiling tools such as RNA sequencing (RNA-seq), have fundamentally transformed the landscape of molecular biology.
-Unlike traditional gene-by-gene approaches, RNA-seq offers a comprehensive view of the transcriptomic landscape {[}\protect\hyperlink{ref-Zm8nV5AC}{52}{]}.
-These advancements, alongside conceptual frameworks like the omnigenic model, have facilitated a paradigm shift from a single gene perspective to a module-based approach, wherein groups of genes rather than individual genes are essential for elucidating the complexities of biological networks {[}\protect\hyperlink{ref-SD886fuE}{53}{]}.
+Unlike traditional gene-by-gene approaches, RNA-seq offers a comprehensive view of the transcriptomic landscape {[}\protect\hyperlink{ref-Zm8nV5AC}{53}{]}.
+These advancements, alongside conceptual frameworks like the omnigenic model, have facilitated a paradigm shift from a single gene perspective to a module-based approach, wherein groups of genes rather than individual genes are essential for elucidating the complexities of biological networks {[}\protect\hyperlink{ref-SD886fuE}{54}{]}.
 
-Gene modules, a key type of biological network, consist of nodes (genes) and edges that reflect coexpression relationships between them (\textbf{Figure \ref{fig:fig3}a)}).
-These modules, formed by genes with coordinated expression patterns under specific biological conditions, not only reveal coexpression but could also provide valuable insights into regulatory mechanisms, gene functions, and the pathways involved in traits and diseases {[}\protect\hyperlink{ref-QUI8V4RY}{54}{]}.
+Gene modules, a key type of biological network, consist of nodes (genes) and edges that reflect coexpression relationships between them (\textbf{Figure \ref{fig:fig3}\emph{a}}).
+These modules, formed by genes with coordinated expression patterns under specific biological conditions, not only reveal coexpression but could also provide valuable insights into regulatory mechanisms, gene functions, and the pathways involved in traits and diseases {[}\protect\hyperlink{ref-QUI8V4RY}{55}{]}.
 
 Numerous approaches have been proposed for module detection in gene expression data.
-Machine learning (ML) techniques are particularly proficient at addressing common challenges in omics data, such as data sparsity and high dimensionality {[}\protect\hyperlink{ref-K4KeL4gw}{55}{]}.
+Machine learning (ML) techniques are particularly proficient at addressing common challenges in omics data, such as data sparsity and high dimensionality {[}\protect\hyperlink{ref-K4KeL4gw}{56}{]}.
 ML methods can compress correlations into lower-dimensional representations, facilitating the processing of large datasets to identify intricate coexpression patterns.
-Additionally, ML approaches are capable of integrating various types of omics data enhancing the detection of gene modules, providing a more comprehensive understanding of biological networks {[}\protect\hyperlink{ref-K4KeL4gw}{55}{]}.
+Additionally, ML approaches are capable of integrating various types of omics data enhancing the detection of gene modules, providing a more comprehensive understanding of biological networks {[}\protect\hyperlink{ref-K4KeL4gw}{56}{]}.
 
-In this context, unsupervised ML approaches have gained significant popularity {[}\protect\hyperlink{ref-Ko8gMp8P}{56}{]}.
+In this context, unsupervised ML approaches have gained significant popularity {[}\protect\hyperlink{ref-Ko8gMp8P}{57}{]}.
 These methods facilitate the discovery of patterns and structures within the data without requiring prior knowledge of the system, allowing for the inference of novel findings and hypotheses.
-This capability is particularly advantageous for gene module inference, which aims to identify groups of coexpressed and potentially co-regulated genes that contribute to similar biological functions {[}\protect\hyperlink{ref-1BVbSrr6M}{57}{]}.
+This capability is particularly advantageous for gene module inference, which aims to identify groups of coexpressed and potentially co-regulated genes that contribute to similar biological functions {[}\protect\hyperlink{ref-1BVbSrr6M}{58}{]}.
 
-The most common approach in unsupervised ML is clustering, with methods such as WGCNA, which has been widely used since the first gene expression datasets became available and remains one of the most popular tools today {[}\protect\hyperlink{ref-1BVbSrr6M}{57}{]}.
+The most common approach in unsupervised ML is clustering, with methods such as WGCNA, which has been widely used since the first gene expression datasets became available and remains one of the most popular tools today {[}\protect\hyperlink{ref-1BVbSrr6M}{58}{]}.
 However, these methodologies typically rely on traditional correlation measures (e.g., the Pearson correlation coefficient), which are limited to capturing linear associations between continuous data.
-Newer approaches, such as the Clustermatch Correlation Coefficient (CCC), have been developed to quantify both linear and non-linear correlations in complex gene expression datasets, providing a more flexible means of detecting intricate relationships that are not apparent through linear models alone {[}\protect\hyperlink{ref-YgLIM2bZ}{58}{]}.
+Newer approaches, such as the Clustermatch Correlation Coefficient (CCC), have been developed to quantify both linear and non-linear correlations in complex gene expression datasets, providing a more flexible means of detecting intricate relationships that are not apparent through linear models alone {[}\protect\hyperlink{ref-YgLIM2bZ}{59}{]}.
 
-In this section, given their successful applications, we will focus on decomposition approaches like Principal Component Analysis (PCA), and deep learning methods for inferring gene modules, highlighting their effectiveness in uncovering complex gene interactions and enhancing our understanding of biological networks (\textbf{Figure \ref{fig:fig3}b)}).
+In this section, given their successful applications, we will focus on decomposition approaches like Principal Component Analysis (PCA), and deep learning methods for inferring gene modules, highlighting their effectiveness in uncovering complex gene interactions and enhancing our understanding of biological networks (\textbf{Figure \ref{fig:fig3}\emph{b}}).
 However, we acknowledge that utilizing transcriptional data alone is insufficient for fully comprehending the intricate system of biological networks; it serves as an initial step toward a more comprehensive understanding.
 
 \hypertarget{decomposition-methods}{%
 \subsubsection{Decomposition methods}\label{decomposition-methods}}
 
 Decomposition methods reduce complex, high-dimensional gene expression data into simpler components, revealing underlying patterns and structures that aid in interpreting large-scale datasets.
-These methods outperform other unsupervised machine learning approaches in recovering gene modules by effectively capturing local co-expression effects present in only a subset of biological samples, while also allowing genes to be assigned to multiple modules {[}\protect\hyperlink{ref-1BVbSrr6M}{57}{]}.
+These methods outperform other unsupervised machine learning approaches in recovering gene modules by effectively capturing local co-expression effects present in only a subset of biological samples, while also allowing genes to be assigned to multiple modules {[}\protect\hyperlink{ref-1BVbSrr6M}{58}{]}.
 
-Simple models like PCA have traditionally been used to reduce dimensionality in gene expression data, offering a basic understanding of co-expressed genes {[}\protect\hyperlink{ref-1703M7bru}{59}{]}.
+Simple models like PCA have traditionally been used to reduce dimensionality in gene expression data, offering a basic understanding of co-expressed genes {[}\protect\hyperlink{ref-1703M7bru}{60}{]}.
 However, these models often lack the ability to incorporate prior biological knowledge, which limits their interpretability and biological relevance.
-To overcome these limitations, more sophisticated semi-supervised approaches such as the Pathway-Level Information Extractor (PLIER) {[}\protect\hyperlink{ref-Ki2ij7zE}{60}{]}, or GenomicSuperSignature {[}\protect\hyperlink{ref-X4fhSCkz}{61}{]} have been developed.
+To overcome these limitations, more sophisticated semi-supervised approaches such as the Pathway-Level Information Extractor (PLIER) {[}\protect\hyperlink{ref-Ki2ij7zE}{61}{]}, or GenomicSuperSignature {[}\protect\hyperlink{ref-X4fhSCkz}{62}{]} have been developed.
 These methodologies combine unsupervised approaches (decomposition methodologies) with supervised approaches to infer gene modules and annotate them with prior biological knowledge.
 
 GenomicSuperSignature employs PCA to identify gene modules applying prior knowledge for biological annotation after module discovery.
 This flexibility allows it to adapt to novel datasets and provides computational efficiency, even with large datasets.
-However, the lack of prior knowledge integration during training can result in modules that are less biologically interpretable compared to those from PLIER-based methods {[}\protect\hyperlink{ref-X4fhSCkz}{61}{]}.
+However, the lack of prior knowledge integration during training can result in modules that are less biologically interpretable compared to those from PLIER-based methods {[}\protect\hyperlink{ref-X4fhSCkz}{62}{]}.
 
-The Pathway-Level Information Extractor (PLIER) (\textbf{Figure \ref{fig:fig3}b}) is a semi-supervised framework based on non-negative matrix factorization.
+The Pathway-Level Information Extractor (PLIER) (\textbf{Figure \ref{fig:fig3}\emph{b}}) is a semi-supervised framework based on non-negative matrix factorization.
 During training, it reduces high-dimensional gene expression data into a smaller set of latent variables (LVs) while aligning some of them to known pathway or gene set annotations.
 These LVs are designed to capture the greatest variance in the data, where a fraction of the LVs represent known mechanisms (i.e., aligned with prior knowledge/pathways) while others capture potential technical artifacts or novel patterns.
 By incorporating prior pathway/gene set information, PLIER generates interpretable latent representations.
-Importantly, PLIER retains some gene modules that are not aligned with pathways, allowing researchers to distinguish LVs that represent either known patterns, technical artifacts or potential novel biological insights {[}\protect\hyperlink{ref-dg9nKuy0}{50}{]}.
+Importantly, PLIER retains some gene modules that are not aligned with pathways, allowing researchers to distinguish LVs that represent either known patterns, technical artifacts or potential novel biological insights {[}\protect\hyperlink{ref-dg9nKuy0}{51}{]}.
 
-PLIER has been used to integrate large-scale gene expression data using transfer learning across multiple cell types and conditions {[}\protect\hyperlink{ref-14rnBunuZ}{62}{]}.
-By leveraging large datasets like recount2 {[}\protect\hyperlink{ref-GM90STke}{63}{]}, it enhances the accuracy of inferred gene modules by identifying patterns consistent across diverse data.
+PLIER has been used to integrate large-scale gene expression data using transfer learning across multiple cell types and conditions {[}\protect\hyperlink{ref-14rnBunuZ}{63}{]}.
+By leveraging large datasets like recount2 {[}\protect\hyperlink{ref-6SPTvFXq}{64}{]}, it enhances the accuracy of inferred gene modules by identifying patterns consistent across diverse data.
 This application addresses the limitation of small datasets, such as those for rare diseases, by training a PLIER model on a large public data compendium and applying it to smaller datasets, resulting in models that align well with biological factors.
 This approach improves the interpretability and reliability of gene expression patterns, particularly in complex experimental contexts.
+
 PLIER can be used in specific cohort contexts, focusing on dissecting traits within smaller, more homogenous datasets.
-Nandi et al.~(2024) demonstrated its utility on the Human Trisome Project (HTP) {[}\protect\hyperlink{ref-v5DtVejF}{64}/{]}, identifying gene modules that mediate the effect of karyotype on body mass index in Down syndrome, highlighting key regulators such as \emph{GPX1} and \emph{MCL1}.
+Nandi et al.~(2024) demonstrated its utility on the Human Trisome Project (HTP) {[}\protect\hyperlink{ref-v5DtVejF}{65}{]}, identifying gene modules that mediate the effect of karyotype on body mass index in Down syndrome, highlighting key regulators such as \emph{GPX1} and \emph{MCL1}.
 This allows it to capture condition-specific regulatory mechanisms, but at the expense of broader generalizability, making it a powerful tool for understanding unique biological processes within specialized groups.
+
 PLIER, initially designed for human gene expression data, has been successfully adapted for use in other species, demonstrating its versatility across different biological contexts.
 By applying the framework to model organisms, researchers can infer gene modules in species beyond humans, expanding the utility of PLIER for comparative studies and translational research.
-One such adaptation is MousiPLIER, which tailors the PLIER framework for use in mouse models, a widely used system in biomedical research {[}\protect\hyperlink{ref-1CDQw6VDO}{65}{]}.
+One such adaptation is MousiPLIER, which tailors the PLIER framework for use in mouse models, a widely used system in biomedical research {[}\protect\hyperlink{ref-1CDQw6VDO}{66}{]}.
 
 \hypertarget{deep-learning-methods-autoencoders}{%
 \subsubsection{Deep learning methods: autoencoders}\label{deep-learning-methods-autoencoders}}
 
 In contrast to linear methods, non-linear models such as deep learning (DL) approaches excel at capturing complex patterns in data.
-This strength has been demonstrated in various fields, including predicting gene expression directly from sequence data {[}\protect\hyperlink{ref-1HNaN8NTb}{66},\protect\hyperlink{ref-CdrNvVBn}{67},\protect\hyperlink{ref-Gy0Zkruj}{68}{]}.
+This strength has been demonstrated in various fields, including predicting gene expression directly from sequence data {[}\protect\hyperlink{ref-1HNaN8NTb}{67},\protect\hyperlink{ref-CdrNvVBn}{68},\protect\hyperlink{ref-Gy0Zkruj}{69}{]}.
 
 DL models are also highly effective in unsupervised settings such as inferring gene modules.
-Specifically, DL methods like autoencoders {[}\protect\hyperlink{ref-NLVTJ9Lj}{69}{]}, which utilize neural networks to learn compressed representations, can capture both linear and nonlinear patterns between genes.
+Specifically, DL methods like autoencoders {[}\protect\hyperlink{ref-NLVTJ9Lj}{70}{]}, which utilize neural networks to learn compressed representations, can capture both linear and nonlinear patterns between genes.
 This makes autoencoders particularly suited for uncovering gene modules and efficiently handling high-dimensional datasets.
-For instance, variational autoencoders (VAEs) (\textbf{Figure \ref{fig:fig3}b)}) enhance this process by encoding data into a continuous latent space, enabling dimensionality reduction and the generation of new data.
+For instance, variational autoencoders (VAEs) (\textbf{Figure \ref{fig:fig3}\emph{b}}) enhance this process by encoding data into a continuous latent space, enabling dimensionality reduction and the generation of new data.
 However, this increased power to capture more general patterns has a major tradeoff: interpretability.
-To overcome this, interpretable VAE models like the Pathway Module VAE (pmVAE) {[}\protect\hyperlink{ref-nGVsOd2S}{70}{]}, expiMap {[}\protect\hyperlink{ref-JkqcQgM7}{71}{]}, and VEGA {[}\protect\hyperlink{ref-170T6ip47}{72}{]} integrate biological pathway information into the decoder, which improves interpretability, thus making these approaches function as linear dimensionality reduction methods.
-(\textbf{Figure \ref{fig:fig3}b)}).
+To overcome this, interpretable VAE models like the Pathway Module VAE (pmVAE) {[}\protect\hyperlink{ref-nGVsOd2S}{71}{]}, expiMap {[}\protect\hyperlink{ref-JkqcQgM7}{72}{]}, and VEGA {[}\protect\hyperlink{ref-170T6ip47}{73}{]} integrate biological pathway information into the decoder, which improves interpretability, thus making these approaches function as linear dimensionality reduction methods.
+(\textbf{Figure \ref{fig:fig3}\emph{b}}).
 
 From now on, we refer to a gene module as a pattern extracted by any unsupervised approach (such as PLIER, GenomicSuperSignature, VAE, clustering, etc.) applied to gene expression data, which could be a latent variable or other types of gene cluster.
 
@@ -395,13 +408,13 @@ From now on, we refer to a gene module as a pattern extracted by any unsupervise
 \centering
 \includegraphics[width=1\textwidth,height=\textheight]{images/fig4.svg}
 \caption{\textbf{An integrative, gene module-based approach for genetic studies.}
-Each panel shows a component of the PhenoPLIER framework {[}\protect\hyperlink{ref-NM3rHx1i}{73}{]}.
-\textbf{a)} First, latent variables (LVs) or gene modules are learned from transcriptome data using the PLIER matrix factorization method.
+Each panel shows a component of the PhenoPLIER framework {[}\protect\hyperlink{ref-NM3rHx1i}{74}{]}.
+\emph{(a)} First, latent variables (LVs) or gene modules are learned from transcriptome data using the PLIER matrix factorization method.
 PLIER generates matrix \(\mathbf{Z}\), which has gene weights for each module, and matrix \(\mathbf{B}\), which has the samples in the latent space.
-\textbf{b)} Schematic of gene-trait associations from TWAS and gene-drug scores from LINCS L1000 being projected into the latent space for a joint analysis.
-\textbf{c)} Schematic of a gene module-based drug reporposing framework, where the projection of TWAS and LINCS L1000 data is used to compute a drug-disease score.
-\textbf{d)} Schematic of a regression model that tests whether genes that belong to a module (using a column of \(\mathbf{Z}\)) tend to be more strongly associated with a trait (using \(p\)-values from TWAS).
-\textbf{e)} (top) Example of a gene module identified as LV246 analyzed in {[}\protect\hyperlink{ref-NM3rHx1i}{73}{]}.
+\emph{(b)} Schematic of gene-trait associations from TWAS and gene-drug scores from LINCS L1000 being projected into the latent space for a joint analysis.
+\emph{(c)} Schematic of a gene module-based drug reporposing framework, where the projection of TWAS and LINCS L1000 data is used to compute a drug-disease score.
+\emph{(d)} Schematic of a regression model that tests whether genes that belong to a module (using a column of \(\mathbf{Z}\)) tend to be more strongly associated with a trait (using \(p\)-values from TWAS).
+\emph{(e)} (top) Example of a gene module identified as LV246 analyzed in {[}\protect\hyperlink{ref-NM3rHx1i}{74}{]}.
 \emph{DGAT2} and \emph{ACACA}, found in a CRISPR screen to be linked to lipid metabolism and potential core genes, were among the top 15 genes in this module.
 Using metadata from the top samples for LV246 from \(\mathbf{B}\), the module was found to be expressed mainly in adipose tissue, and liver and astrocyes were part of the top 10 cell types and tissues.
 Using the regression model depicted in d), this module was significantly associated with high cholesterol, tryglycerides, LDL cholesterol, cholesterol lowering medication, Alzheimer's disease and dementia in the discovery cohort (UK Biobank), and high cholesterol and memory loss in the replication cohort (eMERGE).
@@ -416,54 +429,54 @@ In this section, we describe a gene module-based approach aimed at identifying p
 The underlying hypothesis of this approach is that biologically meaningful, disease-relevant gene-gene links will be revealed when different yet incomplete data modalities are integrated.
 In particular, we show examples on how the integration of gene modules with gene-trait associations and gene-drug data highlight core genes, disease-relevant molecular processes and drug's mechanisms of action.
 
-The PhenoPLIER framework {[}\protect\hyperlink{ref-NM3rHx1i}{73}{]} is a recent computational framework that implements this gene module-based approach.\textbf{
-PhenoPLIER can integrate gene modules extracted from any transcriptome data with gene-trait associations from TWAS and drug-induced transcriptional profiles (}Figure {[}\protect\hyperlink{ref-fig4}{\textbf{fig4?}}{]}\textbf{).
-The approach integrates different molecular data sources by using a latent space derived from transcriptome data where each latent variable (LV) is a gene module (}Figure {[}\protect\hyperlink{ref-fig4}{\textbf{fig4?}}{]}a)\textbf{).
+The PhenoPLIER framework {[}\protect\hyperlink{ref-NM3rHx1i}{74}{]} is a recent computational framework that implements this gene module-based approach.
+PhenoPLIER can integrate gene modules extracted from any transcriptome data with gene-trait associations from TWAS and drug-induced transcriptional profiles (\textbf{Figure \ref{fig:fig4}}).
+The approach integrates different molecular data sources by using a latent space derived from transcriptome data where each latent variable (LV) is a gene module (\textbf{Figure \ref{fig:fig4}\emph{a}}).
 Then, different data modalities are integrated into this common latent space for a joint analysis, which was shown to detect important genes missed by standard methods, capture relevant trait clusters and predict drug-disease links more accurately than state-of-the-art drug repurposing approaches.
-An advantage of PhenoPLIER is interpretability: it uses gene module models from PLIER (}Figure {[}\protect\hyperlink{ref-fig4}{\textbf{fig4?}}{]}a)**), which provides not only information about which genes belong to a module but also what are the top samples where those genes are expressed.
+An advantage of PhenoPLIER is interpretability: it uses gene module models from PLIER (\textbf{Figure \ref{fig:fig4}\emph{a}}), which provides not only information about which genes belong to a module but also what are the top samples where those genes are expressed.
 If present, by looking at the metadata of the RNA-seq datasets, it is possible to infer if those samples represent consistent conditions such as tissues, cell types, or other more complex contexts.
 
-In PhenoPLIER, this latent transcriptional space is described by 987 gene modules derived from recount2 {[}\protect\hyperlink{ref-14rnBunuZ}{62},\protect\hyperlink{ref-6SPTvFXq}{74}{]} (Figure {[}\protect\hyperlink{ref-fig4}{\textbf{fig4?}}{]}a), a large and highly heterogeneous expression compendia.
+In PhenoPLIER, this latent transcriptional space is described by 987 gene modules derived from recount2 {[}\protect\hyperlink{ref-14rnBunuZ}{63},\protect\hyperlink{ref-6SPTvFXq}{64}{]} (Figure {[}\protect\hyperlink{ref-fig4}{\textbf{fig4?}}{]}a), a large and highly heterogeneous expression compendia.
 Given the heterogeneity of the dataset, these gene modules can capture genes expressed across different contexts such as tissues, cell types (across differentiation stages), different disease states or stimuli.
 These contexts can be extracted from sample metadata.
 PhenoPLIER incorporates gene-trait associations computed with the PrediXcan family of TWAS methods {[}\protect\hyperlink{ref-Z8bvDdVq}{24},\protect\hyperlink{ref-vLyTudUB}{27},\protect\hyperlink{ref-1FFzCXo1s}{28}{]} on two different cohorts: the UK Biobank {[}\protect\hyperlink{ref-nmJxPpE5}{75},\protect\hyperlink{ref-lY5ln3dB}{76}{]} as discovery, and the Electronic Medical Records and Genomics (eMERGE) network phase III {[}\protect\hyperlink{ref-wfqjCerX}{77},\protect\hyperlink{ref-gZAOkumx}{78}{]} as replication.
-Gene-trait associations are then projected into the latent space (\textbf{Figure {[}\protect\hyperlink{ref-fig4}{\textbf{fig4?}}{]}b)}) where cluster analysis on traits was performed and expected and stable groupings of traits were detected, such as asthma and allergies, heel bone-densitometry measurements, hematological assays on red blood cells, physical measures, keratometry measurements, assays on white blood cells and platelets, skin and hair color traits, autoimmune disorders, and cardiovascular diseases.
-The cardiovascular grouping also included other cardiovascular-related traits such as hand-grip strength {[}\protect\hyperlink{ref-doi:10.1016ux2fS0140-6736}{\textbf{doi:10.1016/S0140-6736?}}{]}, and environmental/behavioral factors such as physical activity and diet.
+Gene-trait associations are then projected into the latent space (\textbf{Figure \ref{fig:fig4}\emph{b}}) where cluster analysis on traits was performed and expected and stable groupings of traits were detected, such as asthma and allergies, heel bone-densitometry measurements, hematological assays on red blood cells, physical measures, keratometry measurements, assays on white blood cells and platelets, skin and hair color traits, autoimmune disorders, and cardiovascular diseases.
+The cardiovascular grouping also included other cardiovascular-related traits such as hand-grip strength {[}\protect\hyperlink{ref-WIZh9VF9}{79}{]}, and environmental/behavioral factors such as physical activity and diet.
 The PhenoPLIER approach also proposed a methodology based on interpretable classifiers to detect which gene modules are driving the different clusters.
 For example, gene modules associated with the red blood cells cluster were 1) well-aligned to pathways related to early progenitors of the erythrocytes lineage, 2) predominantly expressed in early differentiation stages of erythropoiesis and 3) strongly associated with different assays on red blood cells from TWAS.
 Other gene modules were associated with the keratometry measures grouping and expressed in corneal endothelial cells, and the grouping with autoimmune disorders was driven by gene modules expressed in T cells.
 These results show that shared patterns exist between prior knowledge (pathways), gene expression, and gene-trait associations from TWAS.
 
-In PhenoPLIER, information about gene-drug links is incorporated from transcriptional responses to small molecule perturbations profiled in LINCS L1000 {[}\protect\hyperlink{ref-F7lIlh2N}{79}{]}.
-This information was integrated with gene-trait associations to build a gene module-based drug repurposing framework with the purpose of assessing how substituting LVs for single genes predicted known treatment-disease relationships better (\textbf{Figure {[}\protect\hyperlink{ref-fig4}{\textbf{fig4?}}{]}c))}).
-Based on an established drug repurposing strategy that matches reversed transcriptome patterns between genes and drug-induced perturbations {[}\protect\hyperlink{ref-mZjkE1xU}{80},\protect\hyperlink{ref-doi:10.1126ux2fscitranslmed.300264}{\textbf{doi:10.1126/scitranslmed.300264?}}{]}, in PhenoPLIER the authors adapted an existing drug repurposing framework {[}\protect\hyperlink{ref-17oeJ0CXy}{81}{]} that uses single gene information from TWAS to gene modules.
-Then, these two approaches, the single gene-based and gene module-based one, were compared using a manually-curated gold standard set of drug-disease medical indications {[}\protect\hyperlink{ref-O21tn8vf}{82},\protect\hyperlink{ref-10KA5jTBQ}{83}{]} for 322 drugs across 53 diseases to evaluate the prediction performance.
+In PhenoPLIER, information about gene-drug links is incorporated from transcriptional responses to small molecule perturbations profiled in LINCS L1000 {[}\protect\hyperlink{ref-F7lIlh2N}{80}{]}.
+This information was integrated with gene-trait associations to build a gene module-based drug repurposing framework with the purpose of assessing how substituting LVs for single genes predicted known treatment-disease relationships better (\textbf{Figure \ref{fig:fig4}\emph{c}}).
+Based on an established drug repurposing strategy that matches reversed transcriptome patterns between genes and drug-induced perturbations {[}\protect\hyperlink{ref-1ClBKizD7}{81},\protect\hyperlink{ref-mZjkE1xU}{82}{]}, in PhenoPLIER the authors adapted an existing drug repurposing framework {[}\protect\hyperlink{ref-17oeJ0CXy}{83}{]} that uses single gene information from TWAS to gene modules.
+Then, these two approaches, the single gene-based and gene module-based one, were compared using a manually-curated gold standard set of drug-disease medical indications {[}\protect\hyperlink{ref-O21tn8vf}{84},\protect\hyperlink{ref-10KA5jTBQ}{85}{]} for 322 drugs across 53 diseases to evaluate the prediction performance.
 The gene module-based approach outperformed the single gene-based one with an area under the curve of 0.63 vs 0.57, and average precision of 0.86 vs 0.64.
 Although the performance difference in this task was not large, the authors noted that the gene module-based approach represents a compressed version of the entire set of single gene-based results, and the higher performance implied that the low-dimensional latent space used (which necessarily misses some information) captured biologically meaningful gene-gene patterns.
-Additionally, since gene modules represent interpretable features, the authors found that lipid-related gene modules expressed in adipose tissue and liver were among the top modules contributing to the prediction of high cholesterol and Nicotinic acid (Niacin, which can treat lipid disorders), potentially resembling known mechanisms of action of Niacin such as decreasing the production of low-density lipoproteins (LDL) either by modulating triglyceride synthesis in hepatocytes or by inhibiting adipocyte triglyceride lipolysis {[}\protect\hyperlink{ref-LVihFr3g}{84}{]}.
+Additionally, since gene modules represent interpretable features, the authors found that lipid-related gene modules expressed in adipose tissue and liver were among the top modules contributing to the prediction of high cholesterol and Nicotinic acid (Niacin, which can treat lipid disorders), potentially resembling known mechanisms of action of Niacin such as decreasing the production of low-density lipoproteins (LDL) either by modulating triglyceride synthesis in hepatocytes or by inhibiting adipocyte triglyceride lipolysis {[}\protect\hyperlink{ref-LVihFr3g}{86}{]}.
 
-The PhenoPLIER framework is also able to compute an association between a gene module and a trait by integrating single gene TWAS results (\textbf{Figure {[}\protect\hyperlink{ref-fig4}{\textbf{fig4?}}{]}d)}).
-The association is computed using a regression model that tests whether genes that strongly belong to a module (using a column in matrix Z in (\textbf{Figure {[}\protect\hyperlink{ref-fig4}{\textbf{fig4?}}{]}a)}) are also strongly associated with the trait (using a row in the yellow TWAS matrix in \textbf{Figure {[}\protect\hyperlink{ref-fig4}{\textbf{fig4?}}{]}b)}.
+The PhenoPLIER framework is also able to compute an association between a gene module and a trait by integrating single gene TWAS results (\textbf{Figure \ref{fig:fig4}\emph{d}}).
+The association is computed using a regression model that tests whether genes that strongly belong to a module (using a column in matrix Z in (\textbf{Figure \ref{fig:fig4}\emph{a}}) are also strongly associated with the trait (using a row in the yellow TWAS matrix in \textbf{Figure \ref{fig:fig4}\emph{b}}.
 For validation, the study conducted a CRISPR Cas9 screen in the HepG2 (liver) cell line to identify genes associated with lipid regulation, and found a high-confidence lipid-increasing gene set that included genes \emph{DGAT2} and \emph{ACACA}, which fit the definition of core genes.
-The gene module identified as LV246 (\textbf{Figure {[}\protect\hyperlink{ref-fig4}{\textbf{fig4?}}{]}e)}) was the module most strongly enriched with this lipid-increasing gene set, containing \emph{DGAT2} and \emph{ACACA} among the top 15 genes most strongly connected with the module.
-LV246 was found to be 1) aligned with lipid metabolism pathways, 2) expressed in adipose tissue, liver, astrocytes, among others, and 3) significantly associated with lipid-related traits in the discovery cohort (UK Biobank; \textbf{Figure {[}\protect\hyperlink{ref-fig4}{\textbf{fig4?}}{]}e)}) and replication cohort (eMERGE), such as high cholesterol, triglycerides, LDL cholesterol and cholesterol lowering medications in the UK Biobank, and high cholesterol (hyperlipidemia, phecode 272.11) in eMERGE.
-Although a direct link between lipids and \emph{DGAT2} and \emph{ACACA} was found by the CRISPR screening, the authors noted that these genes lack strong TWAS associations with any of these lipid-related traits (\textbf{Figure {[}\protect\hyperlink{ref-fig4}{\textbf{fig4?}}{]}e)}, bottom).
-The GWAS Catalog shows that genetic variants in \emph{DGAT2} were found to be associated with cholesterol levels {[}\protect\hyperlink{ref-xJjWGVyN}{85}{]}, but \emph{ACACA} lacks any association with these phenotypes {[}\protect\hyperlink{ref-1GM0PmkWn}{86}{]}.
+The gene module identified as LV246 (\textbf{Figure \ref{fig:fig4}\emph{e}}) was the module most strongly enriched with this lipid-increasing gene set, containing \emph{DGAT2} and \emph{ACACA} among the top 15 genes most strongly connected with the module.
+LV246 was found to be 1) aligned with lipid metabolism pathways, 2) expressed in adipose tissue, liver, astrocytes, among others, and 3) significantly associated with lipid-related traits in the discovery cohort (UK Biobank; \textbf{Figure \ref{fig:fig4}\emph{e}}) and replication cohort (eMERGE), such as high cholesterol, triglycerides, LDL cholesterol and cholesterol lowering medications in the UK Biobank, and high cholesterol (hyperlipidemia, phecode 272.11) in eMERGE.
+Although a direct link between lipids and \emph{DGAT2} and \emph{ACACA} was found by the CRISPR screening, the authors noted that these genes lack strong TWAS associations with any of these lipid-related traits (\textbf{Figure \ref{fig:fig4}\emph{e}}, bottom).
+The GWAS Catalog shows that genetic variants in \emph{DGAT2} were found to be associated with cholesterol levels {[}\protect\hyperlink{ref-xJjWGVyN}{87}{]}, but \emph{ACACA} lacks any association with these phenotypes {[}\protect\hyperlink{ref-1GM0PmkWn}{88}{]}.
 A potential explanation provided by the study says that, based on the omnigenic model, \emph{DGAT2} and \emph{ACACA} could represent core genes, and most of the other genes in LV246 might be peripheral genes that potentially \emph{trans} regulate them.
 This example suggests that strong GWAS hits could represent either peripheral or core genes, and that some core genes might be missed by GWAS alone.
 
-Additionally, another interesting trait association in module LV246 was with Alzheimer's disease (AD) and dementia in the UK Biobank, and memory loss (phecode 292.3) in eMERGE, which tends to worsen as AD progresses {[}\protect\hyperlink{ref-Vxi0ejah}{87}{]}.
-The association with AD is relevant since this module was also found to be expressed to some degree in astrocytes, and has \emph{APOE} as one of the top genes (\textbf{Figure {[}\protect\hyperlink{ref-fig4}{\textbf{fig4?}}{]}e)}, bottom).
-\emph{APOE}, the gene most strongly associated with late-onset AD {[}\protect\hyperlink{ref-hn3T60wf}{88}{]}, encodes apolipoprotein E (ApoE), which is involved in lipid transport in the brain {[}\protect\hyperlink{ref-10ZgydXh1}{89}{]}, a mechanism that, when dysregulated, may play an important role in AD pathogenesis.
-From TWAS alone, it can be seen that \emph{APOE} is strongly associated and colocalized with the same traits as LV246 (\textbf{Figure {[}\protect\hyperlink{ref-fig4}{\textbf{fig4?}}{]}e)}, bottom).
-However, a recent systematic survey across clinical trials that evaluate ApoE-targeted drugs for AD found modest to no efficacy in the treatment for this disease {[}\protect\hyperlink{ref-doi:10.1212ux2fWNL.00000000002048}{\textbf{doi:10.1212/WNL.00000000002048?}}{]}.
+Additionally, another interesting trait association in module LV246 was with Alzheimer's disease (AD) and dementia in the UK Biobank, and memory loss (phecode 292.3) in eMERGE, which tends to worsen as AD progresses {[}\protect\hyperlink{ref-Vxi0ejah}{89}{]}.
+The association with AD is relevant since this module was also found to be expressed to some degree in astrocytes, and has \emph{APOE} as one of the top genes (\textbf{Figure \ref{fig:fig4}\emph{e}}, bottom).
+\emph{APOE}, the gene most strongly associated with late-onset AD {[}\protect\hyperlink{ref-hn3T60wf}{90}{]}, encodes apolipoprotein E (ApoE), which is involved in lipid transport in the brain {[}\protect\hyperlink{ref-10ZgydXh1}{91}{]}, a mechanism that, when dysregulated, may play an important role in AD pathogenesis.
+From TWAS alone, it can be seen that \emph{APOE} is strongly associated and colocalized with the same traits as LV246 (\textbf{Figure \ref{fig:fig4}\emph{e}}, bottom).
+However, a recent systematic survey across clinical trials that evaluate ApoE-targeted drugs for AD found modest to no efficacy in the treatment for this disease {[}\protect\hyperlink{ref-UadQwQsF}{92}{]}.
 Although there is strong evidence that \emph{APOE} is a causal gene for AD, it still remains to be determined whether it represents a core gene or plays a more peripheral role.
 A gene module-based approach might help prioritize core genes that remain elusive when using standard single-gene strategies.
 
 Another approach to compute an association between gene modules and traits is MAGMA gene-set analysis {[}\protect\hyperlink{ref-19XiXgYmd}{13}{]}.
 Actually, the regression model used by PhenoPLIER is based on MAGMA.
 The difference is that PhenoPLIER uses gene-trait association from the PrediXcan family of TWAS methods, while MAGMA does not incorporate eQTL data and it uses a proximity-based approach in linking variants with genes.
-Another difference is that MAGMA allows to perform conditional and interaction gene-set analysis to account for correlated gene modules, and the approach was found to be useful in detecting novel pathways in the context of blood pressure {[}\protect\hyperlink{ref-Om8ZhS06}{90}{]}.
+Another difference is that MAGMA allows to perform conditional and interaction gene-set analysis to account for correlated gene modules, and the approach was found to be useful in detecting novel pathways in the context of blood pressure {[}\protect\hyperlink{ref-Om8ZhS06}{93}{]}.
 The use of eQTL data by TWAS, however, might fit better the gene regulatory network assumptions of the omnigenic model than proximity-based approaches like MAGMA.
 
 Approaches based on gene modules have the potential to go beyond prior knowledge and capture patterns that might be unique to different disease datasets.
@@ -478,10 +491,10 @@ Another limitation is the potential difficulty in determining the contexts in wh
 In the example of LV256 and lipid-related traits, the module was also found to be expressed, with different degrees, in tumor samples, skin, skeletal muscle and other contexts that might be hard to interpret.
 The interpretability advantage is also limited by the quality of the RNA-seq metadata.
 Additionally, compared with GWAS and TWAS, where the unit is an objective molecular entity (a SNP or gene in a particular chromosome and position), a gene module not only might or might not exist, but the algorithm could fail to capture all gene modules relevant for a particular study, which could bias any downstream analysis.
-Finally, a gene module, equivalent to a gene co-expression network, represents a set of correlated genes' expression in some conditions, but it does not provide information about gene-gene links (it's not directed) and could include many false positives {[}\protect\hyperlink{ref-jVQ2rMqc}{91}{]}.
+Finally, a gene module, equivalent to a gene co-expression network, represents a set of correlated genes' expression in some conditions, but it does not provide information about gene-gene links (it's not directed) and could include many false positives {[}\protect\hyperlink{ref-jVQ2rMqc}{94}{]}.
 Future approaches should also incorporate other data modalities to refine a gene module such as transcription factor binding data or chromatin accessibility.
 
-Although there are several limitations when we only correlate gene pairs across RNA-seq samples {[}\protect\hyperlink{ref-jVQ2rMqc}{91}{]}, integrating gene networks with other data modalities have the potential to identify disease-relevant molecular mechanisms {[}\protect\hyperlink{ref-dg9nKuy0}{50}{]}.
+Although there are several limitations when we only correlate gene pairs across RNA-seq samples {[}\protect\hyperlink{ref-jVQ2rMqc}{94}{]}, integrating gene networks with other data modalities have the potential to identify disease-relevant molecular mechanisms {[}\protect\hyperlink{ref-dg9nKuy0}{51}{]}.
 Here we described an approach that integrates gene modules with other data sources such as gene-trait and gene-drug information.
 The underlying hypothesis of this approach is that biologically meaningful gene-gene links will be captured when different data modalities that at least partially capture these links are integrated.
 In our examples, these data modalities are gene modules from transcriptome data, single gene-trait associations and single gene-drug links via drug-induced transcriptional profiles.
@@ -493,7 +506,7 @@ We also showed that if the unsupervised approach used to extract a gene module i
 Genomics plays an important role in realizing the promise of personalized medicine, although not without significant challenges.
 In this review, we discuss different molecular phenotypes, theoretical models and computational approaches that offer different mechanistic views on how genetic variation leads to phenotypic changes.
 To fully understand the molecular basis of human complex traits, it is essential to integrate diverse datasets and unravel the complex structures of biological networks.
-Gene co-expression networks, represented as gene modules, have been successfully used across a variety of fields {[}\protect\hyperlink{ref-CqvNaEqc}{92},\protect\hyperlink{ref-r8alvfcC}{93},\protect\hyperlink{ref-E1tpJnqG}{94}{]}.
+Gene co-expression networks, represented as gene modules, have been successfully used across a variety of fields {[}\protect\hyperlink{ref-CqvNaEqc}{95},\protect\hyperlink{ref-r8alvfcC}{96},\protect\hyperlink{ref-E1tpJnqG}{97}{]}.
 Here, we reviewed the main components of a gene module-based approach that leverages gene co-expression patterns learned from large transcriptomic datasets to integrate GWAS, TWAS, and drug-induced transcriptional profiles.
 Drawing on modern theories of the genetic architecture of complex traits, we show that these approaches can prioritize core genes and create interpretable frameworks for drug repurposing.
 
@@ -501,12 +514,12 @@ Gene-gene interactions are a key component in the omnigenic model.
 While the integration of gene modules with gene-trait associations and gene-drug data has been a valuable first step, it represents only a fraction of the complexity inherent in biological systems.
 Biological networks extend far beyond these initial layers, involving intricate, multilayered systems such as histone modifications, transcription factor binding sites, \emph{cis}-regulatory networks, and chromatin conformation---all of which contribute to the co-regulation of gene transcription.
 Moreover, this complexity includes protein-protein interaction networks, which form the backbone of signaling pathways and facilitate the transmission of signals both within and between cells.
-Additionally, metabolic networks influence enzyme activities and metabolite levels, propagating changes that affect numerous other molecules {[}\protect\hyperlink{ref-dg9nKuy0}{50},\protect\hyperlink{ref-KNAOTAKP}{95}{]}.
+Additionally, metabolic networks influence enzyme activities and metabolite levels, propagating changes that affect numerous other molecules {[}\protect\hyperlink{ref-dg9nKuy0}{51},\protect\hyperlink{ref-KNAOTAKP}{98}{]}.
 Incorporating and quantifying these additional biological layers will enhance gene module construction, offering a more comprehensive and accurate representation of the intricate nature of real biological networks.
 
 A gene module approach that integrates genetic studies has several important inputs: 1) gene expression data relevant to the research problem, such as large heterogeneous datasets that span over different conditions, or otherwise focused, smaller dataset that capture more subtle, unique, and disease-specific gene modules; 2) unbiased and relevant prior information that can be used during or after module extraction to distinguish relevant transcriptomic signatures from technical noise; and 3) reliable single variant/gene associations with the complex traits of interest.
 Therefore, it is important to emphasize that a gene module approach is by no means a replacement of current single variant/gene approaches.
-The development of new and improved statistical approaches that detect more causal genes, regardless of whether they have a direct or indirect effect on the trait, while reducing false positives {[}\protect\hyperlink{ref-i8Qjy4pw}{96}{]} will only improve other approaches that rely on them, such as gene module-based methods described here.
+The development of new and improved statistical approaches that detect more causal genes, regardless of whether they have a direct or indirect effect on the trait, while reducing false positives {[}\protect\hyperlink{ref-i8Qjy4pw}{99}{]} will only improve other approaches that rely on them, such as gene module-based methods described here.
 In this review, we show that the identification of peripheral genes is key to prioritize core genes that might represent more attractive drug targets, strongly suggesting that the mechanism proposed by the omnigenic model, i.e., that gene regulatory networks are highly interconnected and genes have specific roles with more direct or indirect effects on traits, is useful.
 
 As the demand for analyzing large datasets and uncovering complex biological patterns grows, the need for faster and more efficient computational methods becomes increasingly critical.
@@ -514,14 +527,14 @@ Future bioinformatics tools must not only handle the scale of these tasks but al
 To meet these challenges, we are focusing on accelerating workflows with graphics processing unit (GPU) technology and exploring new platforms, such as WebAssembly, to bring powerful tools directly to users' browsers.
 
 Leveraging GPU acceleration holds great promise for significantly speeding up bioinformatics workflows.
-Research has shown that GPU technology can provide remarkable performance boosts, with speed improvements reaching up to 1000x for specific tasks {[}\protect\hyperlink{ref-1EIbaYHGq}{97}{]}.
-Integrating GPU-aware libraries like CuPy {[}\protect\hyperlink{ref-JMQXR7X9}{98}{]} and RAPIDS {[}\protect\hyperlink{ref-wPsNXL1Q}{99}/{]} into our tools allows for seamless performance upgrades in established frameworks such as NumPy {[}\protect\hyperlink{ref-1LexfAxj}{100}{]} and Scikit-learn {[}\protect\hyperlink{ref-AujvwLp6}{101}{]}.
+Research has shown that GPU technology can provide remarkable performance boosts, with speed improvements reaching up to 1000x for specific tasks {[}\protect\hyperlink{ref-1EIbaYHGq}{100}{]}.
+Integrating GPU-aware libraries like CuPy {[}\protect\hyperlink{ref-JMQXR7X9}{101}{]} and RAPIDS {[}\protect\hyperlink{ref-wPsNXL1Q}{102}/{]} into our tools allows for seamless performance upgrades in established frameworks such as NumPy {[}\protect\hyperlink{ref-1LexfAxj}{103}{]} and Scikit-learn {[}\protect\hyperlink{ref-AujvwLp6}{104}{]}.
 As our tools evolve, we anticipate developing custom GPU kernels, further enhancing speed and optimizing them for specific computational needs.
-Advanced GPU programming with PyCUDA {[}\protect\hyperlink{ref-b5xmRoLZ}{102}{]} could also be key to future optimizations.
+Advanced GPU programming with PyCUDA {[}\protect\hyperlink{ref-b5xmRoLZ}{105}{]} could also be key to future optimizations.
 
-Another promising direction is utilizing WebAssembly {[}\protect\hyperlink{ref-ITQaZvrQ}{103}{]} to make bioinformatics tools more portable and accessible.
+Another promising direction is utilizing WebAssembly {[}\protect\hyperlink{ref-ITQaZvrQ}{106}{]} to make bioinformatics tools more portable and accessible.
 We aim to adapt existing bioinformatics applications into web-based tools that can be run directly in the browser, providing users with full control over their data and eliminating the need for data transfer over networks.
-Projects like Biowasm {[}\protect\hyperlink{ref-Z0f406Zs}{104}/{]}, Kana {[}\protect\hyperlink{ref-1DswCJYT0}{105}{]}, and VirtualWasm {[}\protect\hyperlink{ref-WhJVE7a4}{106}{]} have already demonstrated the potential of WebAssembly for genomics and single-cell analysis, and we plan to build on this foundation.
+Projects like Biowasm {[}\protect\hyperlink{ref-Z0f406Zs}{107}/{]}, Kana {[}\protect\hyperlink{ref-1DswCJYT0}{108}{]}, and VirtualWasm {[}\protect\hyperlink{ref-WhJVE7a4}{109}{]} have already demonstrated the potential of WebAssembly for genomics and single-cell analysis, and we plan to build on this foundation.
 By executing statistical analyses, computations, and visualizations directly on the user's device, WebAssembly will not only address privacy and compliance concerns but also reduce server costs and computational load by shifting the workload to the client side.
 
 Future innovations in GPU acceleration and WebAssembly will transform how bioinformatics tools are developed and deployed, leading to faster, more accessible solutions for researchers worldwide.
@@ -822,159 +835,159 @@ causes preaxial polydactyly}
 \CSLBlock{Naomi R Wray, Cisca Wijmenga, Patrick F Sullivan, Jian Yang, Peter M Visscher} \emph{Cell} (2018-06) \url{https://doi.org/gdqcd4}
 \CSLBlock{DOI: \href{https://doi.org/10.1016/j.cell.2018.05.051}{10.1016/j.cell.2018.05.051} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/29906445}{29906445}}}
 
-\leavevmode\vadjust pre{\hypertarget{ref-HFRaLwGQ}{}}%
+\leavevmode\vadjust pre{\hypertarget{ref-javtAG7r}{}}%
 \CSLLeftMargin{49. }%
+\CSLRightInline{\textbf{The Omnigenic Model: Response from the Authors}
+\CSLBlock{Journal of Psychiatry and Brain Science} (2017-10) \url{https://doi.org/g7tw5d}
+\CSLBlock{DOI: \href{https://doi.org/10.20900/jpbs.20170014s8}{10.20900/jpbs.20170014s8}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-HFRaLwGQ}{}}%
+\CSLLeftMargin{50. }%
 \CSLRightInline{\textbf{A saturated map of common genetic variants associated with human height}
 \CSLBlock{Loïc Yengo, Sailaja Vedantam, Eirini Marouli, Julia Sidorenko, Eric Bartell, Saori Sakaue, Marielisa Graff, Anders U Eliasen, Yunxuan Jiang, Sridharan Raghavan, \ldots{} Joel N Hirschhorn} \emph{Nature} (2022-10-12) \url{https://doi.org/gqz8jh}
 \CSLBlock{DOI: \href{https://doi.org/10.1038/s41586-022-05275-y}{10.1038/s41586-022-05275-y} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/36224396}{36224396} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9605867}{PMC9605867}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-dg9nKuy0}{}}%
-\CSLLeftMargin{50. }%
+\CSLLeftMargin{51. }%
 \CSLRightInline{\textbf{The great hairball gambit}
 \CSLBlock{Jonathan Flint, Trey Ideker} \emph{PLOS Genetics} (2019-11-26) \url{https://doi.org/g7p7wc}
 \CSLBlock{DOI: \href{https://doi.org/10.1371/journal.pgen.1008519}{10.1371/journal.pgen.1008519} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/31770365}{31770365} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6910700}{PMC6910700}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-1GlQtJ9Yz}{}}%
-\CSLLeftMargin{51. }%
+\CSLLeftMargin{52. }%
 \CSLRightInline{\textbf{Quantitative omnigenic model discovers interpretable genome-wide associations}
 \CSLBlock{Natália Ružičková, Michal Hledík, Gašper Tkačik} \emph{Cold Spring Harbor Laboratory} (2024-02-01) \url{https://doi.org/g7x6m2}
 \CSLBlock{DOI: \href{https://doi.org/10.1101/2024.02.01.578486}{10.1101/2024.02.01.578486}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Zm8nV5AC}{}}%
-\CSLLeftMargin{52. }%
+\CSLLeftMargin{53. }%
 \CSLRightInline{\textbf{High-throughput transcriptomics}
 \CSLBlock{Nunzio D'Agostino, Wenli Li, Dapeng Wang} \emph{Scientific Reports} (2022-11-29) \url{https://doi.org/g7p7vf}
 \CSLBlock{DOI: \href{https://doi.org/10.1038/s41598-022-23985-1}{10.1038/s41598-022-23985-1} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/36446824}{36446824} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9708670}{PMC9708670}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-SD886fuE}{}}%
-\CSLLeftMargin{53. }%
+\CSLLeftMargin{54. }%
 \CSLRightInline{\textbf{Gene module level analysis: identification to networks and dynamics}
 \CSLBlock{Xuewei Wang, Ertugrul Dalkic, Ming Wu, Christina Chan} \emph{Current Opinion in Biotechnology} (2008-10) \url{https://doi.org/fprfkv}
 \CSLBlock{DOI: \href{https://doi.org/10.1016/j.copbio.2008.07.011}{10.1016/j.copbio.2008.07.011} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/18725293}{18725293} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2615490}{PMC2615490}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-QUI8V4RY}{}}%
-\CSLLeftMargin{54. }%
+\CSLLeftMargin{55. }%
 \CSLRightInline{\textbf{Emergence of co-expression in gene regulatory networks}
 \CSLBlock{Wencheng Yin, Luis Mendoza, Jimena Monzon-Sandoval, Araxi O Urrutia, Humberto Gutierrez} \emph{PLOS ONE} (2021-04-01) \url{https://doi.org/g7p7wf}
 \CSLBlock{DOI: \href{https://doi.org/10.1371/journal.pone.0247671}{10.1371/journal.pone.0247671} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/33793561}{33793561} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8016302}{PMC8016302}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-K4KeL4gw}{}}%
-\CSLLeftMargin{55. }%
+\CSLLeftMargin{56. }%
 \CSLRightInline{\textbf{Gene regulatory network reconstruction: harnessing the power of single-cell multi-omic data}
 \CSLBlock{Daniel Kim, Andy Tran, Hani Jieun Kim, Yingxin Lin, Jean Yee Hwa Yang, Pengyi Yang} \emph{npj Systems Biology and Applications} (2023-10-19) \url{https://doi.org/gt65pb}
 \CSLBlock{DOI: \href{https://doi.org/10.1038/s41540-023-00312-6}{10.1038/s41540-023-00312-6} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/37857632}{37857632} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10587078}{PMC10587078}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Ko8gMp8P}{}}%
-\CSLLeftMargin{56. }%
+\CSLLeftMargin{57. }%
 \CSLRightInline{\textbf{The future is unsupervised}
 \CSLBlock{Casey S Greene} \emph{Science Translational Medicine} (2016-07-06) \url{https://doi.org/gg7qr3}
 \CSLBlock{DOI: \href{https://doi.org/10.1126/scitranslmed.aag3101}{10.1126/scitranslmed.aag3101}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-1BVbSrr6M}{}}%
-\CSLLeftMargin{57. }%
+\CSLLeftMargin{58. }%
 \CSLRightInline{\textbf{A comprehensive evaluation of module detection methods for gene expression data}
 \CSLBlock{Wouter Saelens, Robrecht Cannoodt, Yvan Saeys} \emph{Nature Communications} (2018-03-15) \url{https://doi.org/gc9x36}
 \CSLBlock{DOI: \href{https://doi.org/10.1038/s41467-018-03424-4}{10.1038/s41467-018-03424-4} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/29545622}{29545622} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5854612}{PMC5854612}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-YgLIM2bZ}{}}%
-\CSLLeftMargin{58. }%
+\CSLLeftMargin{59. }%
 \CSLRightInline{\textbf{An efficient, not-only-linear correlation coefficient based on clustering}
 \CSLBlock{Milton Pividori, Marylyn D Ritchie, Diego H Milone, Casey S Greene} \emph{Cell Systems} (2024-09) \url{https://doi.org/nhs4}
 \CSLBlock{DOI: \href{https://doi.org/10.1016/j.cels.2024.08.005}{10.1016/j.cels.2024.08.005} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/39243756}{39243756}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-1703M7bru}{}}%
-\CSLLeftMargin{59. }%
+\CSLLeftMargin{60. }%
 \CSLRightInline{\textbf{Module representatives for refining gene co-expression modules}
 \CSLBlock{Nathan Mankovich, Helene Andrews-Polymenis, David Threadgill, Michael Kirby} \emph{Physical Biology} (2023-05-04) \url{https://doi.org/g7p7vk}
 \CSLBlock{DOI: \href{https://doi.org/10.1088/1478-3975/acce8d}{10.1088/1478-3975/acce8d} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/37075776}{37075776}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Ki2ij7zE}{}}%
-\CSLLeftMargin{60. }%
+\CSLLeftMargin{61. }%
 \CSLRightInline{\textbf{Pathway-level information extractor (PLIER) for gene expression data}
 \CSLBlock{Weiguang Mao, Elena Zaslavsky, Boris M Hartmann, Stuart C Sealfon, Maria Chikina} \emph{Nature Methods} (2019-06-27) \url{https://doi.org/gf75g6}
 \CSLBlock{DOI: \href{https://doi.org/10.1038/s41592-019-0456-1}{10.1038/s41592-019-0456-1} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/31249421}{31249421} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7262669}{PMC7262669}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-X4fhSCkz}{}}%
-\CSLLeftMargin{61. }%
+\CSLLeftMargin{62. }%
 \CSLRightInline{\textbf{GenomicSuperSignature facilitates interpretation of RNA-seq experiments through robust, efficient comparison to public databases}
 \CSLBlock{Sehyun Oh, Ludwig Geistlinger, Marcel Ramos, Daniel Blankenberg, Marius van den Beek, Jaclyn N Taroni, Vincent J Carey, Casey S Greene, Levi Waldron, Sean Davis} \emph{Nature Communications} (2022-06-27) \url{https://doi.org/gqd7hm}
 \CSLBlock{DOI: \href{https://doi.org/10.1038/s41467-022-31411-3}{10.1038/s41467-022-31411-3} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/35760813}{35760813} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9237024}{PMC9237024}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-14rnBunuZ}{}}%
-\CSLLeftMargin{62. }%
+\CSLLeftMargin{63. }%
 \CSLRightInline{\textbf{MultiPLIER: A Transfer Learning Framework for Transcriptomics Reveals Systemic Features of Rare Disease}
 \CSLBlock{Jaclyn N Taroni, Peter C Grayson, Qiwen Hu, Sean Eddy, Matthias Kretzler, Peter A Merkel, Casey S Greene} \emph{Cell Systems} (2019-05) \url{https://doi.org/gf75g5}
 \CSLBlock{DOI: \href{https://doi.org/10.1016/j.cels.2019.04.003}{10.1016/j.cels.2019.04.003} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/31121115}{31121115} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6538307}{PMC6538307}}}
 
-\leavevmode\vadjust pre{\hypertarget{ref-GM90STke}{}}%
-\CSLLeftMargin{63. }%
+\leavevmode\vadjust pre{\hypertarget{ref-6SPTvFXq}{}}%
+\CSLLeftMargin{64. }%
 \CSLRightInline{\textbf{Reproducible RNA-seq analysis using recount2}
 \CSLBlock{Leonardo Collado-Torres, Abhinav Nellore, Kai Kammers, Shannon E Ellis, Margaret A Taub, Kasper D Hansen, Andrew E Jaffe, Ben Langmead, Jeffrey T Leek} \emph{Nature Biotechnology} (2017-04) \url{https://doi.org/gf75hp}
-\CSLBlock{DOI: \url{https://doi.org/10.1038/nbt.3838}}}
+\CSLBlock{DOI: \href{https://doi.org/10.1038/nbt.3838}{10.1038/nbt.3838} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/28398307}{28398307} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6742427}{PMC6742427}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-v5DtVejF}{}}%
-\CSLLeftMargin{64. }%
+\CSLLeftMargin{65. }%
 \CSLRightInline{\textbf{Crnic Institute Human Trisome Project™}
 \CSLBlock{Crnic Institute Human Trisome Project™} \url{https://www.trisome.org}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-1CDQw6VDO}{}}%
-\CSLLeftMargin{65. }%
+\CSLLeftMargin{66. }%
 \CSLRightInline{\textbf{MousiPLIER: A Mouse Pathway-Level Information Extractor Model}
 \CSLBlock{Shuo Zhang, Benjamin J Heil, Weiguang Mao, Maria Chikina, Casey S Greene, Elizabeth A Heller} \emph{eneuro} (2024-05-24) \url{https://doi.org/g7p7wj}
 \CSLBlock{DOI: \href{https://doi.org/10.1523/eneuro.0313-23.2024}{10.1523/eneuro.0313-23.2024} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/38789274}{38789274} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11154669}{PMC11154669}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-1HNaN8NTb}{}}%
-\CSLLeftMargin{66. }%
+\CSLLeftMargin{67. }%
 \CSLRightInline{\textbf{Deep learning sequence-based ab initio prediction of variant effects on expression and disease risk}
 \CSLBlock{Jian Zhou, Chandra L Theesfeld, Kevin Yao, Kathleen M Chen, Aaron K Wong, Olga G Troyanskaya} \emph{Nature Genetics} (2018-07-16) \url{https://doi.org/gdvmqw}
 \CSLBlock{DOI: \href{https://doi.org/10.1038/s41588-018-0160-6}{10.1038/s41588-018-0160-6} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/30013180}{30013180} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6094955}{PMC6094955}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-CdrNvVBn}{}}%
-\CSLLeftMargin{67. }%
+\CSLLeftMargin{68. }%
 \CSLRightInline{\textbf{Predicting mRNA Abundance Directly from Genomic Sequence Using Deep Convolutional Neural Networks}
 \CSLBlock{Vikram Agarwal, Jay Shendure} \emph{Cell Reports} (2020-05) \url{https://doi.org/ggw7fr}
 \CSLBlock{DOI: \href{https://doi.org/10.1016/j.celrep.2020.107663}{10.1016/j.celrep.2020.107663} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/32433972}{32433972}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Gy0Zkruj}{}}%
-\CSLLeftMargin{68. }%
+\CSLLeftMargin{69. }%
 \CSLRightInline{\textbf{Atlas of primary cell-type-specific sequence models of gene expression and variant effects}
 \CSLBlock{Ksenia Sokolova, Chandra L Theesfeld, Aaron K Wong, Zijun Zhang, Kara Dolinski, Olga G Troyanskaya} \emph{Cell Reports Methods} (2023-09) \url{https://doi.org/gt6n4t}
 \CSLBlock{DOI: \href{https://doi.org/10.1016/j.crmeth.2023.100580}{10.1016/j.crmeth.2023.100580} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/37703883}{37703883} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10545936}{PMC10545936}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-NLVTJ9Lj}{}}%
-\CSLLeftMargin{69. }%
+\CSLLeftMargin{70. }%
 \CSLRightInline{\textbf{Auto-Encoding Variational Bayes}
 \CSLBlock{Diederik P Kingma, Max Welling} \emph{arXiv} (2022-12-13) \url{https://arxiv.org/abs/1312.6114}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-nGVsOd2S}{}}%
-\CSLLeftMargin{70. }%
+\CSLLeftMargin{71. }%
 \CSLRightInline{\textbf{pmVAE: Learning Interpretable Single-Cell Representations with Pathway Modules}
 \CSLBlock{Gilles Gut, Stefan G Stark, Gunnar Rätsch, Natalie R Davidson} \emph{Cold Spring Harbor Laboratory} (2021-01-30) \url{https://doi.org/g7p7vq}
 \CSLBlock{DOI: \href{https://doi.org/10.1101/2021.01.28.428664}{10.1101/2021.01.28.428664}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-JkqcQgM7}{}}%
-\CSLLeftMargin{71. }%
+\CSLLeftMargin{72. }%
 \CSLRightInline{\textbf{Biologically informed deep learning to query gene programs in single-cell atlases}
 \CSLBlock{Mohammad Lotfollahi, Sergei Rybakov, Karin Hrovatin, Soroor Hediyeh-zadeh, Carlos Talavera-López, Alexander V Misharin, Fabian J Theis} \emph{Nature Cell Biology} (2023-02-02) \url{https://doi.org/gtb96q}
 \CSLBlock{DOI: \href{https://doi.org/10.1038/s41556-022-01072-x}{10.1038/s41556-022-01072-x} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/36732632}{36732632} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9928587}{PMC9928587}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-170T6ip47}{}}%
-\CSLLeftMargin{72. }%
+\CSLLeftMargin{73. }%
 \CSLRightInline{\textbf{VEGA is an interpretable generative model for inferring biological network activity in single-cell transcriptomics}
 \CSLBlock{Lucas Seninge, Ioannis Anastopoulos, Hongxu Ding, Joshua Stuart} \emph{Nature Communications} (2021-09-28) \url{https://doi.org/gm77mc}
 \CSLBlock{DOI: \href{https://doi.org/10.1038/s41467-021-26017-0}{10.1038/s41467-021-26017-0} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/34584103}{34584103} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8478947}{PMC8478947}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-NM3rHx1i}{}}%
-\CSLLeftMargin{73. }%
+\CSLLeftMargin{74. }%
 \CSLRightInline{\textbf{Projecting genetic associations through gene expression patterns highlights disease etiology and drug mechanisms}
 \CSLBlock{Milton Pividori, Sumei Lu, Binglan Li, Chun Su, Matthew E Johnson, Wei-Qi Wei, Qiping Feng, Bahram Namjou, Krzysztof Kiryluk, Iftikhar J Kullo, \ldots{} Casey S Greene} \emph{Nature Communications} (2023-09-09) \url{https://doi.org/gspsxr}
 \CSLBlock{DOI: \href{https://doi.org/10.1038/s41467-023-41057-4}{10.1038/s41467-023-41057-4} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/37689782}{37689782} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10492839}{PMC10492839}}}
-
-\leavevmode\vadjust pre{\hypertarget{ref-6SPTvFXq}{}}%
-\CSLLeftMargin{74. }%
-\CSLRightInline{\textbf{Reproducible RNA-seq analysis using recount2}
-\CSLBlock{Leonardo Collado-Torres, Abhinav Nellore, Kai Kammers, Shannon E Ellis, Margaret A Taub, Kasper D Hansen, Andrew E Jaffe, Ben Langmead, Jeffrey T Leek} \emph{Nature Biotechnology} (2017-04) \url{https://doi.org/gf75hp}
-\CSLBlock{DOI: \href{https://doi.org/10.1038/nbt.3838}{10.1038/nbt.3838} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/28398307}{28398307} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6742427}{PMC6742427}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-nmJxPpE5}{}}%
 \CSLLeftMargin{75. }%
@@ -1000,163 +1013,181 @@ causes preaxial polydactyly}
 \CSLBlock{Binglan Li, Yogasudha Veturi, Anastasia Lucas, Yuki Bradford, Shefali S Verma, Anurag Verma, Joseph Park, Wei-Qi Wei, Qiping Feng, Bahram Namjou, \ldots{} Marylyn D Ritchie} \emph{Cold Spring Harbor Laboratory} (2021-10-26) \url{https://doi.org/gnbdnb}
 \CSLBlock{DOI: \href{https://doi.org/10.1101/2021.10.21.21265225}{10.1101/2021.10.21.21265225}}}
 
-\leavevmode\vadjust pre{\hypertarget{ref-F7lIlh2N}{}}%
+\leavevmode\vadjust pre{\hypertarget{ref-WIZh9VF9}{}}%
 \CSLLeftMargin{79. }%
+\CSLRightInline{\textbf{Prognostic value of grip strength: findings from the Prospective Urban Rural Epidemiology (PURE) study}
+\CSLBlock{Darryl P Leong, Koon K Teo, Sumathy Rangarajan, Patricio Lopez-Jaramillo, Alvaro Avezum Jr, Andres Orlandini, Pamela Seron, Suad H Ahmed, Annika Rosengren, Roya Kelishadi, \ldots{} Salim Yusuf} \emph{The Lancet} (2015-07) \url{https://doi.org/749}
+\CSLBlock{DOI: \href{https://doi.org/10.1016/s0140-6736(14)62000-6}{10.1016/s0140-6736(14)62000-6} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/25982160}{25982160}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-F7lIlh2N}{}}%
+\CSLLeftMargin{80. }%
 \CSLRightInline{\textbf{A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles}
 \CSLBlock{Aravind Subramanian, Rajiv Narayan, Steven M Corsello, David D Peck, Ted E Natoli, Xiaodong Lu, Joshua Gould, John F Davis, Andrew A Tubelli, Jacob K Asiedu, \ldots{} Todd R Golub} \emph{Cell} (2017-11) \url{https://doi.org/cgwt}
 \CSLBlock{DOI: \href{https://doi.org/10.1016/j.cell.2017.10.049}{10.1016/j.cell.2017.10.049} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/29195078}{29195078} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5990023}{PMC5990023}}}
 
+\leavevmode\vadjust pre{\hypertarget{ref-1ClBKizD7}{}}%
+\CSLLeftMargin{81. }%
+\CSLRightInline{\textbf{Computational Repositioning of the Anticonvulsant Topiramate for Inflammatory Bowel Disease}
+\CSLBlock{Joel T Dudley, Marina Sirota, Mohan Shenoy, Reetesh K Pai, Silke Roedder, Annie P Chiang, Alex A Morgan, Minnie M Sarwal, Pankaj Jay Pasricha, Atul J Butte} \emph{Science Translational Medicine} (2011-08-17) \url{https://doi.org/bmh5ts}
+\CSLBlock{DOI: \href{https://doi.org/10.1126/scitranslmed.3002648}{10.1126/scitranslmed.3002648} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/21849664}{21849664} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3479650}{PMC3479650}}}
+
 \leavevmode\vadjust pre{\hypertarget{ref-mZjkE1xU}{}}%
-\CSLLeftMargin{80. }%
+\CSLLeftMargin{82. }%
 \CSLRightInline{\textbf{Discovery and Preclinical Validation of Drug Indications Using Compendia of Public Gene Expression Data}
 \CSLBlock{Marina Sirota, Joel T Dudley, Jeewon Kim, Annie P Chiang, Alex A Morgan, Alejandro Sweet-Cordero, Julien Sage, Atul J Butte} \emph{Science Translational Medicine} (2011-08-17) \url{https://doi.org/c3fwxv}
 \CSLBlock{DOI: \href{https://doi.org/10.1126/scitranslmed.3001318}{10.1126/scitranslmed.3001318} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/21849665}{21849665} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3502016}{PMC3502016}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-17oeJ0CXy}{}}%
-\CSLLeftMargin{81. }%
+\CSLLeftMargin{83. }%
 \CSLRightInline{\textbf{Analysis of genome-wide association data highlights candidates for drug repositioning in psychiatry}
 \CSLBlock{Hon-Cheong So, Carlos Kwan-Long Chau, Wan-To Chiu, Kin-Sang Ho, Cho-Pong Lo, Stephanie Ho-Yue Yim, Pak-Chung Sham} \emph{Nature Neuroscience} (2017-08-14) \url{https://doi.org/gbrssh}
 \CSLBlock{DOI: \href{https://doi.org/10.1038/nn.4618}{10.1038/nn.4618} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/28805813}{28805813}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-O21tn8vf}{}}%
-\CSLLeftMargin{82. }%
+\CSLLeftMargin{84. }%
 \CSLRightInline{\textbf{Systematic integration of biomedical knowledge prioritizes drugs for repurposing}
 \CSLBlock{Daniel Scott Himmelstein, Antoine Lizee, Christine Hessler, Leo Brueggeman, Sabrina L Chen, Dexter Hadley, Ari Green, Pouya Khankhanian, Sergio E Baranzini} \emph{eLife} (2017-09-22) \url{https://doi.org/cdfk}
 \CSLBlock{DOI: \href{https://doi.org/10.7554/elife.26726}{10.7554/elife.26726} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/28936969}{28936969} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5640425}{PMC5640425}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-10KA5jTBQ}{}}%
-\CSLLeftMargin{83. }%
+\CSLLeftMargin{85. }%
 \CSLRightInline{\textbf{dhimmel/indications v1.0. PharmacotherapyDB: the open catalog of drug therapies for disease}
 \CSLBlock{Daniel S Himmelstein, Pouya Khankhanian, Christine S Hessler, Ari J Green, Sergio E Baranzini} \emph{Zenodo} (2016-03-15) \url{https://doi.org/f3mqwb}
 \CSLBlock{DOI: \href{https://doi.org/10.5281/zenodo.47664}{10.5281/zenodo.47664}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-LVihFr3g}{}}%
-\CSLLeftMargin{84. }%
+\CSLLeftMargin{86. }%
 \CSLRightInline{\textbf{Mechanism of Action of Niacin}
 \CSLBlock{Vaijinath S Kamanna, Moti L Kashyap} \emph{The American Journal of Cardiology} (2008-04) \url{https://doi.org/c8zwdt}
 \CSLBlock{DOI: \href{https://doi.org/10.1016/j.amjcard.2008.02.029}{10.1016/j.amjcard.2008.02.029} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/18375237}{18375237}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-xJjWGVyN}{}}%
-\CSLLeftMargin{85. }%
+\CSLLeftMargin{87. }%
 \CSLRightInline{\textbf{GWAS Catalog} \url{https://www.ebi.ac.uk/gwas/genes/DGAT2}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-1GM0PmkWn}{}}%
-\CSLLeftMargin{86. }%
+\CSLLeftMargin{88. }%
 \CSLRightInline{\textbf{GWAS Catalog} \url{https://www.ebi.ac.uk/gwas/genes/ACACA}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Vxi0ejah}{}}%
-\CSLLeftMargin{87. }%
+\CSLLeftMargin{89. }%
 \CSLRightInline{\textbf{Memory loss in Alzheimer\textquotesingle s disease}
 \CSLBlock{Holger Jahn} \emph{Dialogues in Clinical Neuroscience} (2013-12-31) \url{https://doi.org/gsfxqn}
 \CSLBlock{DOI: \href{https://doi.org/10.31887/dcns.2013.15.4/hjahn}{10.31887/dcns.2013.15.4/hjahn} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/24459411}{24459411} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3898682}{PMC3898682}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-hn3T60wf}{}}%
-\CSLLeftMargin{88. }%
+\CSLLeftMargin{90. }%
 \CSLRightInline{\textbf{\textless i\textgreater APOE4\textless/i\textgreater{}
 disrupts intracellular lipid homeostasis in human iPSC-derived glia}
 \CSLBlock{Grzegorz Sienski, Priyanka Narayan, Julia Maeve Bonner, Nora Kory, Sebastian Boland, Aleksandra A Arczewska, William T Ralvenius, Leyla Akay, Elana Lockshin, Liang He, \ldots{} Susan Lindquist} \emph{Science Translational Medicine} (2021-03-03) \url{https://doi.org/gjs64x}
 \CSLBlock{DOI: \href{https://doi.org/10.1126/scitranslmed.aaz4564}{10.1126/scitranslmed.aaz4564} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/33658354}{33658354} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8218593}{PMC8218593}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-10ZgydXh1}{}}%
-\CSLLeftMargin{89. }%
+\CSLLeftMargin{91. }%
 \CSLRightInline{\textbf{ApoE in Alzheimer's disease: pathophysiology and therapeutic strategies}
 \CSLBlock{Ana-Caroline Raulin, Sydney V Doss, Zachary A Trottier, Tadafumi C Ikezu, Guojun Bu, Chia-Chen Liu} \emph{Molecular Neurodegeneration} (2022-11-08) \url{https://doi.org/j3j8}
 \CSLBlock{DOI: \href{https://doi.org/10.1186/s13024-022-00574-4}{10.1186/s13024-022-00574-4} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/36348357}{36348357} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9644639}{PMC9644639}}}
 
+\leavevmode\vadjust pre{\hypertarget{ref-UadQwQsF}{}}%
+\CSLLeftMargin{92. }%
+\CSLRightInline{\textbf{Effectiveness of Apolipoprotein E Targeted Therapeutic Drugs for Alzheimer's Disease: A Systematic Review and Meta-analysis (P11-9.008)}
+\CSLBlock{Ayush Halder, Rahul Kashyap, Faisal Nawaz, Aroul Murugan, Hamna Javed, Smitesh Padte, Sindhura Tadisetty} \emph{Neurology} (2024-04-09) \url{https://doi.org/g7zfjd}
+\CSLBlock{DOI: \href{https://doi.org/10.1212/wnl.0000000000204861}{10.1212/wnl.0000000000204861}}}
+
 \leavevmode\vadjust pre{\hypertarget{ref-Om8ZhS06}{}}%
-\CSLLeftMargin{90. }%
+\CSLLeftMargin{93. }%
 \CSLRightInline{\textbf{Conditional and interaction gene-set analysis reveals novel functional pathways for blood pressure}
 \CSLBlock{Christiaan A de Leeuw, Sven Stringer, Ilona A Dekkers, Tom Heskes, Danielle Posthuma} \emph{Nature Communications} (2018-09-14) \url{https://doi.org/gd6d85}
 \CSLBlock{DOI: \href{https://doi.org/10.1038/s41467-018-06022-6}{10.1038/s41467-018-06022-6} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/30218068}{30218068} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6138636}{PMC6138636}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-jVQ2rMqc}{}}%
-\CSLLeftMargin{91. }%
+\CSLLeftMargin{94. }%
 \CSLRightInline{\textbf{Gene regulatory network inference in the era of single-cell multi-omics}
 \CSLBlock{Pau Badia-i-Mompel, Lorna Wessels, Sophia Müller-Dott, Rémi Trimbour, Ricardo O Ramirez Flores, Ricard Argelaguet, Julio Saez-Rodriguez} \emph{Nature Reviews Genetics} (2023-06-26) \url{https://doi.org/gsdq3p}
 \CSLBlock{DOI: \href{https://doi.org/10.1038/s41576-023-00618-5}{10.1038/s41576-023-00618-5} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/37365273}{37365273}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-CqvNaEqc}{}}%
-\CSLLeftMargin{92. }%
+\CSLLeftMargin{95. }%
 \CSLRightInline{\textbf{WGCNA: an R package for weighted correlation network analysis}
 \CSLBlock{Peter Langfelder, Steve Horvath} \emph{BMC Bioinformatics} (2008-12) \url{https://doi.org/bwdbzc}
 \CSLBlock{DOI: \href{https://doi.org/10.1186/1471-2105-9-559}{10.1186/1471-2105-9-559} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/19114008}{19114008} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2631488}{PMC2631488}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-r8alvfcC}{}}%
-\CSLLeftMargin{93. }%
+\CSLLeftMargin{96. }%
 \CSLRightInline{\textbf{WGCNA Application to Proteomic and Metabolomic Data Analysis}
 \CSLBlock{G Pei, L Chen, W Zhang} \emph{Methods in Enzymology} (2017) \url{https://doi.org/grksc8}
 \CSLBlock{DOI: \href{https://doi.org/10.1016/bs.mie.2016.09.016}{10.1016/bs.mie.2016.09.016} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/28109426}{28109426}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-E1tpJnqG}{}}%
-\CSLLeftMargin{94. }%
+\CSLLeftMargin{97. }%
 \CSLRightInline{\textbf{Identification of glioblastoma~gene prognosis modules based on weighted gene co-expression network analysis}
 \CSLBlock{Pengfei Xu, Jian Yang, Junhui Liu, Xue Yang, Jianming Liao, Fanen Yuan, Yang Xu, Baohui Liu, Qianxue Chen} \emph{BMC Medical Genomics} (2018-11-01) \url{https://doi.org/gfzt4j}
 \CSLBlock{DOI: \href{https://doi.org/10.1186/s12920-018-0407-1}{10.1186/s12920-018-0407-1} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/30382873}{30382873} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6211550}{PMC6211550}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-KNAOTAKP}{}}%
-\CSLLeftMargin{95. }%
+\CSLLeftMargin{98. }%
 \CSLRightInline{\textbf{Boosting GWAS using biological networks: A study on susceptibility to familial breast cancer}
 \CSLBlock{Héctor Climente-González, Christine Lonjou, Fabienne Lesueur, Dominique Stoppa-Lyonnet, Nadine Andrieu, Chloé-Agathe Azencott} \emph{PLOS Computational Biology} (2021-03-18) \url{https://doi.org/g7zdns}
 \CSLBlock{DOI: \href{https://doi.org/10.1371/journal.pcbi.1008819}{10.1371/journal.pcbi.1008819} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/33735170}{33735170} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8009366}{PMC8009366}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-i8Qjy4pw}{}}%
-\CSLLeftMargin{96. }%
+\CSLLeftMargin{99. }%
 \CSLRightInline{\textbf{Adjusting for genetic confounders in transcriptome-wide association studies improves discovery of risk genes of complex traits}
 \CSLBlock{Siming Zhao, Wesley Crouse, Sheng Qian, Kaixuan Luo, Matthew Stephens, Xin He} \emph{Nature Genetics} (2024-01-26) \url{https://doi.org/gtf7kb}
 \CSLBlock{DOI: \href{https://doi.org/10.1038/s41588-023-01648-9}{10.1038/s41588-023-01648-9} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/38279041}{38279041} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10864181}{PMC10864181}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-1EIbaYHGq}{}}%
-\CSLLeftMargin{97. }%
+\CSLLeftMargin{100. }%
 \CSLRightInline{\textbf{Graphics processing units in bioinformatics, computational biology and systems biology}
 \CSLBlock{Marco S Nobile, Paolo Cazzaniga, Andrea Tangherloni, Daniela Besozzi} \emph{Briefings in Bioinformatics} (2016-07-08) \url{https://doi.org/g7zg6w}
 \CSLBlock{DOI: \href{https://doi.org/10.1093/bib/bbw058}{10.1093/bib/bbw058} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/27402792}{27402792} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5862309}{PMC5862309}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-JMQXR7X9}{}}%
-\CSLLeftMargin{98. }%
+\CSLLeftMargin{101. }%
 \CSLRightInline{\textbf{cupy/cupy}
 \CSLBlock{CuPy} (2024-10-10) \url{https://github.com/cupy/cupy}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-wPsNXL1Q}{}}%
-\CSLLeftMargin{99. }%
+\CSLLeftMargin{102. }%
 \CSLRightInline{\textbf{RAPIDS \textbar{} GPU Accelerated Data Science}
 \CSLBlock{RAPIDS \textbar{} GPU Accelerated Data Science} \url{https://rapids.ai/}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-1LexfAxj}{}}%
-\CSLLeftMargin{100. }%
+\CSLLeftMargin{103. }%
 \CSLRightInline{\textbf{Array programming with NumPy}
 \CSLBlock{Charles R Harris, KJarrod Millman, Stéfan J van der Walt, Ralf Gommers, Pauli Virtanen, David Cournapeau, Eric Wieser, Julian Taylor, Sebastian Berg, Nathaniel J Smith, \ldots{} Travis E Oliphant} \emph{Nature} (2020-09-16) \url{https://doi.org/ghbzf2}
 \CSLBlock{DOI: \href{https://doi.org/10.1038/s41586-020-2649-2}{10.1038/s41586-020-2649-2} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/32939066}{32939066} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7759461}{PMC7759461}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-AujvwLp6}{}}%
-\CSLLeftMargin{101. }%
+\CSLLeftMargin{104. }%
 \CSLRightInline{\textbf{Scikit-learn: Machine Learning in Python}
 \CSLBlock{Fabian Pedregosa, Gaël Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Andreas Müller, Joel Nothman, Gilles Louppe, \ldots{} Édouard Duchesnay} \emph{arXiv} (2012) \url{https://doi.org/gpptwn}
 \CSLBlock{DOI: \href{https://doi.org/10.48550/arxiv.1201.0490}{10.48550/arxiv.1201.0490}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-b5xmRoLZ}{}}%
-\CSLLeftMargin{102. }%
+\CSLLeftMargin{105. }%
 \CSLRightInline{\textbf{PyCUDA and PyOpenCL: A scripting-based approach to GPU run-time code generation}
 \CSLBlock{Andreas Klöckner, Nicolas Pinto, Yunsup Lee, Bryan Catanzaro, Paul Ivanov, Ahmed Fasih} \emph{Parallel Computing} (2012-03) \url{https://doi.org/c8hxzm}
 \CSLBlock{DOI: \href{https://doi.org/10.1016/j.parco.2011.09.001}{10.1016/j.parco.2011.09.001}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-ITQaZvrQ}{}}%
-\CSLLeftMargin{103. }%
+\CSLLeftMargin{106. }%
 \CSLRightInline{\textbf{Bringing the web up to speed with WebAssembly}
 \CSLBlock{Andreas Haas, Andreas Rossberg, Derek L Schuff, Ben L Titzer, Michael Holman, Dan Gohman, Luke Wagner, Alon Zakai, JF Bastien} \emph{Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation} (2017-06-14) \url{https://doi.org/gfgvf4}
 \CSLBlock{DOI: \href{https://doi.org/10.1145/3062341.3062363}{10.1145/3062341.3062363}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Z0f406Zs}{}}%
-\CSLLeftMargin{104. }%
+\CSLLeftMargin{107. }%
 \CSLRightInline{\textbf{Biowasm} \url{https://biowasm.com/}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-1DswCJYT0}{}}%
-\CSLLeftMargin{105. }%
+\CSLLeftMargin{108. }%
 \CSLRightInline{\textbf{Powering single-cell analyses in the browser with WebAssembly}
 \CSLBlock{Aaron Lun, Jayaram Kancherla} \emph{Cold Spring Harbor Laboratory} (2022-03-04) \url{https://doi.org/gtk3dc}
 \CSLBlock{DOI: \href{https://doi.org/10.1101/2022.03.02.482701}{10.1101/2022.03.02.482701}}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-WhJVE7a4}{}}%
-\CSLLeftMargin{106. }%
+\CSLLeftMargin{109. }%
 \CSLRightInline{\textbf{ViralWasm: a client-side user-friendly web application suite for viral genomics}
 \CSLBlock{Daniel Ji, Robert Aboukhalil, Niema Moshiri} \emph{Bioinformatics} (2024-01-01) \url{https://doi.org/g7zg6x}
 \CSLBlock{DOI: \href{https://doi.org/10.1093/bioinformatics/btae018}{10.1093/bioinformatics/btae018} · PMID: \href{https://www.ncbi.nlm.nih.gov/pubmed/38200583}{38200583} · PMCID: \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10809900}{PMC10809900}}}

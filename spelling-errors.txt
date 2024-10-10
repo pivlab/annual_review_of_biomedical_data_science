@@ -73,7 +73,7 @@ hQTLs
 HTP
 hyperlipidemia
 interpretability
-Interpretable
+interpretable
 iological
 jillhoffman
 karyotype
@@ -120,7 +120,7 @@ pathophysiological
 PCA
 phecode
 PhenoPLIER
-phenotypes
+Phenotypes
 phenotypic
 Pividori
 pleiotropy
@@ -158,7 +158,7 @@ TF
 TIGAR
 tradeoff
 transcriptional
-transcriptome
+Transcriptome
 transcriptomic
 transcriptomics
 translational
