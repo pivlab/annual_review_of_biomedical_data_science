@@ -6,7 +6,7 @@ adipocyte
 Akirtava
 Annu
 Anschutz
-ApoE
+APOE
 apolipoprotein
 astrocyes
 astrocytes
@@ -61,7 +61,7 @@ genotypes
 GPX
 Granés
 GWAS
-haoyu
+Haoyu
 haQTL
 haQTLs
 HAWAS
@@ -133,7 +133,6 @@ polygenicity
 PPIs
 pQTLs
 PrediXcan
-proceses
 proteomic
 proteomics
 PTMs
@@ -161,7 +160,7 @@ TF
 TIGAR
 tradeoff
 transcriptional
-Transcriptome
+transcriptome
 transcriptomic
 transcriptomics
 translational

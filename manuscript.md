@@ -32,8 +32,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-10" />
   <meta name="citation_publication_date" content="2024-10-10" />
   <meta property="article:published_time" content="2024-10-10" />
-  <meta name="dc.modified" content="2024-10-10T22:08:42+00:00" />
-  <meta property="article:modified_time" content="2024-10-10T22:08:42+00:00" />
+  <meta name="dc.modified" content="2024-10-10T22:08:13+00:00" />
+  <meta property="article:modified_time" content="2024-10-10T22:08:13+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -70,9 +70,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/876267bf5f5cb653b6898a4b032be3be7ca3b9f8/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/876267bf5f5cb653b6898a4b032be3be7ca3b9f8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/876267bf5f5cb653b6898a4b032be3be7ca3b9f8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8a837d579f9d6b75e3a316e920ed7a60d14fcfc5/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8a837d579f9d6b75e3a316e920ed7a60d14fcfc5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8a837d579f9d6b75e3a316e920ed7a60d14fcfc5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -99,9 +99,9 @@ _Subirana-Granés M, Hoffman J, Zhang H, Nandi S, Akirtava C, Fotso K, Pividori 
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/876267bf5f5cb653b6898a4b032be3be7ca3b9f8/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8a837d579f9d6b75e3a316e920ed7a60d14fcfc5/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@876267b](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/876267bf5f5cb653b6898a4b032be3be7ca3b9f8)
+from [pivlab/annual_review_of_biomedical_data_science@8a837d5](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/8a837d579f9d6b75e3a316e920ed7a60d14fcfc5)
 on October 10, 2024.
 </em></small>
 
@@ -207,13 +207,10 @@ Milton Pividori \<milton.pividori@cuanschutz.edu\>.
 
 ## Abstract {.page_break_before}
 
-Understanding the genetic basis of complex traits is a longstanding challenge in the field of genomics.
-Genome-wide association studies (GWAS) have identified thousands of variant-trait associations, but most of these variants are located in non-coding regions, making the link to biological function elusive.
-While traditional approaches, such as Transcriptome-wide association studies (TWAS), have advanced our understanding by linking genetic variants to gene expression, they often overlook gene-gene interactions.
-Here, we review current approaches based on gene modules to integrate different molecular data, leveraging machine learning methods to identify gene modules based on co-expression and functional relationships.
-These integrative approaches, like PhenoPLIER, combine TWAS and drug-induced transcriptional profiles to effectively capture biologically meaningful gene networks.
-This integration provides a context-specific understanding of disease proceses while highlighting both core and peripheral genes.
-These insights pave the way for novel therapeutic targets and enhance the interpretability of genetic studies in personalized medicine.
+This is a very cool paper about something.
+We are doing this and that.
+And this are the conclusions.
+And this is in **boldface**.
 
 
 ## Introduction
