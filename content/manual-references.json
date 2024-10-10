@@ -54,6 +54,60 @@
       ]
     },
     "url": "http://learningsys.org/nips17/assets/papers/paper_16.pdf"
+  },
+  {
+    "id": "Nandi2024",
+    "type": "paper-conference",
+    "title": "A Pathway-Level Information Extractor (PLIER) Framework to Gain Mechanistic Insights into Obesity in Down Syndrome",
+    "container-title": "Proceedings of the Pacific Symposium on Biocomputing 2025 (PSB2025)",
+    "author": [
+      {
+        "given": "Sutanu",
+        "family": "Nandi"
+      },
+      {
+        "given": "Yuehua",
+        "family": "Zhu"
+      },
+      {
+        "given": "Lucas A",
+        "family": "Gillenwater"
+      },
+      {
+        "given": "Marc",
+        "family": "Subirana Ganes"
+      },
+      {
+        "given": "Haoyu",
+        "family": "Zhang"
+      },
+      {
+        "given": "Negar",
+        "family": "Janani"
+      },
+      {
+        "given": "Casey",
+        "family": "Greene"
+      },
+      {
+        "given": "Milton",
+        "family": "Pividori"
+      },
+      {
+        "given": "Maria",
+        "family": "Chikina"
+      },
+      {
+        "given": "James C",
+        "family": "Costello"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
   }
-  ]
-  
+]
