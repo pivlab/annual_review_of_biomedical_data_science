@@ -1,22 +1,59 @@
 [
-{
-  "id": "url:https://github.com/manubot/rootstock",
-  "type": "webpage",
-  "URL": "https://github.com/manubot/rootstock",
-  "title": "manubot/rootstock GitHub repository",
-  "container-title": "GitHub",
-  "issued": {
-    "date-parts": [
-      [
-        2019
+  {
+    "id": "url:https://github.com/manubot/rootstock",
+    "type": "webpage",
+    "URL": "https://github.com/manubot/rootstock",
+    "title": "manubot/rootstock GitHub repository",
+    "container-title": "GitHub",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
       ]
+    },
+    "author": [
+      {
+        "given": "Daniel",
+        "family": "Himmelstein"
+      }
     ]
   },
-  "author": [
-    {
-      "given": "Daniel",
-      "family": "Himmelstein"
-    }
+  {
+    "id": "Okuta2017",
+    "type": "article-journal",
+    "title": "CuPy: A NumPy-Compatible Library for NVIDIA GPU Calculations",
+    "container-title": "Proceedings of Workshop on Machine Learning Systems (LearningSys) in The Thirty-first Annual Conference on Neural Information Processing Systems (NIPS)",
+    "author": [
+      {
+        "given": "Ryosuke",
+        "family": "Okuta"
+      },
+      {
+        "given": "Yuya",
+        "family": "Unno"
+      },
+      {
+        "given": "Daisuke",
+        "family": "Nishino"
+      },
+      {
+        "given": "Shohei",
+        "family": "Hido"
+      },
+      {
+        "given": "Crissman",
+        "family": "Loomis"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "url": "http://learningsys.org/nips17/assets/papers/paper_16.pdf"
+  }
   ]
-}
-]
+  
