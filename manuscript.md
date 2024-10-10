@@ -244,7 +244,7 @@ In this review, we explore how integrating gene modeling machine learning framew
 ## Single variant / single gene approaches 
 
 ![
-**Major approaches based on single variant/single gene strategies to understand the genetic basis of complex traits**.
+**Major approaches based on single variant and single gene strategies to understand the genetic basis of complex traits**.
 GWAS identifies associations between DNA variants and traits.
 All the other approaches test how different molecular mechanisms might mediate variant-trait associations from GWAS.
 TWAS uses variants linked to changes in gene expression (i.e., expression quantitative trait loci or eQTLs).
@@ -257,7 +257,7 @@ HAWAS maps histone modifications to traits using hQTLs, while MWAS explores DNA 
 In a simple trait, a single gene can be responsible for the disease (monogenic), for example in the case of Sickle Cell Anemia and Huntington's disease.
 However, most traits are not so simplistic and are the result of many mutations across the genome (polygenic).
 Even monogenic traits can sometimes be influenced by the polygenic background [@doi:10.1038/s41467-020-17374-3].
-Genome-wide association studies (GWAS) examine the relationship between specific genetic variants and phenotypes by comparing allele frequencies in individuals of similar ancestry with distinct phenotypic traits (**Figure {@fig:fig1}**).
+GWAS examine the relationship between specific genetic variants and phenotypes by comparing allele frequencies in individuals of similar ancestry with distinct phenotypic traits (**Figure {@fig:fig1}**).
 Both causal and non-causal variants are found to be significant and due to the phenomena of linkage disequilibrium, the results of GWAS are often grouped into risk loci.
 These loci represent clusters of variants that demonstrate significant associations, although not every variant may be causal [@doi:10.1186/s13059-022-02697-9].
 
@@ -304,11 +304,11 @@ These multi-tissue approaches are generally more powerful than single-tissue one
 ### Going beyond TWAS
 
 The flexibility of this 3-step framework can also be used to test whether other molecular phenotypes might mediate the association between GWAS variants and a trait of interest.
-In addition to integrating eQTLs, the framework has been implemented also with splicing QTLs (sQTLs), protein QTLs (pQTLs), histone acetylation QTLs (haQTLs) and methylation QTLs (mQTLs).
+In addition to integrating eQTLs, the framework has been implemented also with protein QTLs (pQTLs), histone acetylation QTLs (haQTLs), methylation QTLs (mQTLs), and splicing QTLs (sQTLs).
 
 PWAS complements GWAS and TWAS by aggregating genetic variations in protein-coding regions to assess their combined impact on protein function and phenotype (**Figure {@fig:fig1}**) [@doi:10.1186/s13059-020-02089-x].
 Unlike GWAS, which focuses on individual variants, PWAS evaluates the cumulative effects of multiple coding variants, reducing the scale of multiple testing, detecting complex inheritance patterns, and offering deeper insights into potential disease links.
-PWAS employs the FIRM machine learning model to evaluate how variants—such as missense, nonsense, and frameshift mutations—affect protein function by assigning impairment scores [@doi:10.1186/s13059-020-02089-x].
+PWAS employs the Functional Impact Rating at the Molecular-level (FIRM) machine learning model to evaluate how missense variants affect protein function by assigning impairment scores, while other types of variants are assigned scores using rule-based methods [@doi:10.1186/s13059-020-02089-x].
 The aggregate effects of these variants on each gene are then assessed, followed by statistical tests to identify significant associations between gene scores and phenotypes.
 For example, PWAS confirmed the association of *MUTYH* with colorectal cancer using UK Biobank data, even when no individual variant reached genome-wide significance in GWAS, highlighting its ability to uncover functional associations missed by other methods.
 However, PWAS relies on high-quality proteomic data, may miss non-coding variant associations, and is computationally intensive.
