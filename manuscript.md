@@ -32,8 +32,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-10" />
   <meta name="citation_publication_date" content="2024-10-10" />
   <meta property="article:published_time" content="2024-10-10" />
-  <meta name="dc.modified" content="2024-10-10T13:41:27+00:00" />
-  <meta property="article:modified_time" content="2024-10-10T13:41:27+00:00" />
+  <meta name="dc.modified" content="2024-10-10T16:25:25+00:00" />
+  <meta property="article:modified_time" content="2024-10-10T16:25:25+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -71,9 +71,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/15a4a090350f04b10fef890bddb2579cb3c03034/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/15a4a090350f04b10fef890bddb2579cb3c03034/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/15a4a090350f04b10fef890bddb2579cb3c03034/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/d3fd10990be3fa041e93f303cded32856ae04864/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/d3fd10990be3fa041e93f303cded32856ae04864/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/d3fd10990be3fa041e93f303cded32856ae04864/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -100,9 +100,9 @@ _Subirana-Granés M, Hoffman J, Zhang H, Nandi S, Akirtava C, Fotso K, Pividori 
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/15a4a090350f04b10fef890bddb2579cb3c03034/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/d3fd10990be3fa041e93f303cded32856ae04864/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@15a4a09](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/15a4a090350f04b10fef890bddb2579cb3c03034)
+from [pivlab/annual_review_of_biomedical_data_science@d3fd109](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/d3fd10990be3fa041e93f303cded32856ae04864)
 on October 10, 2024.
 </em></small>
 
@@ -577,6 +577,22 @@ While powerful in capturing intricate gene relationships and integrating multi-o
 
 
 ## A gene module perspective for genetic studies {.page_break_before}
+
+![
+**An integrative, gene module-based approach for genetic studies.**
+Each panel shows a component of the PhenoPLIER framework [@doi:10.1038/s41467-023-41057-4].
+**a)** First, latent variables (LVs) or gene modules are learned from transcriptome data using the PLIER matrix factorization method.
+PLIER generates matrix $\mathbf{Z}$, which has gene weights for each module, and matrix $\mathbf{B}$, which has the samples in the latent space.
+**b)** Schematic of gene-trait associations from TWAS and gene-drug scores from LINCS L1000 being projected into the latent space for a joint analysis.
+**c)** Schematic of a gene module-based drug reporposing framework, where the projection of TWAS and LINCS L1000 data is used to compute a drug-disease score.
+**d)** Schematic of a regression model that tests whether genes that belong to a module (using a column of $\mathbf{Z}$) tend to be more strongly associated with a trait (using $p$-values from TWAS).
+**e)** (top) Example of a gene module identified as LV246 analyzed in [@doi:10.1038/s41467-023-41057-4].
+*DGAT2* and *ACACA*, found in a CRISPR screen to be linked to lipid metabolism and potential core genes, were among the top 15 genes in this module.
+Using metadata from the top samples for LV246 from $\mathbf{B}$, the module was found to be expressed mainly in adipose tissue, and liver and astrocyes were part of the top 10 cell types and tissues.
+Using the regression model depicted in d), this module was significantly associated with high cholesterol, tryglycerides, LDL cholesterol, cholesterol lowering medication, Alzheimer's disease and dementia in the discovery cohort (UK Biobank), and high cholesterol and memory loss in the replication cohort (eMERGE).
+(bottom) The $p$-values and colocalization probability from gene-trait associations from TWAS for a subset of the top 1% genes in LV246 ($y$-axis) and traits significantly associated with LV246 ($x$-axis).
+It can be seen that *DGAT2* and *ACACA* (in boldface), although strongly linked to lipid metabolism, are weakly associated with these lipid-relevant traits.
+](images/fig4.svg "An integrative, gene module-based approach for genetic studies"){#fig:fig4 width="100%"}
 
 
 ## Future perspectives {.page_break_before}

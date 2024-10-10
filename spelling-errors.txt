@@ -1,3 +1,4 @@
+ACACA
 acetylation
 acetylome
 additivity
@@ -5,6 +6,7 @@ Akirtava
 Annu
 Anschutz
 ASD
+astrocyes
 ATG
 autoencoder
 Autoencoders
@@ -18,15 +20,18 @@ CCC
 cis
 coexpressed
 coexpression
+colocalization
 colorectal
 correlatedly
 covariate
 covariates
 COVID
+CRISPR
 cristisim
 Crohn’s
 dataset
 datasets
+DGAT
 dimensionality
 DL
 DNAm
@@ -51,7 +56,7 @@ genotypes
 GPX
 Granés
 GWAS
-Haoyu
+haoyu
 haQTLs
 HAWAS
 HD
@@ -65,8 +70,12 @@ intracellular
 isoforms
 jillhoffman
 karyotype
+LDL
 LeafCutter
+LINCS
 Liu
+LV
+LVs
 macular
 MCL
 metabolomics
@@ -93,7 +102,7 @@ ncRNAs
 noncoding
 omics
 omingenic
-omnigenic
+Omnigenic
 omniPLIER
 pathogenesis
 PCA
@@ -122,6 +131,7 @@ PWAS’s
 QTL
 QTLs
 reframes
+reporposing
 RNAs
 scalable
 Shen
@@ -140,10 +150,11 @@ TF
 TFs
 TIGAR
 transcriptional
-Transcriptome
+transcriptome
 transcriptomic
 transcriptomics
 translational
+tryglycerides
 underpowered
 VAE
 VAEs
