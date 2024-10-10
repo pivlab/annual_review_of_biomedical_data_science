@@ -32,8 +32,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-10" />
   <meta name="citation_publication_date" content="2024-10-10" />
   <meta property="article:published_time" content="2024-10-10" />
-  <meta name="dc.modified" content="2024-10-10T22:08:13+00:00" />
-  <meta property="article:modified_time" content="2024-10-10T22:08:13+00:00" />
+  <meta name="dc.modified" content="2024-10-10T22:25:07+00:00" />
+  <meta property="article:modified_time" content="2024-10-10T22:25:07+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -70,9 +70,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8a837d579f9d6b75e3a316e920ed7a60d14fcfc5/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8a837d579f9d6b75e3a316e920ed7a60d14fcfc5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8a837d579f9d6b75e3a316e920ed7a60d14fcfc5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/4e9927114201ae1607c8d2e8ce90c7a85fe84773/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/4e9927114201ae1607c8d2e8ce90c7a85fe84773/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/4e9927114201ae1607c8d2e8ce90c7a85fe84773/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -93,15 +93,15 @@ manubot-clear-requests-cache: false
 
 [
 <i class="fas fa-info-circle fa-lg"></i> **When citing this paper, please use the following:**<br><br>
-_Subirana-Granés M, Hoffman J, Zhang H, Nandi S, Akirtava C, Fotso K, Pividori M. Genetic studies through the lens of gene networks. 2025. Annu. Rev. Biomed. Data Sci. 8. https://doi.org/10.1146/annurev-biodatasci-103123-095355_
+_Subirana-Granés M, Hoffman J, Zhang H, Akirtava C, Nandi S, Fotso K, Pividori M. Genetic studies through the lens of gene networks. 2025. Annu. Rev. Biomed. Data Sci. 8. https://doi.org/10.1146/annurev-biodatasci-103123-095355_
 ]{.banner .lightblue}
 
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8a837d579f9d6b75e3a316e920ed7a60d14fcfc5/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/4e9927114201ae1607c8d2e8ce90c7a85fe84773/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@8a837d5](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/8a837d579f9d6b75e3a316e920ed7a60d14fcfc5)
+from [pivlab/annual_review_of_biomedical_data_science@4e99271](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/4e9927114201ae1607c8d2e8ce90c7a85fe84773)
 on October 10, 2024.
 </em></small>
 
@@ -207,10 +207,13 @@ Milton Pividori \<milton.pividori@cuanschutz.edu\>.
 
 ## Abstract {.page_break_before}
 
-This is a very cool paper about something.
-We are doing this and that.
-And this are the conclusions.
-And this is in **boldface**.
+Understanding the genetic basis of complex traits is a longstanding challenge in the field of genomics.
+Genome-wide association studies (GWAS) have identified thousands of variant-trait associations, but most of these variants are located in non-coding regions, making the link to biological function elusive.
+While traditional approaches, such as Transcriptome-wide association studies (TWAS), have advanced our understanding by linking genetic variants to gene expression, they often overlook gene-gene interactions.
+Here, we review current approaches based on gene modules to integrate different molecular data, leveraging machine learning methods to identify gene modules based on co-expression and functional relationships.
+These integrative approaches, like PhenoPLIER, combine TWAS and drug-induced transcriptional profiles to effectively capture biologically meaningful gene networks.
+This integration provides a context-specific understanding of disease proceses while highlighting both core and peripheral genes.
+These insights pave the way for novel therapeutic targets and enhance the interpretability of genetic studies in personalized medicine.
 
 
 ## Introduction
@@ -239,6 +242,7 @@ In this review, we explore current approaches based on gene modules to integrate
 We discuss how integrating machine learning-derived gene modules with genetic and multi-omics data enhances our understanding of complex traits and diseases.
 We highlight the PhenoPLIER framework [@doi:10.1038/s41467-023-41057-4], which integrates gene modules derived from transcriptome data with TWAS and drug-induced transcriptional profiles to uncover disease-relevant molecular mechanisms.
 This approach moves beyond single-gene analyses by capturing the broader gene networks that contribute to phenotypic outcomes, offering a more nuanced understanding of the molecular basis of human complex traits and paving the way for more effective, personalized therapeutic strategies.
+
 
 
 ## Single variant / single gene approaches 
@@ -375,13 +379,12 @@ Since the introduction of the omnigenic model, numerous studies have adopted it 
 
 In schizophrenia, the application of the omnigenic model has revealed specific core gene sets associated with the disorder.
 Notably, the *TCF4* gene set maintained its significant impact even after excluding SNPs within the *TCF4* gene itself.
-This finding suggests that peripheral genes within the set contribute to the development of schizophrenia.
+This finding suggests that peripheral genes within the set contribute to the development of schizophrenia. The omnigenic model has also helped propose potential causes for disorders like autism [@doi:10.1016/j.cell.2019.07.037].
 Additionally, the observed systematic floor effect across polygenic scores aligns with the model's prediction that most genes expressed in relevant cells contribute to heritability, thereby highlighting the model's potential in explaining the broad genetic contributions to complex psychiatric conditions [@doi:10.1038/s41386-019-0410-z].
 
 Li et al. (2024) identified a significantly connected subgraph formed by cancer-affected coding genes and ncRNAs by focusing on connectivity as a key topological feature.
 This approach highlighted the essential role of ncRNAs in linking fragmented cancer-affected genes, consistent with the omnigenic framework's premise that peripheral genes, including non-coding elements, contribute to complex traits such as cancer.
-Importantly, the inclusion of ncRNAs enhanced the identification of cancer-related pathways, indicating that a comprehensive network model encompassing ncRNAs is more effective in characterizing disease relationships than models concentrating solely on coding genes [@doi:10.3390/e26080640].
-
+Importantly, the inclusion of ncRNAs enhanced the identification of cancer-related pathways, indicating that a comprehensive network model encompassing ncRNAs is more effective in characterizing disease relationships than models concentrating solely on coding genes [@doi:10.3390/e26080640]. 
 Empirical support for the omnigenic theory extends beyond human diseases.
 Sundell et al. demonstrated this concept in European black poplars, showing that both core and peripheral genes play a crucial role in predicting phenotypes.
 While core genes are indeed important, the information they provide must be complemented by other genes to ensure accurate phenotype predictions.
@@ -538,7 +541,7 @@ Then, different data modalities are integrated into this common latent space for
 An advantage of PhenoPLIER is interpretability: it uses gene module models from PLIER (**Figure {@fig:fig4}*a***), which provides not only information about which genes belong to a module but also what are the top samples where those genes are expressed.
 If present, by looking at the metadata of the RNA-seq datasets, it is possible to infer if those samples represent consistent conditions such as tissues, cell types, or other more complex contexts.
 
-In PhenoPLIER, this latent transcriptional space is described by 987 gene modules derived from recount2 [@doi:10.1038/nbt.3838; @doi:10.1016/j.cels.2019.04.003] (Figure @{fig4}a), a large and highly heterogeneous expression compendia.
+In PhenoPLIER, this latent transcriptional space is described by 987 gene modules derived from recount2 [@doi:10.1038/nbt.3838; @doi:10.1016/j.cels.2019.04.003] (**Figure {@fig:fig4}*a***), a large and highly heterogeneous expression compendia.
 Given the heterogeneity of the dataset, these gene modules can capture genes expressed across different contexts such as tissues, cell types (across differentiation stages), different disease states or stimuli.
 These contexts can be extracted from sample metadata.
 PhenoPLIER incorporates gene-trait associations computed with the PrediXcan family of TWAS methods [@doi:10.1038/ng.3367; @doi:10.1038/s41467-018-03621-1; @doi:10.1371/journal.pgen.1007889] on two different cohorts: the UK Biobank [@doi:10.1038/s41586-018-0579-z; @doi:10.1126/sciadv.aba2083] as discovery, and the Electronic Medical Records and Genomics (eMERGE) network phase III [@doi:10.1038/gim.2013.72; @doi:10.1101/2021.10.21.21265225] as replication.
