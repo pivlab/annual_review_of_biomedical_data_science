@@ -32,8 +32,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-11" />
   <meta name="citation_publication_date" content="2024-10-11" />
   <meta property="article:published_time" content="2024-10-11" />
-  <meta name="dc.modified" content="2024-10-11T00:10:00+00:00" />
-  <meta property="article:modified_time" content="2024-10-11T00:10:00+00:00" />
+  <meta name="dc.modified" content="2024-10-11T00:28:38+00:00" />
+  <meta property="article:modified_time" content="2024-10-11T00:28:38+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -70,9 +70,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6f7af112710ae5f8179f2e9d88b13533a8cab962/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6f7af112710ae5f8179f2e9d88b13533a8cab962/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6f7af112710ae5f8179f2e9d88b13533a8cab962/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c8700003a8eb14c6846aa02abead1551b794c2e1/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c8700003a8eb14c6846aa02abead1551b794c2e1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c8700003a8eb14c6846aa02abead1551b794c2e1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -99,9 +99,9 @@ _Subirana-Granés M, Hoffman J, Zhang H, Akirtava C, Nandi S, Fotso K, Pividori 
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6f7af112710ae5f8179f2e9d88b13533a8cab962/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c8700003a8eb14c6846aa02abead1551b794c2e1/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@6f7af11](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/6f7af112710ae5f8179f2e9d88b13533a8cab962)
+from [pivlab/annual_review_of_biomedical_data_science@c870000](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/c8700003a8eb14c6846aa02abead1551b794c2e1)
 on October 11, 2024.
 </em></small>
 
@@ -262,7 +262,7 @@ In a simple trait, a single gene can be responsible for the disease (monogenic),
 However, most traits are not so simplistic and are the result of many mutations across the genome (polygenic).
 Even monogenic traits can sometimes be influenced by the polygenic background [@doi:10.1038/s41467-020-17374-3].
 GWAS examine the relationship between specific genetic variants and phenotypes by comparing allele frequencies in individuals of similar ancestry with distinct phenotypic traits (**Figure {@fig:fig1}**).
-Both causal and non-causal variants are found to be significant and due to the phenomenon of linkage disequilibrium, the results of GWAS are often grouped into risk loci.
+Both causal and non-causal variants are found to be significant and due to the phenomena of linkage disequilibrium, the results of GWAS are often grouped into risk loci.
 These loci represent clusters of variants that demonstrate significant associations, although not every variant may be causal [@doi:10.1186/s13059-022-02697-9].
 
 Since the first GWAS on age-related macular degeneration (AMD) in 2005, the GWAS catalog has rapidly expanded, containing SNP-trait associations across >5,000 human traits [@doi:10.1093/nar/gkac1010].
@@ -308,11 +308,11 @@ These multi-tissue approaches are generally more powerful than single-tissue one
 ### Going beyond TWAS
 
 The flexibility of this 3-step framework can also be used to test whether other molecular phenotypes might mediate the association between GWAS variants and a trait of interest.
-In addition to integrating eQTLs, the framework has been implemented also with splicing QTLs (sQTLs), protein QTLs (pQTLs), histone acetylation QTLs (haQTLs) and methylation QTLs (mQTLs).
+In addition to integrating eQTLs, the framework has been implemented also with protein QTLs (pQTLs), histone acetylation QTLs (haQTLs), methylation QTLs (mQTLs), and splicing QTLs (sQTLs).
 
 PWAS complements GWAS and TWAS by aggregating genetic variations in protein-coding regions to assess their combined impact on protein function and phenotype (**Figure {@fig:fig1}**) [@doi:10.1186/s13059-020-02089-x].
 Unlike GWAS, which focuses on individual variants, PWAS evaluates the cumulative effects of multiple coding variants, reducing the scale of multiple testing, detecting complex inheritance patterns, and offering deeper insights into potential disease links.
-PWAS employs the FIRM machine learning model to evaluate how variants—such as missense, nonsense, and frameshift mutations—affect protein function by assigning impairment scores [@doi:10.1186/s13059-020-02089-x].
+PWAS employs the Functional Impact Rating at the Molecular-level (FIRM) machine learning model to evaluate how missense variants affect protein function by assigning impairment scores, while other types of variants are assigned scores using rule-based methods [@doi:10.1186/s13059-020-02089-x].
 The aggregate effects of these variants on each gene are then assessed, followed by statistical tests to identify significant associations between gene scores and phenotypes.
 For example, PWAS confirmed the association of *MUTYH* with colorectal cancer using UK Biobank data, even when no individual variant reached genome-wide significance in GWAS, highlighting its ability to uncover functional associations missed by other methods.
 However, PWAS relies on high-quality proteomic data, may miss non-coding variant associations, and is computationally intensive.
@@ -589,7 +589,7 @@ Approaches based on gene modules have the potential to go beyond prior knowledge
 First, although a gene module can be aligned to a pathway, this does not mean that it is restricted to prior knowledge as in standard pathway analyses.
 Being aligned with pathways means that a module resembles a known mechanism, and this helps in interpretability and also in separating from other patterns that might be related to technical noise but the module could capture other genes as well that are not part of the pathway but potentially also involved in the function.
 Second, gene modules can also be extracted from very large, heterogeneous datasets such as recount2, or more specific ones such as the Human Trisome Project, which includes gene expression from people with Down Syndrome (DS).
-Approaches such as PLIER and PhenoPLIER have been fundamental to extract DS-specific gene modules related to obesity, a common co-occurring condition The omni-PLIER framework, combining the PLIER model with the omnigenic approach, uncovers molecular mechanisms linking Down syndrome (DS) and obesity, identifying key latent variables with top genes such as GPX1 and MCL1, which mediate the relationship between trisomy 21 and body mass index (BMI), offering insights into DS-specific and general obesity-related processes [@Nandi2024]. 
+Approaches such as PLIER and PhenoPLIER have been fundamental to extract DS-specific gene modules related to obesity, a common co-occurring condition [@Nandi2024]. 
 
 A disadvantage of the PhenoPLIER approach is that gene modules are generated by an algorithm, and as such, they could represent artifacts or be aligned with technical noise.
 Interpretable methods such as PLIER and some VAE models that help segregate technical noise from relevant biology are key in solving this problem.

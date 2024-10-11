@@ -139,7 +139,6 @@ content/03.single-variant-single-gene-approaches.md:66:GWAS
 content/03.single-variant-single-gene-approaches.md:66:PWAS
 content/03.single-variant-single-gene-approaches.md:67:GWAS
 content/03.single-variant-single-gene-approaches.md:67:PWAS
-content/03.single-variant-single-gene-approaches.md:68:frameshift
 content/03.single-variant-single-gene-approaches.md:68:missense
 content/03.single-variant-single-gene-approaches.md:68:PWAS
 content/03.single-variant-single-gene-approaches.md:69:phenotypes
@@ -455,17 +454,9 @@ content/06.a-gene-module-perspective-for-genetic-studies.md:77:interpretability
 content/06.a-gene-module-perspective-for-genetic-studies.md:78:datasets
 content/06.a-gene-module-perspective-for-genetic-studies.md:78:DS
 content/06.a-gene-module-perspective-for-genetic-studies.md:78:Trisome
-content/06.a-gene-module-perspective-for-genetic-studies.md:79:BMI
 content/06.a-gene-module-perspective-for-genetic-studies.md:79:DS
-content/06.a-gene-module-perspective-for-genetic-studies.md:79:DS
-content/06.a-gene-module-perspective-for-genetic-studies.md:79:DS
-content/06.a-gene-module-perspective-for-genetic-studies.md:79:omni
-content/06.a-gene-module-perspective-for-genetic-studies.md:79:omnigenic
 content/06.a-gene-module-perspective-for-genetic-studies.md:79:PhenoPLIER
 content/06.a-gene-module-perspective-for-genetic-studies.md:79:PLIER
-content/06.a-gene-module-perspective-for-genetic-studies.md:79:PLIER
-content/06.a-gene-module-perspective-for-genetic-studies.md:79:PLIER
-content/06.a-gene-module-perspective-for-genetic-studies.md:79:trisomy
 content/06.a-gene-module-perspective-for-genetic-studies.md:81:PhenoPLIER
 content/06.a-gene-module-perspective-for-genetic-studies.md:82:Interpretable
 content/06.a-gene-module-perspective-for-genetic-studies.md:82:PLIER
