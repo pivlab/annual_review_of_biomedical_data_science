@@ -6,7 +6,7 @@ adipocyte
 Akirtava
 Annu
 Anschutz
-APOE
+ApoE
 apolipoprotein
 astrocyes
 astrocytes
@@ -58,14 +58,14 @@ genotypes
 GPX
 Granés
 GWAS
-haoyu
+Haoyu
 haQTL
 haQTLs
 HAWAS
 HD
 HepG
 heritability
-Histone
+histone
 HTP
 hyperlipidemia
 interpretability
@@ -151,7 +151,7 @@ TCF
 TF
 TIGAR
 transcriptional
-Transcriptome
+transcriptome
 transcriptomic
 transcriptomics
 translational
