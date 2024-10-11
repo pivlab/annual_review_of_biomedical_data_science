@@ -1,4 +1,8 @@
 name: Manubot
+env:
+  BUILD_PDF: true
+  BUILD_DOCX: true
+  BUILD_LATEX: false
 on:
   push:
     branches:
