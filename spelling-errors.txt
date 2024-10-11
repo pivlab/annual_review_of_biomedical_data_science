@@ -6,7 +6,7 @@ adipocyte
 Akirtava
 Annu
 Anschutz
-ApoE
+APOE
 apolipoprotein
 astrocyes
 astrocytes
@@ -109,7 +109,7 @@ ncRNAs
 Nicotinic
 NumPy
 omics
-Omnigenic
+omnigenic
 pathogenesis
 pathophysiological
 PCA
