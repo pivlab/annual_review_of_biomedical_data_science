@@ -26,7 +26,7 @@ on:
         description: 'Output branch'
         required: true
         type: string
-        default: 'ai-revision-gpt4turbo'
+        default: 'ai-revision-gpt4o'
 
 jobs:
   ai-revise:
