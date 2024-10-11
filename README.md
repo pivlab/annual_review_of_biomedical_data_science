@@ -1,4 +1,4 @@
-# Automated scholarly manuscripts on GitHub
+# Annual Review of Biomedical Data Science: Genetic studies through the lens of gene networks
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
@@ -6,12 +6,9 @@
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/pivlab/annual_review_of_biomedical_data_science/workflows/Manubot/badge.svg)](https://github.com/pivlab/annual_review_of_biomedical_data_science/actions)
 
-## Manuscript description
+## Abstract
 
-<!-- usage note: edit this section. -->
-
-This repository is a template manuscript (a.k.a. rootstock).
-Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
+Understanding the genetic basis of complex traits is a longstanding challenge in the field of genomics. Genome-wide association studies (GWAS) have identified thousands of variant-trait associations, but most of these variants are located in non-coding regions, making the link to biological function elusive. While traditional approaches, such as transcriptome-wide association studies (TWAS), have advanced our understanding by linking genetic variants to gene expression, they often overlook gene-gene interactions. Here, we review current approaches to integrate different molecular data, leveraging machine learning methods to identify gene modules based on co-expression and functional relationships. These integrative approaches, like PhenoPLIER, combine TWAS and drug-induced transcriptional profiles to effectively capture biologically meaningful gene networks. This integration provides a context-specific understanding of disease processes while highlighting both core and peripheral genes. These insights pave the way for novel therapeutic targets and enhance the interpretability of genetic studies in personalized medicine.
 
 ## Manubot
 
