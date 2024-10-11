@@ -6,7 +6,7 @@ adipocyte
 Akirtava
 Annu
 Anschutz
-APOE
+ApoE
 apolipoprotein
 astrocyes
 astrocytes
@@ -27,7 +27,6 @@ coexpression
 colocalization
 colocalized
 colorectal
-compendia
 CRISPR
 Crohn’s
 cuanschutz
@@ -68,13 +67,12 @@ HAWAS
 HD
 HepG
 heritability
-histone
+Histone
 homogenous
-hQTLs
 HTP
 hyperlipidemia
 interpretability
-Interpretable
+interpretable
 iological
 IRX
 jillhoffman
@@ -122,7 +120,7 @@ pathophysiological
 PCA
 phecode
 PhenoPLIER
-Phenotypes
+phenotypes
 phenotypic
 Pividori
 pleiotropy

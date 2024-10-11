@@ -9,7 +9,7 @@ keywords:
 - QTL
 - complex traits
 lang: en-US
-date-meta: '2024-10-10'
+date-meta: '2024-10-11'
 author-meta:
 - Marc Subirana-Granés
 - Jill Hoffman
@@ -29,11 +29,11 @@ header-includes: |
   <meta name="citation_title" content="Genetic studies through the lens of gene networks" />
   <meta property="og:title" content="Genetic studies through the lens of gene networks" />
   <meta property="twitter:title" content="Genetic studies through the lens of gene networks" />
-  <meta name="dc.date" content="2024-10-10" />
-  <meta name="citation_publication_date" content="2024-10-10" />
-  <meta property="article:published_time" content="2024-10-10" />
-  <meta name="dc.modified" content="2024-10-10T22:25:07+00:00" />
-  <meta property="article:modified_time" content="2024-10-10T22:25:07+00:00" />
+  <meta name="dc.date" content="2024-10-11" />
+  <meta name="citation_publication_date" content="2024-10-11" />
+  <meta property="article:published_time" content="2024-10-11" />
+  <meta name="dc.modified" content="2024-10-11T00:10:00+00:00" />
+  <meta property="article:modified_time" content="2024-10-11T00:10:00+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -70,9 +70,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/4e9927114201ae1607c8d2e8ce90c7a85fe84773/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/4e9927114201ae1607c8d2e8ce90c7a85fe84773/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/4e9927114201ae1607c8d2e8ce90c7a85fe84773/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6f7af112710ae5f8179f2e9d88b13533a8cab962/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6f7af112710ae5f8179f2e9d88b13533a8cab962/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6f7af112710ae5f8179f2e9d88b13533a8cab962/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -99,10 +99,10 @@ _Subirana-Granés M, Hoffman J, Zhang H, Akirtava C, Nandi S, Fotso K, Pividori 
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/4e9927114201ae1607c8d2e8ce90c7a85fe84773/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6f7af112710ae5f8179f2e9d88b13533a8cab962/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@4e99271](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/4e9927114201ae1607c8d2e8ce90c7a85fe84773)
-on October 10, 2024.
+from [pivlab/annual_review_of_biomedical_data_science@6f7af11](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/6f7af112710ae5f8179f2e9d88b13533a8cab962)
+on October 11, 2024.
 </em></small>
 
 
@@ -219,7 +219,7 @@ These insights pave the way for novel therapeutic targets and enhance the interp
 ## Introduction
 
 Understanding the genetics of complex traits remains one of the key challenges in modern genomics.
-Genome-wide association studies (GWAS) have significantly advanced our knowledge by identifying associations between genetic variants and traits, shedding light on the genetic architecture underlying a variety of diseases and phenotypic conditions.
+GWAS have significantly advanced our knowledge by identifying associations between genetic variants and traits, shedding light on the genetic architecture underlying a variety of diseases and phenotypic conditions.
 Since the first GWAS on age-related macular degeneration in 2005, the GWAS catalog has grown to include over 5,000 human traits, encompassing risk loci for conditions such as type 2 diabetes, schizophrenia, and rheumatoid arthritis [@doi:10.1093/nar/gkac1010, @doi:10.1038/s41576-019-0127-1, @doi:10.1038/s41588-022-01213-w].
 However, most GWAS-identified variants reside in non-coding regions, underscoring the importance of gene regulation in generating phenotypic diversity [@doi:10.1093/hmg/ddac198; @doi:10.1126/science.aaz1776].
 This gap presents a major challenge in translating GWAS findings into biological insights.
@@ -228,7 +228,7 @@ To address this limitation, numerous methods have been developed to link GWAS va
 Proximity-based methods, such as MAGMA, have been widely used to link GWAS variants to nearby genes based on physical distance [@doi:10.1371/journal.pcbi.1004219].
 However, these methods may not consider long-range acting SNPs, such as the variants in the *FTO* locus that are associated with obesity, which have been shown to influence the *IRX3* gene through long-range interactions [@doi:10.1038/nature13138].
 While useful, proximity-based approaches may miss causal genes if they are not the closest ones.
-Transcriptome-wide association studies (TWAS) have proven effective by linking genetic variants to gene expression, thereby enhancing our ability to identify putatively causal genes for various traits [@doi:10.3389/fgene.2021.713230, @doi:10.1038/s41588-019-0385-z].
+TWAS have proven effective by linking genetic variants to gene expression, thereby enhancing our ability to identify putatively causal genes for various traits [@doi:10.3389/fgene.2021.713230, @doi:10.1038/s41588-019-0385-z].
 TWAS employs expression quantitative trait loci (eQTL) data to prioritize genes that are influenced by GWAS variants, offering a more mechanistic link between genetic variation and phenotypic changes.
 Nevertheless, TWAS and similar methods typically focus on individual genes or variants, overlooking the complex interactions among genes that are increasingly recognized as vital to understanding complex traits [@doi:10.1016/j.cell.2017.05.038].
 
@@ -245,15 +245,15 @@ This approach moves beyond single-gene analyses by capturing the broader gene ne
 
 
 
-## Single variant / single gene approaches 
+## Single variant and single gene approaches 
 
 ![
-**Major approaches based on single variant/single gene strategies to understand the genetic basis of complex traits**.
-GWAS identifies associations between DNA variants and traits.
+**Major approaches based on single variant and single gene strategies to understand the genetic basis of complex traits**.
+Genome-wide association studies (GWAS) identify associations between DNA variants and traits.
 All the other approaches test how different molecular mechanisms might mediate variant-trait associations from GWAS.
-TWAS uses variants linked to changes in gene expression (i.e., expression quantitative trait loci or eQTLs).
-PWAS links protein functionality to traits via protein QTLs (pQTLs).
-HAWAS maps histone modifications to traits using hQTLs, while MWAS explores DNA methylation patterns in relation to traits through mQTLs.
+Transcriptome-wide association studies (TWAS) use variants linked to changes in gene expression (i.e., expression quantitative trait loci or eQTLs).
+Protein-wide association studies (PWAS) links protein functionality to traits via protein QTLs (pQTLs).
+Histone acetylome-wide association studies (HAWAS) maps histone acetylation modifications to traits using histone acetylation QTLs (haQTLs), while methylation-wide association studies (MWAS) explores DNA methylation patterns in relation to traits through methylation QTLs (mQTLs).
 ](images/fig1.svg "single variant/single gene strategies"){#fig:fig1 width="100%"}
 
 ### From genetic variants to traits: genome-wide association study
@@ -261,18 +261,18 @@ HAWAS maps histone modifications to traits using hQTLs, while MWAS explores DNA 
 In a simple trait, a single gene can be responsible for the disease (monogenic), for example in the case of Sickle Cell Anemia and Huntington's disease.
 However, most traits are not so simplistic and are the result of many mutations across the genome (polygenic).
 Even monogenic traits can sometimes be influenced by the polygenic background [@doi:10.1038/s41467-020-17374-3].
-Genome-wide association studies (GWAS) examine the relationship between specific genetic variants and phenotypes by comparing allele frequencies in individuals of similar ancestry with distinct phenotypic traits (**Figure {@fig:fig1}**).
-Both causal and non-causal variants are found to be significant and due to the phenomena of linkage disequilibrium, the results of GWAS are often grouped into risk loci.
+GWAS examine the relationship between specific genetic variants and phenotypes by comparing allele frequencies in individuals of similar ancestry with distinct phenotypic traits (**Figure {@fig:fig1}**).
+Both causal and non-causal variants are found to be significant and due to the phenomenon of linkage disequilibrium, the results of GWAS are often grouped into risk loci.
 These loci represent clusters of variants that demonstrate significant associations, although not every variant may be causal [@doi:10.1186/s13059-022-02697-9].
 
-Since the first GWAS on age-related macular degeneration (AMD) in 2005, the GWAS catalog rapidly expanded, containing SNP-trait associations across >5,000 human traits [@doi:10.1093/nar/gkac1010].
+Since the first GWAS on age-related macular degeneration (AMD) in 2005, the GWAS catalog has rapidly expanded, containing SNP-trait associations across >5,000 human traits [@doi:10.1093/nar/gkac1010].
 These studies have successfully identified risk loci for a variety of traits such as type 2 diabetes, auto-immune disease, schizophrenia, major depressive disorder, and many more [@doi:10.1038/s41576-019-0127-1; @doi:10.1016/j.ajhg.2017.06.005].
 As GWAS participants increase, more loci are able to be identified.
 For example, a study investigating insomnia with a sample size of >1M identified 202 risk loci [@doi:10.1038/s41588-018-0333-3], compared to earlier studies with a sample size of ~110,00, which were only able to identify 3 risk loci [@doi:10.1038/ng.3888].
 Beyond the identification of risk loci, GWAS have also led to the discovery of novel biological mechanisms in Crohn’s disease [@doi:10.1038/ng1954; @doi:10.1038/nature13044], rheumatoid arthritis [@doi:10.1038/s41588-022-01213-w], and more.
 
 Although GWAS have identified numerous genetic variants associated with complex traits, translating these findings into biological insights remains challenging [@doi:10.1038/s41576-019-0127-1].
-For example, genes can have epistatic interactions where a secondary loci affects a primary loci.
+For example, genes can have epistatic interactions where a secondary loci affects a primary locus.
 The peripheral effects of the secondary loci are often too small to be picked up through GWAS alone [@doi:10.1016/j.tig.2011.05.007].
 Furthermore, any significant GWAS variants are located in non-coding regions, making it difficult to identify the specific genes that drive trait associations [@doi:10.1093/hmg/ddac198].
 A simple strategy to link GWAS-associated variants with a gene is by physical proximity, which typically selects the closest gene to the most significant SNP at each locus.
@@ -280,7 +280,7 @@ Approaches like MAGMA [@doi:10.1371/journal.pcbi.1004219] are based on proximity
 However, SNPs can have distal effects on the expression of the target gene [@doi:10.1126/science.aaz1776; @doi:10.1126/science.1222794; @doi:10.1038/nature13138; @doi:10.1073/pnas.112212199].
 
 Recent approaches combine multi-omics data from various cell types and tissues with GWAS to identify potential mechanisms of SNPs and the associated gene through molecular quantitative trait loci (molQTLs) [@doi:10.1016/j.molmed.2019.10.004] (Figure {@fig:fig1}).
-For example, an expression quantitative trait loci (eQTL) is a genetic region associated with the expression levels of a nearby or distant gene [@doi:10.1016/j.jgg.2023.05.003].
+For example, an expression quantitative trait locus (eQTL) is a genetic region associated with the expression levels of a nearby or distant gene [@doi:10.1016/j.jgg.2023.05.003].
 eQTL studies estimate that the majority of heritability is explained by the combination of multiple weak *trans*-eQTLs [@doi:10.1038/s41588-021-00913-z].
 
 In the next section, we briefly review computational approaches that test different molecular phenotypes via QTLs to link variants with genes.
@@ -291,7 +291,7 @@ This results in GWAS being underpowered to detect all heritability explained by 
 
 Transcriptome-wide association studies (TWAS) integrate GWAS with gene expression data (**Figure {@fig:fig1}**) from eQTL analysis, to prioritize genes whose expression across different tissues is influenced by GWAS variants [@doi:10.3389/fgene.2021.713230; @doi:10.1038/s41588-019-0385-z].
 By leveraging predicted gene expression levels, TWAS provides a mechanistic link between genetic variants and traits, allowing researchers to move beyond associations with individual SNPs to identify putatively causal genes [@doi:10.1038/s41588-019-0385-z].
-Since TWAS models the genetic regulation of gene expression, the approach allows researchers to impute expression levels in GWAS cohorts where expression data may not be available.
+Since TWAS models the genetic regulation of gene expression, this approach enables researchers to impute expression levels in GWAS cohorts where expression data may not be available.
 A key advantage of TWAS over GWAS lies in its ability to increase interpretability by providing a gene-trait association: TWAS connects trait-associated SNPs (which are mostly non-coding) to genes, which are biologically functional units.
 
 Several TWAS approaches have been introduced [@doi:10.1038/s42003-023-05279-y], including PrediXcan [@doi:10.1038/ng.3367], FUSION [@doi:10.1038/ng.3506] and TIGAR [@doi:10.1016/j.ajhg.2019.05.018].
@@ -317,7 +317,7 @@ The aggregate effects of these variants on each gene are then assessed, followed
 For example, PWAS confirmed the association of *MUTYH* with colorectal cancer using UK Biobank data, even when no individual variant reached genome-wide significance in GWAS, highlighting its ability to uncover functional associations missed by other methods.
 However, PWAS relies on high-quality proteomic data, may miss non-coding variant associations, and is computationally intensive.
 
-Epigenome-wide association studies (EWAS) encompass methodologies such methylome-wide association studies (MWAS) (**Figure {@fig:fig1}**) and histone acetylome-wide association studies (HAWAS) (**Figure {@fig:fig1}**), based on haQTLs and mQLTs respectability, which focus on specific types of epigenetic modifications to reveal their roles in gene regulation and disease etiology  [@doi:10.1186/s13148-021-01200-8].
+Epigenome-wide association studies (EWAS) encompass methodologies such as methylome-wide association studies (MWAS) (**Figure {@fig:fig1}**) and histone acetylome-wide association studies (HAWAS) (**Figure {@fig:fig1}**), based on haQTLs and mQLTs respectability, which focus on specific types of epigenetic modifications to reveal their roles in gene regulation and disease etiology  [@doi:10.1186/s13148-021-01200-8].
 MWAS targets DNA methylation patterns, identifying loci where methylation changes are linked to particular traits or diseases.
 For instance, a study by Shen et al. demonstrated a causal relationship between DNA methylation and depression, indicating that epigenetic modifications may mediate genetic risk for psychiatric disorders [@doi:10.1186/s13073-022-01039-5].
 HAWAS focuses on histone acetylation modifications, which are crucial for regulating chromatin structure and gene expression.
@@ -385,6 +385,7 @@ Additionally, the observed systematic floor effect across polygenic scores align
 Li et al. (2024) identified a significantly connected subgraph formed by cancer-affected coding genes and ncRNAs by focusing on connectivity as a key topological feature.
 This approach highlighted the essential role of ncRNAs in linking fragmented cancer-affected genes, consistent with the omnigenic framework's premise that peripheral genes, including non-coding elements, contribute to complex traits such as cancer.
 Importantly, the inclusion of ncRNAs enhanced the identification of cancer-related pathways, indicating that a comprehensive network model encompassing ncRNAs is more effective in characterizing disease relationships than models concentrating solely on coding genes [@doi:10.3390/e26080640]. 
+
 Empirical support for the omnigenic theory extends beyond human diseases.
 Sundell et al. demonstrated this concept in European black poplars, showing that both core and peripheral genes play a crucial role in predicting phenotypes.
 While core genes are indeed important, the information they provide must be complemented by other genes to ensure accurate phenotype predictions.
@@ -394,7 +395,7 @@ Furthermore, peripheral genes were found to carry significant biological informa
 
 In essence, the omnigenic model proposes a specific mechanism: that the genetic architecture of complex traits is intrinsically interconnected, involving a multitude of genes that contribute to phenotypic variation both directly (core genes) and indirectly (peripheral genes).
 This framework facilitates an understanding of the highly polygenic and often subtle genetic effects on complex traits, shifting the focus from individual genes to gene networks.
-While this proves successful in some fields the model exhibits certain limitations and has faced several criticisms.
+While this proves successful in some fields, the model exhibits certain limitations and has faced several criticisms.
 
 One major concern is the lack of clear, quantitative methods for identifying peripheral genes or estimating their contribution to heritability.
 While the model suggests that most genetic effects arise from peripheral genes, it remains unclear how to statistically define and measure these effects [@doi:10.1016/j.cell.2018.05.051; @doi:10.20900/jpbs.20170014S8].
@@ -409,7 +410,7 @@ They introduced the first "saturated" GWAS, where further increases in sample si
 Their findings revealed that only a subset of genomic regions (~20%) seem to contribute to height determination in individuals of European ancestry.
 This suggests that, at least for height, not all genes play a role in the trait as predicted by the omnigenic model [@doi:10.1038/s41586-022-05275-y].
 
-Furthermore, the omnigenic model has been criticized for their binary classification of genes into core and peripheral, which might oversimplify biological systems and potentially underestimate their true complexity [@doi:10.1016/j.cell.2018.05.051].
+Furthermore, the omnigenic model has been criticized for its binary classification of genes into core and peripheral, which might oversimplify biological systems and potentially underestimate their true complexity [@doi:10.1016/j.cell.2018.05.051].
 It also fails to account for gene-environment interactions, which play a crucial role in shaping complex traits [@doi:10.1371/journal.pgen.1008519].
 Additionally, while the model provides a conceptual framework, it remains unclear how to translate it into a practical statistical model [@doi:10.1101/2024.02.01.578486].
 
@@ -422,16 +423,16 @@ Recognizing the necessity of translating this model into practical applications,
 ## From gene networks to machine learning derived gene modules: hands-on strategies for inferring gene-gene interactions
 
 ![
-**Computational methods for machine learning derived gene module detection.**.
+**Computational methods for machine learning derived gene module detection**.
 *(a)* Real biological network, where nodes represent genes and edges denote the relationships between them.
 It captures all possible patterns that can link genes.
 Some of these relationships are gene co-expression patterns, which transcriptomics can capture, such as (1), (3) and (4).
 Other patterns, such as protein-protein interactions (2), are not captured by transcriptomics and are thus not reflected in the co-expression analysis.
 *(b)* Different approaches for capturing machine learning-derived gene modules.
 In this example, transcriptome data is used as input, but other data types such as methylomics, proteomics, and metabolomics can also be applied.
-The first row illustrates the PLIER method, which uses non-negative matrix factorization and prior knowledge to align gene modules with known biological pathways.
+The first row illustrates the Pathway-Level Information Extractor (PLIER) method, which uses non-negative matrix factorization and prior knowledge to align gene modules with known biological pathways.
 This approach generates interpretable gene modules but only captures linear relationships.
-The second row shows a vanilla VAE, which can capture both linear and nonlinear patterns but does not integrate prior knowledge, resulting in less interpretable gene modules.
+The second row shows a  variational autoencoders (VAEs), which can capture both linear and nonlinear patterns but does not integrate prior knowledge, resulting in less interpretable gene modules.
 The third row highlights interpretable VAEs, which incorporate prior knowledge into its decoder, achieving a balance between capturing complex relationships and maintaining biological interpretability.
 ](images/fig3.svg "Omnigenic model"){#fig:fig3 width="100%"}
 
@@ -472,7 +473,7 @@ To overcome these limitations, more sophisticated semi-supervised approaches suc
 These methodologies combine unsupervised approaches (decomposition methodologies) with supervised approaches to infer gene modules and annotate them with prior biological knowledge.
 
 GenomicSuperSignature employs PCA to identify gene modules applying prior knowledge for biological annotation after module discovery.
-This flexibility allows it to adapt to novel datasets and provides computational efficiency, even with large datasets.
+This flexibility allows it to adapt to novel datasets and provides computational efficiency even with large datasets.
 However, the lack of prior knowledge integration during training can result in modules that are less biologically interpretable compared to those from PLIER-based methods [@doi:10.1038/s41467-022-31411-3].
 
 The Pathway-Level Information Extractor (PLIER) (**Figure {@fig:fig3}*b***) is a semi-supervised framework based on non-negative matrix factorization.
@@ -504,7 +505,7 @@ Specifically, DL methods like autoencoders [@arxiv:1312.6114], which utilize neu
 This makes autoencoders particularly suited for uncovering gene modules and efficiently handling high-dimensional datasets.
 For instance, variational autoencoders (VAEs) (**Figure {@fig:fig3}*b***) enhance this process by encoding data into a continuous latent space, enabling dimensionality reduction and the generation of new data.
  However, this increased power to capture more general patterns has a major tradeoff: interpretability.
-To overcome this, interpretable VAE models like the Pathway Module VAE (pmVAE) [@doi:10.1101/2021.01.28.428664], expiMap [@doi:10.1038/s41556-022-01072-x], and VEGA [@doi:10.1038/s41467-021-26017-0] integrate biological pathway information into the decoder, which improves interpretability, thus making these approaches function as linear dimensionality reduction methods.
+To overcome this, interpretable VAE models like the Pathway Module VAE (pmVAE) [@doi:10.1101/2021.01.28.428664], expiMap [@doi:10.1038/s41556-022-01072-x], and VEGA [@doi:10.1038/s41467-021-26017-0] integrate biological pathway information into the decoder, which improves interpretability, thus making these approaches function as linear dimensionality reduction methods
 (**Figure {@fig:fig3}*b***).
 
 From now on, we refer to a gene module as a pattern extracted by any unsupervised approach (such as PLIER, GenomicSuperSignature, VAE, clustering, etc.) applied to gene expression data, which could be a latent variable or other types of gene cluster.
@@ -515,9 +516,9 @@ From now on, we refer to a gene module as a pattern extracted by any unsupervise
 ![
 **An integrative, gene module-based approach for genetic studies.**
 Each panel shows a component of the PhenoPLIER framework [@doi:10.1038/s41467-023-41057-4].
-*(a)* First, latent variables (LVs) or gene modules are learned from transcriptome data using the PLIER matrix factorization method.
+*(a)* First, latent variables (LVs) or gene modules are learned from transcriptome data using the Pathway-Level Information Extractor (PLIER) matrix factorization method.
 PLIER generates matrix $\mathbf{Z}$, which has gene weights for each module, and matrix $\mathbf{B}$, which has the samples in the latent space.
-*(b)* Schematic of gene-trait associations from TWAS and gene-drug scores from LINCS L1000 being projected into the latent space for a joint analysis.
+*(b)* Schematic of gene-trait associations from Transcriptome-wide association studies (TWAS) and gene-drug scores from LINCS L1000 being projected into the latent space for a joint analysis.
 *(c)* Schematic of a gene module-based drug reporposing framework, where the projection of TWAS and LINCS L1000 data is used to compute a drug-disease score.
 *(d)* Schematic of a regression model that tests whether genes that belong to a module (using a column of $\mathbf{Z}$) tend to be more strongly associated with a trait (using $p$-values from TWAS).
 *(e)* (top) Example of a gene module identified as LV246 analyzed in [@doi:10.1038/s41467-023-41057-4].
@@ -532,7 +533,7 @@ All the previously described approaches provide valuable and orthogonal informat
 All of them have limitations and offer a partial view of the complex molecular interplay underlying pathophysiological processes.
 In this section, we describe a gene module-based approach aimed at identifying patterns shared across these data sources.
 The underlying hypothesis of this approach is that biologically meaningful, disease-relevant gene-gene links will be revealed when different yet incomplete data modalities are integrated.
-In particular, we show examples on how the integration of gene modules with gene-trait associations and gene-drug data highlight core genes, disease-relevant molecular processes and drug’s mechanisms of action.
+In particular, we show examples on how the integration of gene modules with gene-trait associations and gene-drug data highlight core genes, disease-relevant molecular processes and drugs' mechanisms of action.
 
 The PhenoPLIER framework [@doi:10.1038/s41467-023-41057-4] is a recent computational framework that implements this gene module-based approach.
 PhenoPLIER can integrate gene modules extracted from any transcriptome data with gene-trait associations from TWAS and drug-induced transcriptional profiles (**Figure {@fig:fig4}**).
@@ -541,7 +542,7 @@ Then, different data modalities are integrated into this common latent space for
 An advantage of PhenoPLIER is interpretability: it uses gene module models from PLIER (**Figure {@fig:fig4}*a***), which provides not only information about which genes belong to a module but also what are the top samples where those genes are expressed.
 If present, by looking at the metadata of the RNA-seq datasets, it is possible to infer if those samples represent consistent conditions such as tissues, cell types, or other more complex contexts.
 
-In PhenoPLIER, this latent transcriptional space is described by 987 gene modules derived from recount2 [@doi:10.1038/nbt.3838; @doi:10.1016/j.cels.2019.04.003] (**Figure {@fig:fig4}*a***), a large and highly heterogeneous expression compendia.
+In PhenoPLIER, this latent transcriptional space is described by 987 gene modules derived from recount2 [@doi:10.1038/nbt.3838; @doi:10.1016/j.cels.2019.04.003] (**Figure {@fig:fig4}*a***), a large and highly heterogeneous expression compendium.
 Given the heterogeneity of the dataset, these gene modules can capture genes expressed across different contexts such as tissues, cell types (across differentiation stages), different disease states or stimuli.
 These contexts can be extracted from sample metadata.
 PhenoPLIER incorporates gene-trait associations computed with the PrediXcan family of TWAS methods [@doi:10.1038/ng.3367; @doi:10.1038/s41467-018-03621-1; @doi:10.1371/journal.pgen.1007889] on two different cohorts: the UK Biobank [@doi:10.1038/s41586-018-0579-z; @doi:10.1126/sciadv.aba2083] as discovery, and the Electronic Medical Records and Genomics (eMERGE) network phase III [@doi:10.1038/gim.2013.72; @doi:10.1101/2021.10.21.21265225] as replication.
@@ -579,14 +580,14 @@ Although there is strong evidence that *APOE* is a causal gene for AD, it still 
 A gene module-based approach might help prioritize core genes that remain elusive when using standard single-gene strategies.
 
 Another approach to compute an association between gene modules and traits is MAGMA gene-set analysis [@doi:10.1371/journal.pcbi.1004219].
-Actually, the regression model used by PhenoPLIER is based on MAGMA.
+In fact, the regression model employed by PhenoPLIER is based on MAGMA.
 The difference is that PhenoPLIER uses gene-trait association from the PrediXcan family of TWAS methods, while MAGMA does not incorporate eQTL data and it uses a proximity-based approach in linking variants with genes.
 Another difference is that MAGMA allows to perform conditional and interaction gene-set analysis to account for correlated gene modules, and the approach was found to be useful in detecting novel pathways in the context of blood pressure [@doi:10.1038/s41467-018-06022-6].
 The use of eQTL data by TWAS, however, might fit better the gene regulatory network assumptions of the omnigenic model than proximity-based approaches like MAGMA.
 
 Approaches based on gene modules have the potential to go beyond prior knowledge and capture patterns that might be unique to different disease datasets.
 First, although a gene module can be aligned to a pathway, this does not mean that it is restricted to prior knowledge as in standard pathway analyses.
-Being aligned with pathways means that a module resembles a known mechanism, and this helps in interpretability and also in separating from other patterns that might be related to technical noise but the module could capture other genes as well that are not part of the pathway but potentially also involved the function.
+Being aligned with pathways means that a module resembles a known mechanism, and this helps in interpretability and also in separating from other patterns that might be related to technical noise but the module could capture other genes as well that are not part of the pathway but potentially also involved in the function.
 Second, gene modules can also be extracted from very large, heterogeneous datasets such as recount2, or more specific ones such as the Human Trisome Project, which includes gene expression from people with Down Syndrome (DS).
 Approaches such as PLIER and PhenoPLIER have been fundamental to extract DS-specific gene modules related to obesity, a common co-occurring condition The omni-PLIER framework, combining the PLIER model with the omnigenic approach, uncovers molecular mechanisms linking Down syndrome (DS) and obesity, identifying key latent variables with top genes such as GPX1 and MCL1, which mediate the relationship between trisomy 21 and body mass index (BMI), offering insights into DS-specific and general obesity-related processes [@Nandi2024]. 
 
