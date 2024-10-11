@@ -58,7 +58,7 @@ genotypes
 GPX
 Granés
 GWAS
-Haoyu
+haoyu
 haQTL
 haQTLs
 HAWAS
@@ -70,7 +70,7 @@ homogenous
 HTP
 hyperlipidemia
 interpretability
-Interpretable
+interpretable
 iological
 IRX
 jillhoffman
@@ -117,7 +117,7 @@ pathophysiological
 PCA
 phecode
 PhenoPLIER
-Phenotypes
+phenotypes
 phenotypic
 Pividori
 pleiotropy
@@ -156,7 +156,7 @@ TF
 TIGAR
 tradeoff
 transcriptional
-transcriptome
+Transcriptome
 transcriptomic
 transcriptomics
 translational
