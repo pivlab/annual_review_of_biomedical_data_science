@@ -6,7 +6,7 @@ adipocyte
 Akirtava
 Annu
 Anschutz
-APOE
+ApoE
 apolipoprotein
 astrocyes
 astrocytes
@@ -65,12 +65,12 @@ HAWAS
 HD
 HepG
 heritability
-Histone
+histone
 homogenous
 HTP
 hyperlipidemia
 interpretability
-Interpretable
+interpretable
 iological
 IRX
 jillhoffman
@@ -117,7 +117,7 @@ pathophysiological
 PCA
 phecode
 PhenoPLIER
-Phenotypes
+phenotypes
 phenotypic
 Pividori
 pleiotropy

@@ -32,8 +32,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-11" />
   <meta name="citation_publication_date" content="2024-10-11" />
   <meta property="article:published_time" content="2024-10-11" />
-  <meta name="dc.modified" content="2024-10-11T02:17:39+00:00" />
-  <meta property="article:modified_time" content="2024-10-11T02:17:39+00:00" />
+  <meta name="dc.modified" content="2024-10-11T02:18:30+00:00" />
+  <meta property="article:modified_time" content="2024-10-11T02:18:30+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -71,9 +71,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6a128344693fc244f80501a6df4346fbd4e190e5/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6a128344693fc244f80501a6df4346fbd4e190e5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6a128344693fc244f80501a6df4346fbd4e190e5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/ed891bc49e3bd7d3317c8b32dfe22cb07174dd37/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/ed891bc49e3bd7d3317c8b32dfe22cb07174dd37/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/ed891bc49e3bd7d3317c8b32dfe22cb07174dd37/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -100,9 +100,9 @@ _Subirana-Granés M, Hoffman J, Zhang H, Akirtava C, Nandi S, Fotso K, Pividori 
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6a128344693fc244f80501a6df4346fbd4e190e5/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/ed891bc49e3bd7d3317c8b32dfe22cb07174dd37/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@6a12834](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/6a128344693fc244f80501a6df4346fbd4e190e5)
+from [pivlab/annual_review_of_biomedical_data_science@ed891bc](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/ed891bc49e3bd7d3317c8b32dfe22cb07174dd37)
 on October 11, 2024.
 </em></small>
 
@@ -637,13 +637,13 @@ To meet these challenges, we are focusing on accelerating workflows with graphic
 
 Leveraging GPU acceleration holds great promise for significantly speeding up bioinformatics workflows.
 Research has shown that GPU technology can provide remarkable performance boosts, with speed improvements reaching up to 1000x for specific tasks [@doi:10.1093/bib/bbw058].
-Integrating GPU-aware libraries like CuPy [@Okuta2017] and RAPIDS [@url:https://rapids.ai/] into our tools allows for seamless performance upgrades in established frameworks such as NumPy [@doi:10.1038/s41586-020-2649-2] and Scikit-learn [@doi:10.48550/arXiv.1201.0490].
+Integrating GPU-aware libraries like CuPy [@Okuta2017] and RAPIDS [@url:https://rapids.ai] into our tools allows for seamless performance upgrades in established frameworks such as NumPy [@doi:10.1038/s41586-020-2649-2] and Scikit-learn [@doi:10.48550/arXiv.1201.0490].
 As our tools evolve, we anticipate developing custom GPU kernels, further enhancing speed and optimizing them for specific computational needs.
 Advanced GPU programming with PyCUDA [@doi:10.1016/j.parco.2011.09.001] could also be key to future optimizations.
 
 Another promising direction is utilizing WebAssembly [@doi:10.1145/3062341.3062363] to make bioinformatics tools more portable and accessible.
 We aim to adapt existing bioinformatics applications into web-based tools that can be run directly in the browser, providing users with full control over their data and eliminating the need for data transfer over networks.
-Projects like Biowasm [@url:https://biowasm.com/], Kana [@doi:10.1101/2022.03.02.482701], and VirtualWasm [@doi:10.1093/bioinformatics/btae018] have already demonstrated the potential of WebAssembly for genomics and single-cell analysis, and we plan to build on this foundation.
+Projects like Biowasm [@url:https://biowasm.com], Kana [@doi:10.1101/2022.03.02.482701], and VirtualWasm [@doi:10.1093/bioinformatics/btae018] have already demonstrated the potential of WebAssembly for genomics and single-cell analysis, and we plan to build on this foundation.
 By executing statistical analyses, computations, and visualizations directly on the user's device, WebAssembly will not only address privacy and compliance concerns but also reduce server costs and computational load by shifting the workload to the client side.
 
 Future innovations in GPU acceleration and WebAssembly will transform how bioinformatics tools are developed and deployed, leading to faster, more accessible solutions for researchers worldwide.
