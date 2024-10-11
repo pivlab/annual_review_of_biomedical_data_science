@@ -32,8 +32,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-11" />
   <meta name="citation_publication_date" content="2024-10-11" />
   <meta property="article:published_time" content="2024-10-11" />
-  <meta name="dc.modified" content="2024-10-11T02:16:19+00:00" />
-  <meta property="article:modified_time" content="2024-10-11T02:16:19+00:00" />
+  <meta name="dc.modified" content="2024-10-11T02:17:39+00:00" />
+  <meta property="article:modified_time" content="2024-10-11T02:17:39+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -59,6 +59,7 @@ header-includes: |
   <meta name="citation_author_orcid" content="0009-0001-5887-999X" />
   <meta name="citation_author" content="Kevin Fotso" />
   <meta name="citation_author_institution" content="Office of Information Technology, University of Colorado Anschutz Medical Campus, Aurora, CO, USA" />
+  <meta name="citation_author_orcid" content="0009-0002-2196-6157" />
   <meta name="citation_author" content="Milton Pividori" />
   <meta name="citation_author_institution" content="Department of Biomedical Informatics, University of Colorado School of Medicine, Aurora, CO 80045, USA" />
   <meta name="citation_author_institution" content="Colorado Center for Personalized Medicine, University of Colorado Anschutz Medical Campus, Aurora, CO, USA" />
@@ -70,9 +71,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/d940251e024223111145d42fb373b9cc191fe474/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/d940251e024223111145d42fb373b9cc191fe474/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/d940251e024223111145d42fb373b9cc191fe474/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6a128344693fc244f80501a6df4346fbd4e190e5/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6a128344693fc244f80501a6df4346fbd4e190e5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6a128344693fc244f80501a6df4346fbd4e190e5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -99,9 +100,9 @@ _Subirana-Granés M, Hoffman J, Zhang H, Akirtava C, Nandi S, Fotso K, Pividori 
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/d940251e024223111145d42fb373b9cc191fe474/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/6a128344693fc244f80501a6df4346fbd4e190e5/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@d940251](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/d940251e024223111145d42fb373b9cc191fe474)
+from [pivlab/annual_review_of_biomedical_data_science@6a12834](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/6a128344693fc244f80501a6df4346fbd4e190e5)
 on October 11, 2024.
 </em></small>
 
@@ -172,6 +173,8 @@ on October 11, 2024.
 
 + **Kevin Fotso**
   <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [0009-0002-2196-6157](https://orcid.org/0009-0002-2196-6157)
     · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
     [kf-cuanschutz](https://github.com/kf-cuanschutz)
     <br>

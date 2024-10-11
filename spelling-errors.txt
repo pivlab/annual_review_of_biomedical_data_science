@@ -6,7 +6,7 @@ adipocyte
 Akirtava
 Annu
 Anschutz
-ApoE
+APOE
 apolipoprotein
 astrocyes
 astrocytes
@@ -58,7 +58,7 @@ genotypes
 GPX
 Granés
 GWAS
-haoyu
+Haoyu
 haQTL
 haQTLs
 HAWAS
@@ -70,7 +70,7 @@ homogenous
 HTP
 hyperlipidemia
 interpretability
-interpretable
+Interpretable
 iological
 IRX
 jillhoffman
@@ -117,7 +117,7 @@ pathophysiological
 PCA
 phecode
 PhenoPLIER
-phenotypes
+Phenotypes
 phenotypic
 Pividori
 pleiotropy
@@ -156,7 +156,7 @@ TF
 TIGAR
 tradeoff
 transcriptional
-Transcriptome
+transcriptome
 transcriptomic
 transcriptomics
 translational
