@@ -2,7 +2,6 @@ ACACA
 acetylated
 acetylation
 acetylome
-achine
 adipocyte
 Akirtava
 Annu
@@ -23,7 +22,6 @@ CCC
 Chateigner
 cis
 Clustermatch
-coexpressed
 coexpression
 colocalization
 colocalized
@@ -68,7 +66,6 @@ HD
 HepG
 heritability
 Histone
-homogenous
 HTP
 hyperlipidemia
 interpretability
@@ -99,7 +96,6 @@ moduling
 molQTLs
 monogenic
 MousiPLIER
-mQLTs
 mQTLs
 msubirana
 Mtb
@@ -119,7 +115,7 @@ pathophysiological
 PCA
 phecode
 PhenoPLIER
-Phenotypes
+phenotypes
 phenotypic
 Pividori
 pleiotropy
@@ -130,7 +126,6 @@ polygenicity
 PPIs
 pQTLs
 PrediXcan
-proceses
 proteomic
 proteomics
 PTMs
@@ -155,9 +150,8 @@ Sutanu
 TCF
 TF
 TIGAR
-tradeoff
 transcriptional
-transcriptome
+Transcriptome
 transcriptomic
 transcriptomics
 translational
