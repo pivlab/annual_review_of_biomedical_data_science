@@ -2,6 +2,7 @@ ACACA
 acetylated
 acetylation
 acetylome
+achine
 adipocyte
 Akirtava
 Annu
@@ -19,6 +20,7 @@ Bioscience
 Biowasm
 Cas
 CCC
+Chateigner
 cis
 Clustermatch
 coexpressed
@@ -58,19 +60,19 @@ genotypes
 GPX
 Granés
 GWAS
-Haoyu
+haoyu
 haQTL
 haQTLs
 HAWAS
 HD
 HepG
 heritability
-histone
+Histone
 homogenous
 HTP
 hyperlipidemia
 interpretability
-interpretable
+Interpretable
 iological
 IRX
 jillhoffman
@@ -117,7 +119,7 @@ pathophysiological
 PCA
 phecode
 PhenoPLIER
-phenotypes
+Phenotypes
 phenotypic
 Pividori
 pleiotropy
@@ -149,7 +151,6 @@ SNPs
 sQTLs
 subgraph
 Subirana
-Sundell
 Sutanu
 TCF
 TF

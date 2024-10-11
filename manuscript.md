@@ -32,8 +32,8 @@ header-includes: |
   <meta name="dc.date" content="2024-10-11" />
   <meta name="citation_publication_date" content="2024-10-11" />
   <meta property="article:published_time" content="2024-10-11" />
-  <meta name="dc.modified" content="2024-10-11T02:18:30+00:00" />
-  <meta property="article:modified_time" content="2024-10-11T02:18:30+00:00" />
+  <meta name="dc.modified" content="2024-10-11T02:58:16+00:00" />
+  <meta property="article:modified_time" content="2024-10-11T02:58:16+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -71,9 +71,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/ed891bc49e3bd7d3317c8b32dfe22cb07174dd37/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/ed891bc49e3bd7d3317c8b32dfe22cb07174dd37/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/ed891bc49e3bd7d3317c8b32dfe22cb07174dd37/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/e228a134341464b796d84ee5d23222a1f77ae665/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/e228a134341464b796d84ee5d23222a1f77ae665/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/e228a134341464b796d84ee5d23222a1f77ae665/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -100,9 +100,9 @@ _Subirana-Granés M, Hoffman J, Zhang H, Akirtava C, Nandi S, Fotso K, Pividori 
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/ed891bc49e3bd7d3317c8b32dfe22cb07174dd37/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/e228a134341464b796d84ee5d23222a1f77ae665/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@ed891bc](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/ed891bc49e3bd7d3317c8b32dfe22cb07174dd37)
+from [pivlab/annual_review_of_biomedical_data_science@e228a13](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/e228a134341464b796d84ee5d23222a1f77ae665)
 on October 11, 2024.
 </em></small>
 
@@ -213,7 +213,7 @@ Milton Pividori \<milton.pividori@cuanschutz.edu\>.
 Understanding the genetic basis of complex traits is a longstanding challenge in the field of genomics.
 Genome-wide association studies (GWAS) have identified thousands of variant-trait associations, but most of these variants are located in non-coding regions, making the link to biological function elusive.
 While traditional approaches, such as Transcriptome-wide association studies (TWAS), have advanced our understanding by linking genetic variants to gene expression, they often overlook gene-gene interactions.
-Here, we review current approaches based on gene modules to integrate different molecular data, leveraging machine learning methods to identify gene modules based on co-expression and functional relationships.
+Here, we review current approaches to integrate different molecular data, leveraging machine learning methods to identify gene modules based on co-expression and functional relationships.
 These integrative approaches, like PhenoPLIER, combine TWAS and drug-induced transcriptional profiles to effectively capture biologically meaningful gene networks.
 This integration provides a context-specific understanding of disease proceses while highlighting both core and peripheral genes.
 These insights pave the way for novel therapeutic targets and enhance the interpretability of genetic studies in personalized medicine.
@@ -235,7 +235,7 @@ TWAS have proven effective by linking genetic variants to gene expression, there
 TWAS employs expression quantitative trait loci (eQTL) data to prioritize genes that are influenced by GWAS variants, offering a more mechanistic link between genetic variation and phenotypic changes.
 Nevertheless, TWAS and similar methods typically focus on individual genes or variants, overlooking the complex interactions among genes that are increasingly recognized as vital to understanding complex traits [@doi:10.1016/j.cell.2017.05.038].
 
-The omnigenic model, introduced by Boyle et al. [@doi:10.1016/j.cell.2017.05.038], proposes that the genetic architecture of complex traits involves highly interconnected gene networks.
+The omnigenic model, introduced by Boyle et al.(2017) [@doi:10.1016/j.cell.2017.05.038], proposes that the genetic architecture of complex traits involves highly interconnected gene networks.
 According to this model, core genes directly contribute to a trait, while peripheral genes modulate these core genes through regulatory networks.
 This conceptual shift emphasizes the need for methodologies capable of capturing polygenic and network-based interactions inherent in complex diseases.
 Machine learning approaches, particularly those that leverage gene co-expression patterns, are well-suited to this task.
@@ -292,7 +292,7 @@ This results in GWAS being underpowered to detect all heritability explained by 
 
 ### From GWAS to gene: transcriptome-wide association studies 
 
-Transcriptome-wide association studies (TWAS) integrate GWAS with gene expression data (**Figure {@fig:fig1}**) from eQTL analysis, to prioritize genes whose expression across different tissues is influenced by GWAS variants [@doi:10.3389/fgene.2021.713230; @doi:10.1038/s41588-019-0385-z].
+TWAS integrate GWAS with gene expression data (**Figure {@fig:fig1}**) from eQTL analysis, to prioritize genes whose expression across different tissues is influenced by GWAS variants [@doi:10.3389/fgene.2021.713230; @doi:10.1038/s41588-019-0385-z].
 By leveraging predicted gene expression levels, TWAS provides a mechanistic link between genetic variants and traits, allowing researchers to move beyond associations with individual SNPs to identify putatively causal genes [@doi:10.1038/s41588-019-0385-z].
 Since TWAS models the genetic regulation of gene expression, this approach enables researchers to impute expression levels in GWAS cohorts where expression data may not be available.
 A key advantage of TWAS over GWAS lies in its ability to increase interpretability by providing a gene-trait association: TWAS connects trait-associated SNPs (which are mostly non-coding) to genes, which are biologically functional units.
@@ -322,10 +322,10 @@ However, PWAS relies on high-quality proteomic data, may miss non-coding variant
 
 Epigenome-wide association studies (EWAS) encompass methodologies such as methylome-wide association studies (MWAS) (**Figure {@fig:fig1}**) and histone acetylome-wide association studies (HAWAS) (**Figure {@fig:fig1}**), based on haQTLs and mQLTs respectability, which focus on specific types of epigenetic modifications to reveal their roles in gene regulation and disease etiology  [@doi:10.1186/s13148-021-01200-8].
 MWAS targets DNA methylation patterns, identifying loci where methylation changes are linked to particular traits or diseases.
-For instance, a study by Shen et al. demonstrated a causal relationship between DNA methylation and depression, indicating that epigenetic modifications may mediate genetic risk for psychiatric disorders [@doi:10.1186/s13073-022-01039-5].
+For instance, a study by Shen et al. (2022) demonstrated a causal relationship between DNA methylation and depression, indicating that epigenetic modifications may mediate genetic risk for psychiatric disorders [@doi:10.1186/s13073-022-01039-5].
 HAWAS focuses on histone acetylation modifications, which are crucial for regulating chromatin structure and gene expression.
-Del Rosario et al.conducted a HAWAS identifying over 2,000 differentially acetylated loci in immune cells from Mycobacterium tuberculosis-infected individuals, linking these changes to gene expression and potassium channel genes like *KCNJ15* in modulating apoptosis and Mtb clearance.
-haQTL analysis further revealed variants associated with immune phenotypes, complementing GWAS findings and enhancing understanding of disease mechanisms  [@doi:10.1038/s41564-021-01049-w].
+Del Rosario et al. (2022) conducted a HAWAS identifying over 2,000 differentially acetylated loci in immune cells from *Mycobacterium tuberculosis* infected individuals, linking these changes to gene expression and potassium channel genes like *KCNJ15* in modulating apoptosis and Mtb clearance.
+haQTL analysis further revealed variants associated with immune phenotypes, complementing GWAS findings and enhancing understanding of disease mechanisms [@doi:10.1038/s41564-021-01049-w].
 The tissue-specific nature of epigenetic modifications, alongside the capacity to capture cellular plasticity and environmental influences, enhances our insight into the effects of genetic variants across distinct tissues, temporal cellular states, and gene-environment interactions [@doi:10.3390/cells9112424; @doi:10.1016/j.placenta.2007.09.011].
 
 Despite the advancements facilitated by single variant and single gene methodologies, a common thread persists: the focus remains on one gene at a time.
@@ -362,19 +362,19 @@ Over a decade of GWAS has led to several unexpected findings:
 1. The strongest GWAS associations exhibit modest effect sizes on disease risk, collectively accounting for only a minor fraction of the predicted heritability (missing heritability) [@doi:10.1038/nature08494].
 It is now understood that much of this missing heritability arises from a vast number of common variants with small effects that remain undetected in current sample sizes [@doi:10.1371/journal.pgen.1008222].
 
-2. A surprising uniform distribution of these small-effect significant variants exists throughout the genome, including non-coding regions, with a notable concentration in regulatory elements such as enhancers and promoters [@doi:10.1038/nature08185; @doi:10.1146/annurev-biodatasci-122120-110102].
+2. A surprising uniform distribution of these small effect significant variants exists throughout the genome, including non-coding regions, with a notable concentration in regulatory elements such as enhancers and promoters [@doi:10.1038/nature08185; @doi:10.1146/annurev-biodatasci-122120-110102].
 For instance, it is estimated that 71%–100% of 1-MB windows in the genome contribute to heritability for schizophrenia [@doi:10.1038/ng.3431].
 
 3. Trait variation is influenced by the broader genome, not only by genes with direct biological links to specific phenotypes.
 However, the idea that nearly all genomic variants could exert direct additive effects on a given phenotype is biologically unlikely [@doi:10.1016/j.cell.2017.05.038].
 
-In response to these unexpected findings, Boyle et al. proposed the omnigenic model  [@doi:10.1016/j.cell.2017.05.038], a conceptual framework in which the genetic architecture of complex traits could be explained by highly interconnected gene regulatory networks.
+In response to these unexpected findings, Boyle et al. (2017) proposed the omnigenic model  [@doi:10.1016/j.cell.2017.05.038], a conceptual framework in which the genetic architecture of complex traits could be explained by highly interconnected gene regulatory networks.
 The omnigenic model reframes the earlier infinitesimal model by distinguishing between “core” genes, which have a direct biological role in the disease or trait, and “peripheral” genes, which influence core genes and thus indirectly affect the disease or trait through regulatory networks [@doi:10.1016/j.cell.2017.05.038].
 The omnigenic model, unlike the traditional infinitesimal model, offers a mechanistic rationale for complex traits architecture based on molecular and cellular biology, understanding the molecular pathways that connect genetic variation to phenotypic traits (**Figure {@fig:fig2}**).
 
 The key proposals of this model are: 1) nearly all genes expressed in cells relevant to the trait have the potential to impact the regulation of core genes 2) that for typical traits, nearly all heritability is attributable to variation near peripheral genes.
 Consequently, while core genes function as the primary drivers of disease, it is the cumulative effects of numerous peripheral gene variants that determine polygenic risk [@doi:10.1016/j.cell.2019.04.014].
-This framework provides a possible explanation for several previously identified problems, including widespread pleiotropy (the ability of a single gene to affect multiple traits), polygenicity (the involvement of many genes in the manifestation of a single trait), the bias effect size where small-effect variants can collectively account for a large portion of heritability, and the uniform distribution of these effects across the genome.
+This framework provides a possible explanation for several previously identified problems, including widespread pleiotropy (the ability of a single gene to affect multiple traits), polygenicity (the involvement of many genes in the manifestation of a single trait), the bias effect size where small effect variants can collectively account for a large portion of heritability, and the uniform distribution of these effects across the genome.
 
 ### Success stories of the omnigenic model
 
@@ -390,7 +390,7 @@ This approach highlighted the essential role of ncRNAs in linking fragmented can
 Importantly, the inclusion of ncRNAs enhanced the identification of cancer-related pathways, indicating that a comprehensive network model encompassing ncRNAs is more effective in characterizing disease relationships than models concentrating solely on coding genes [@doi:10.3390/e26080640]. 
 
 Empirical support for the omnigenic theory extends beyond human diseases.
-Sundell et al. demonstrated this concept in European black poplars, showing that both core and peripheral genes play a crucial role in predicting phenotypes.
+Chateigner et al. (2020) demonstrated this concept in European black poplars, showing that both core and peripheral genes play a crucial role in predicting phenotypes.
 While core genes are indeed important, the information they provide must be complemented by other genes to ensure accurate phenotype predictions.
 Furthermore, peripheral genes were found to carry significant biological information contributing to robust predictions [@doi:10.1186/s12864-020-06809-2].
 
@@ -408,7 +408,7 @@ Thus, understanding *trans* effects, where a variant at one locus influences gen
 However, detecting and quantifying *trans* effects remains a significant challenge due to their weak individual effects.
 
 The omnigenic model postulates that nearly all genes expressed in cells relevant to a given trait have the potential to influence the regulation of core genes.
-However, Yengo et al., in their recent GWAS on height, challenge this view.
+However, Yengo et al.(2022), in their recent GWAS on height, challenge this view.
 They introduced the first "saturated" GWAS, where further increases in sample size are unlikely to yield additional genetic insights unless participant diversity or variant inclusion is expanded.
 Their findings revealed that only a subset of genomic regions (~20%) seem to contribute to height determination in individuals of European ancestry.
 This suggests that, at least for height, not all genes play a role in the trait as predicted by the omnigenic model [@doi:10.1038/s41586-022-05275-y].
@@ -449,20 +449,20 @@ Gene modules, a key type of biological network, consist of nodes (genes) and edg
 These modules, formed by genes with coordinated expression patterns under specific biological conditions, not only reveal coexpression but could also provide valuable insights into regulatory mechanisms, gene functions, and the pathways involved in traits and diseases [@doi:10.1371/journal.pone.0247671].
 
 Numerous approaches have been proposed for module detection in gene expression data.
-Machine learning (ML) techniques are particularly proficient at addressing common challenges in omics data, such as data sparsity and high dimensionality [@doi:10.1038/s41540-023-00312-6].
-ML methods can compress correlations into lower-dimensional representations, facilitating the processing of large datasets to identify intricate coexpression patterns.
-Additionally, ML approaches are capable of integrating various types of omics data enhancing the detection of gene modules, providing a more comprehensive understanding of biological networks [@doi:10.1038/s41540-023-00312-6].
+Machine learning techniques are particularly proficient at addressing common challenges in omics data, such as data sparsity and high dimensionality [@doi:10.1038/s41540-023-00312-6].
+achine learning methods can compress correlations into lower-dimensional representations, facilitating the processing of large datasets to identify intricate coexpression patterns.
+Additionally, machine learning approaches are capable of integrating various types of omics data enhancing the detection of gene modules, providing a more comprehensive understanding of biological networks [@doi:10.1038/s41540-023-00312-6].
 
-In this context, unsupervised ML approaches have gained significant popularity [@doi:10.1126/scitranslmed.aag3101].
+In this context, unsupervised machine learning approaches have gained significant popularity [@doi:10.1126/scitranslmed.aag3101].
 These methods facilitate the discovery of patterns and structures within the data without requiring prior knowledge of the system, allowing for the inference of novel findings and hypotheses.
 This capability is particularly advantageous for gene module inference, which aims to identify groups of coexpressed and potentially co-regulated genes that contribute to similar biological functions [@doi:10.1038/s41467-018-03424-4].
 
 
-The most common approach in unsupervised ML is clustering, with methods such as WGCNA, which has been widely used since the first gene expression datasets became available and remains one of the most popular tools today [@doi:10.1038/s41467-018-03424-4].
+The most common approach in unsupervised machine learning is clustering, with methods such as WGCNA, which has been widely used since the first gene expression datasets became available and remains one of the most popular tools today [@doi:10.1038/s41467-018-03424-4].
 However, these methodologies typically rely on traditional correlation measures (e.g., the Pearson correlation coefficient), which are limited to capturing linear associations between continuous data.
 Newer approaches, such as the Clustermatch Correlation Coefficient (CCC), have been developed to quantify both linear and non-linear correlations in complex gene expression datasets, providing a more flexible means of detecting intricate relationships that are not apparent through linear models alone [@doi:10.1016/j.cels.2024.08.005].
 
-In this section, given their successful applications, we will focus on decomposition approaches like Principal Component Analysis (PCA), and deep learning methods for inferring gene modules, highlighting their effectiveness in uncovering complex gene interactions and enhancing our understanding of biological networks (**Figure {@fig:fig3}*b***).
+In this section, given their successful applications, we will focus on decomposition approaches like Principal Component Analysis (PCA), and deep learning (DL) methods for inferring gene modules, highlighting their effectiveness in uncovering complex gene interactions and enhancing our understanding of biological networks (**Figure {@fig:fig3}*b***).
 However, we acknowledge that utilizing transcriptional data alone is insufficient for fully comprehending the intricate system of biological networks; it serves as an initial step toward a more comprehensive understanding.
 
 ### Decomposition methods
@@ -479,7 +479,7 @@ GenomicSuperSignature employs PCA to identify gene modules applying prior knowle
 This flexibility allows it to adapt to novel datasets and provides computational efficiency even with large datasets.
 However, the lack of prior knowledge integration during training can result in modules that are less biologically interpretable compared to those from PLIER-based methods [@doi:10.1038/s41467-022-31411-3].
 
-The Pathway-Level Information Extractor (PLIER) (**Figure {@fig:fig3}*b***) is a semi-supervised framework based on non-negative matrix factorization.
+PLIER (**Figure {@fig:fig3}*b***) is a semi-supervised framework based on non-negative matrix factorization.
 During training, it reduces high-dimensional gene expression data into a smaller set of latent variables (LVs) while aligning some of them to known pathway or gene set annotations.
 These LVs are designed to capture the greatest variance in the data, where a fraction of the LVs represent known mechanisms (i.e., aligned with prior knowledge/pathways) while others capture potential technical artifacts or novel patterns.
 By incorporating prior pathway/gene set information, PLIER generates interpretable latent representations.
@@ -500,13 +500,13 @@ One such adaptation is MousiPLIER, which tailors the PLIER framework for use in 
 
 ### Deep learning methods: autoencoders
 
-In contrast to linear methods, non-linear models such as deep learning (DL) approaches excel at capturing complex patterns in data.
+In contrast to linear methods, non-linear models such as DL approaches excel at capturing complex patterns in data.
 This strength has been demonstrated in various fields, including predicting gene expression directly from sequence data [@doi:10.1038/s41588-018-0160-6; @doi:10.1016/j.celrep.2020.107663; @doi:10.1016/j.crmeth.2023.100580].
 
 DL models are also highly effective in unsupervised settings such as inferring gene modules.
 Specifically, DL methods like autoencoders [@arxiv:1312.6114], which utilize neural networks to learn compressed representations, can capture both linear and nonlinear patterns between genes.
 This makes autoencoders particularly suited for uncovering gene modules and efficiently handling high-dimensional datasets.
-For instance, variational autoencoders (VAEs) (**Figure {@fig:fig3}*b***) enhance this process by encoding data into a continuous latent space, enabling dimensionality reduction and the generation of new data.
+For instance, VAEs (**Figure {@fig:fig3}*b***) enhance this process by encoding data into a continuous latent space, enabling dimensionality reduction and the generation of new data.
  However, this increased power to capture more general patterns has a major tradeoff: interpretability.
 To overcome this, interpretable VAE models like the Pathway Module VAE (pmVAE) [@doi:10.1101/2021.01.28.428664], expiMap [@doi:10.1038/s41556-022-01072-x], and VEGA [@doi:10.1038/s41467-021-26017-0] integrate biological pathway information into the decoder, which improves interpretability, thus making these approaches function as linear dimensionality reduction methods
 (**Figure {@fig:fig3}*b***).
@@ -540,7 +540,7 @@ In particular, we show examples on how the integration of gene modules with gene
 
 The PhenoPLIER framework [@doi:10.1038/s41467-023-41057-4] is a recent computational framework that implements this gene module-based approach.
 PhenoPLIER can integrate gene modules extracted from any transcriptome data with gene-trait associations from TWAS and drug-induced transcriptional profiles (**Figure {@fig:fig4}**).
-The approach integrates different molecular data sources by using a latent space derived from transcriptome data where each latent variable (LV) is a gene module (**Figure {@fig:fig4}*a***).
+The approach integrates different molecular data sources by using a latent space derived from transcriptome data where each LV is a gene module (**Figure {@fig:fig4}*a***).
 Then, different data modalities are integrated into this common latent space for a joint analysis, which was shown to detect important genes missed by standard methods, capture relevant trait clusters and predict drug-disease links more accurately than state-of-the-art drug repurposing approaches.
 An advantage of PhenoPLIER is interpretability: it uses gene module models from PLIER (**Figure {@fig:fig4}*a***), which provides not only information about which genes belong to a module but also what are the top samples where those genes are expressed.
 If present, by looking at the metadata of the RNA-seq datasets, it is possible to infer if those samples represent consistent conditions such as tissues, cell types, or other more complex contexts.
