@@ -59,8 +59,8 @@
   <meta name="dc.date" content="2024-11-27" />
   <meta name="citation_publication_date" content="2024-11-27" />
   <meta property="article:published_time" content="2024-11-27" />
-  <meta name="dc.modified" content="2024-11-27T15:06:19+00:00" />
-  <meta property="article:modified_time" content="2024-11-27T15:06:19+00:00" />
+  <meta name="dc.modified" content="2024-11-27T19:27:57+00:00" />
+  <meta property="article:modified_time" content="2024-11-27T19:27:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -98,9 +98,9 @@
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/f3f8288b127ad39bba3ecee3ab0a102318363d66/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/f3f8288b127ad39bba3ecee3ab0a102318363d66/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/f3f8288b127ad39bba3ecee3ab0a102318363d66/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8e2cda57ccf69401573eeed495fca9f4035eba53/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8e2cda57ccf69401573eeed495fca9f4035eba53/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8e2cda57ccf69401573eeed495fca9f4035eba53/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -120,9 +120,9 @@
 <em>Subirana-Granés M, Hoffman J, Zhang H, Akirtava C, Nandi S, Fotso K, Pividori M. Genetic studies through the lens of gene networks. 2025. Annu. Rev. Biomed. Data Sci. 8. https://doi.org/10.1146/annurev-biodatasci-103123-095355</em></span></p>
 <p><small><em>
 This manuscript
-(<a href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/f3f8288b127ad39bba3ecee3ab0a102318363d66/">permalink</a>)
+(<a href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8e2cda57ccf69401573eeed495fca9f4035eba53/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/f3f8288b127ad39bba3ecee3ab0a102318363d66">pivlab/annual_review_of_biomedical_data_science@f3f8288</a>
+from <a href="https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/8e2cda57ccf69401573eeed495fca9f4035eba53">pivlab/annual_review_of_biomedical_data_science@8e2cda5</a>
 on November 27, 2024.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -556,23 +556,31 @@ Drawing on modern theories of the genetic architecture of complex traits, we sho
 While the integration of gene modules with gene-trait associations and gene-drug data has been a valuable first step, it represents only a fraction of the complexity inherent in biological systems.
 Biological networks extend far beyond these initial layers, involving intricate, multilayered systems such as histone modifications, transcription factor binding sites, <em>cis</em>-regulatory networks, and chromatin conformation—all of which contribute to the co-regulation of gene transcription.
 Moreover, this complexity includes protein-protein interaction networks, which form the backbone of signaling pathways and facilitate the transmission of signals both within and between cells.
-Additionally, metabolic networks influence enzyme activities and metabolite levels, propagating changes that affect numerous other molecules <span class="citation" data-cites="dg9nKuy0 KNAOTAKP">(<a href="#ref-dg9nKuy0" role="doc-biblioref">55</a>, <a href="#ref-KNAOTAKP" role="doc-biblioref">100</a>)</span>.
-Incorporating and quantifying these additional biological layers will enhance gene module construction, offering a more comprehensive and accurate representation of the intricate nature of real biological networks.</p>
+Additionally, metabolic networks influence enzyme activities and metabolite levels, propagating changes that affect numerous other molecules <span class="citation" data-cites="dg9nKuy0 KNAOTAKP">(<a href="#ref-dg9nKuy0" role="doc-biblioref">55</a>, <a href="#ref-KNAOTAKP" role="doc-biblioref">100</a>)</span>.</p>
+<p>Thus, incorporating multiple data modalities into gene module construction is a critical next step to capture this biological complexity more fully.
+By integrating diverse types of omics data such as epigenomics, proteomics, metabolomics, and chromatin accessibility, gene modules can be refined to reflect not just co-expression patterns but also shared regulatory mechanisms and functional interactions.
+For instance, combining transcriptomic data with chromatin immunoprecipitation sequencing (ChIP-seq) can identify transcription factors that regulate module genes, while integrating methylation profiles can reveal epigenetic modifications that influence gene expression within modules.
+An example of this integrative approach is the quantitative omnigenic model (QOM) proposed by Ružičková et al. <span class="citation" data-cites="1GlQtJ9Yz">(<a href="#ref-1GlQtJ9Yz" role="doc-biblioref">56</a>)</span>, which demonstrates the power of integrating genomic data with regulatory network information to predict gene expression levels more accurately.
+By utilizing the topology of gene regulatory networks, the QOM captures both direct genetic effects (<em>cis</em> effects) and indirect effects propagated through the network (<em>trans</em> effects), leading to improved performance over traditional GWAS with fewer parameters <span class="citation" data-cites="mE2GhSCQ">(<a href="#ref-mE2GhSCQ" role="doc-biblioref">101</a>)</span>.
+Similarly, in the context of psychiatric disorders, integrating epigenetic data into the omnigenic model has been proposed to refine gene modules and enhance the understanding of the complex interplay between genetics and epigenetics in these conditions.
+Evidence shows widespread epigenetic abnormalities, including DNA methylation changes across multiple brain regions in disorders such as schizophrenia, bipolar disorder, and major depressive disorder.
+Peedicayil and Grayson discussed how incorporating epigenetic mechanisms, such as DNA methylation, histone modifications, and noncoding RNAs—into the omnigenic model could help explain the extensive genetic and epigenetic factors contributing to these disorders <span class="citation" data-cites="U0WehdWb">(<a href="#ref-U0WehdWb" role="doc-biblioref">102</a>)</span>.
+Although this multimodal approach has not been widely exploited, it holds great promise for uncovering the underlying mechanisms of complex traits and diseases, aiming to create better predictive models.</p>
 <p>A gene module approach that integrates genetic studies has several important components: 1) gene expression data relevant to the research problem, such as large heterogeneous datasets that span different conditions, or otherwise focused, smaller datasets that capture more subtle, unique, and disease-specific gene modules; 2) unbiased and relevant prior information that can be used during or after module extraction to distinguish relevant transcriptomic signatures from technical noise; and 3) reliable single variant/gene associations with the complex traits of interest.
 Therefore, it is important to emphasize that a gene module approach is by no means a replacement for current single variant/gene approaches.
-The development of new and improved statistical methods that detect more causal genes, regardless of whether they have a direct or indirect effect on the trait, while reducing false positives <span class="citation" data-cites="i8Qjy4pw">(<a href="#ref-i8Qjy4pw" role="doc-biblioref">101</a>)</span>, will only enhance other approaches that rely on them, such as the gene module-based methods described here.
+The development of new and improved statistical methods that detect more causal genes, regardless of whether they have a direct or indirect effect on the trait, while reducing false positives <span class="citation" data-cites="i8Qjy4pw">(<a href="#ref-i8Qjy4pw" role="doc-biblioref">103</a>)</span>, will only enhance other approaches that rely on them, such as the gene module-based methods described here.
 In this review, we demonstrate that the identification of peripheral genes is key to prioritizing core genes that might represent more attractive drug targets, strongly suggesting that the mechanism proposed by the omnigenic model—i.e., that gene regulatory networks are highly interconnected and genes have specific roles with more direct or indirect effects on traits—is useful.</p>
 <p>As the demand for analyzing large datasets and uncovering complex biological patterns grows, the need for faster and more efficient computational methods becomes increasingly critical.
 Future bioinformatics tools must not only handle the scale of these tasks but also ensure that they are accessible and adaptable across different computational environments.
 To meet these challenges, we are focusing on accelerating workflows with graphics processing unit (GPU) technology and exploring new platforms, such as WebAssembly, to bring powerful tools directly to users’ browsers.</p>
 <p>Leveraging GPU acceleration holds great promise for significantly speeding up bioinformatics workflows.
-Research has shown that GPU technology can provide remarkable performance boosts, with speed improvements reaching up to 1000x for specific tasks <span class="citation" data-cites="1EIbaYHGq">(<a href="#ref-1EIbaYHGq" role="doc-biblioref">102</a>)</span>.
-Integrating GPU-aware libraries like CuPy <span class="citation" data-cites="4iZVPVHz">(<a href="#ref-4iZVPVHz" role="doc-biblioref">103</a>)</span> and RAPIDS <span class="citation" data-cites="wPsNXL1Q">(<a href="#ref-wPsNXL1Q" role="doc-biblioref">104</a>)</span> into our tools allows for seamless performance upgrades in established frameworks such as NumPy <span class="citation" data-cites="1LexfAxj">(<a href="#ref-1LexfAxj" role="doc-biblioref">105</a>)</span> and Scikit-learn <span class="citation" data-cites="AujvwLp6">(<a href="#ref-AujvwLp6" role="doc-biblioref">106</a>)</span>.
+Research has shown that GPU technology can provide remarkable performance boosts, with speed improvements reaching up to 1000x for specific tasks <span class="citation" data-cites="1EIbaYHGq">(<a href="#ref-1EIbaYHGq" role="doc-biblioref">104</a>)</span>.
+Integrating GPU-aware libraries like CuPy <span class="citation" data-cites="4iZVPVHz">(<a href="#ref-4iZVPVHz" role="doc-biblioref">105</a>)</span> and RAPIDS <span class="citation" data-cites="wPsNXL1Q">(<a href="#ref-wPsNXL1Q" role="doc-biblioref">106</a>)</span> into our tools allows for seamless performance upgrades in established frameworks such as NumPy <span class="citation" data-cites="1LexfAxj">(<a href="#ref-1LexfAxj" role="doc-biblioref">107</a>)</span> and Scikit-learn <span class="citation" data-cites="AujvwLp6">(<a href="#ref-AujvwLp6" role="doc-biblioref">108</a>)</span>.
 As our tools evolve, we anticipate developing custom GPU kernels to further enhance speed and optimize them for specific computational needs.
-Advanced GPU programming with PyCUDA <span class="citation" data-cites="b5xmRoLZ">(<a href="#ref-b5xmRoLZ" role="doc-biblioref">107</a>)</span> could also be key to future optimizations.</p>
-<p>Another promising direction is utilizing WebAssembly <span class="citation" data-cites="ITQaZvrQ">(<a href="#ref-ITQaZvrQ" role="doc-biblioref">108</a>)</span> to make bioinformatics tools more portable and accessible.
+Advanced GPU programming with PyCUDA <span class="citation" data-cites="b5xmRoLZ">(<a href="#ref-b5xmRoLZ" role="doc-biblioref">109</a>)</span> could also be key to future optimizations.</p>
+<p>Another promising direction is utilizing WebAssembly <span class="citation" data-cites="ITQaZvrQ">(<a href="#ref-ITQaZvrQ" role="doc-biblioref">110</a>)</span> to make bioinformatics tools more portable and accessible.
 We aim to adapt existing bioinformatics applications into web-based tools that can be run directly in the browser, providing users with full control over their data and eliminating the need for data transfer over networks.
-Projects like Biowasm <span class="citation" data-cites="Z0f406Zs">(<a href="#ref-Z0f406Zs" role="doc-biblioref">109</a>)</span>, Kana <span class="citation" data-cites="1DswCJYT0">(<a href="#ref-1DswCJYT0" role="doc-biblioref">110</a>)</span>, and VirtualWasm <span class="citation" data-cites="WhJVE7a4">(<a href="#ref-WhJVE7a4" role="doc-biblioref">111</a>)</span> have already demonstrated the potential of WebAssembly for genomics and single-cell analysis, and we plan to build on this foundation.
+Projects like Biowasm <span class="citation" data-cites="Z0f406Zs">(<a href="#ref-Z0f406Zs" role="doc-biblioref">111</a>)</span>, Kana <span class="citation" data-cites="1DswCJYT0">(<a href="#ref-1DswCJYT0" role="doc-biblioref">112</a>)</span>, and VirtualWasm <span class="citation" data-cites="WhJVE7a4">(<a href="#ref-WhJVE7a4" role="doc-biblioref">113</a>)</span> have already demonstrated the potential of WebAssembly for genomics and single-cell analysis, and we plan to build on this foundation.
 By executing statistical analyses, computations, and visualizations directly on the user’s device, WebAssembly will not only address privacy and compliance concerns but also reduce server costs and computational load by shifting the workload to the client side.</p>
 <p>Future innovations in GPU acceleration and WebAssembly will transform how bioinformatics tools are developed and deployed, leading to faster, more accessible solutions for researchers worldwide.
 By integrating these technologies, we can build the next generation of computational platforms that combine speed, flexibility, and privacy, unlocking new potential for biological discoveries.
@@ -883,38 +891,44 @@ disrupts intracellular lipid homeostasis in human iPSC-derived glia</a>. <em>Sci
 <div id="ref-KNAOTAKP" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">100. </div><div class="csl-right-inline">Climente-González H, Lonjou C, Lesueur F, Stoppa-Lyonnet D, et al. 2021. <a href="https://doi.org/10.1371/journal.pcbi.1008819">Boosting GWAS using biological networks: A study on susceptibility to familial breast cancer</a>. <em>PLoS Comput Biol</em>. 17(3):e1008819</div>
 </div>
+<div id="ref-mE2GhSCQ" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">101. </div><div class="csl-right-inline">Ružičková N, Hledík M, Tkačik G. 2024. <a href="https://doi.org/10.1073/pnas.2402340121">Quantitative omnigenic model discovers interpretable genome-wide associations</a>. <em>Proc. Natl. Acad. Sci. U.S.A.</em> 121(44):</div>
+</div>
+<div id="ref-U0WehdWb" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">102. </div><div class="csl-right-inline">Peedicayil J, Grayson DR. 2018. <a href="https://doi.org/10.1016/j.jtbi.2018.01.027">An epigenetic basis for an omnigenic model of psychiatric disorders</a>. <em>Journal of Theoretical Biology</em>. 443:52–55</div>
+</div>
 <div id="ref-i8Qjy4pw" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">101. </div><div class="csl-right-inline">Zhao S, Crouse W, Qian S, Luo K, Stephens M, He X. 2024. <a href="https://doi.org/10.1038/s41588-023-01648-9">Adjusting for genetic confounders in transcriptome-wide association studies improves discovery of risk genes of complex traits</a>. <em>Nat Genet</em>. 56(2):336–47</div>
+<div class="csl-left-margin">103. </div><div class="csl-right-inline">Zhao S, Crouse W, Qian S, Luo K, Stephens M, He X. 2024. <a href="https://doi.org/10.1038/s41588-023-01648-9">Adjusting for genetic confounders in transcriptome-wide association studies improves discovery of risk genes of complex traits</a>. <em>Nat Genet</em>. 56(2):336–47</div>
 </div>
 <div id="ref-1EIbaYHGq" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">102. </div><div class="csl-right-inline">Nobile MS, Cazzaniga P, Tangherloni A, Besozzi D. 2016. <a href="https://doi.org/10.1093/bib/bbw058">Graphics processing units in bioinformatics, computational biology and systems biology</a>. <em>Brief Bioinform</em>, p. bbw058</div>
+<div class="csl-left-margin">104. </div><div class="csl-right-inline">Nobile MS, Cazzaniga P, Tangherloni A, Besozzi D. 2016. <a href="https://doi.org/10.1093/bib/bbw058">Graphics processing units in bioinformatics, computational biology and systems biology</a>. <em>Brief Bioinform</em>, p. bbw058</div>
 </div>
 <div id="ref-4iZVPVHz" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">103. </div><div class="csl-right-inline">Okuta R, Unno Y, Nishino D, Hido S, Loomis C. 2017. CuPy: A NumPy-Compatible Library for NVIDIA GPU Calculations. <em>Proceedings of Workshop on Machine Learning Systems (LearningSys) in The Thirty-first Annual Conference on Neural Information Processing Systems (NIPS)</em></div>
+<div class="csl-left-margin">105. </div><div class="csl-right-inline">Okuta R, Unno Y, Nishino D, Hido S, Loomis C. 2017. CuPy: A NumPy-Compatible Library for NVIDIA GPU Calculations. <em>Proceedings of Workshop on Machine Learning Systems (LearningSys) in The Thirty-first Annual Conference on Neural Information Processing Systems (NIPS)</em></div>
 </div>
 <div id="ref-wPsNXL1Q" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">104. </div><div class="csl-right-inline"><em>RAPIDS | GPU Accelerated Data Science</em>. RAPIDS | GPU Accelerated Data Science. <a href="https://rapids.ai/">https://rapids.ai/</a></div>
+<div class="csl-left-margin">106. </div><div class="csl-right-inline"><em>RAPIDS | GPU Accelerated Data Science</em>. RAPIDS | GPU Accelerated Data Science. <a href="https://rapids.ai/">https://rapids.ai/</a></div>
 </div>
 <div id="ref-1LexfAxj" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">105. </div><div class="csl-right-inline">Harris CR, Millman KJ, van der Walt SJ, Gommers R, Virtanen P, et al. 2020. <a href="https://doi.org/10.1038/s41586-020-2649-2">Array programming with NumPy</a>. <em>Nature</em>. 585(7825):357–62</div>
+<div class="csl-left-margin">107. </div><div class="csl-right-inline">Harris CR, Millman KJ, van der Walt SJ, Gommers R, Virtanen P, et al. 2020. <a href="https://doi.org/10.1038/s41586-020-2649-2">Array programming with NumPy</a>. <em>Nature</em>. 585(7825):357–62</div>
 </div>
 <div id="ref-AujvwLp6" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">106. </div><div class="csl-right-inline">Pedregosa F, Varoquaux G, Gramfort A, Michel V, Thirion B, et al. 2012. <a href="https://doi.org/10.48550/arxiv.1201.0490">Scikit-learn: Machine Learning in Python</a>. <em>arXiv</em></div>
+<div class="csl-left-margin">108. </div><div class="csl-right-inline">Pedregosa F, Varoquaux G, Gramfort A, Michel V, Thirion B, et al. 2012. <a href="https://doi.org/10.48550/arxiv.1201.0490">Scikit-learn: Machine Learning in Python</a>. <em>arXiv</em></div>
 </div>
 <div id="ref-b5xmRoLZ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">107. </div><div class="csl-right-inline">Klöckner A, Pinto N, Lee Y, Catanzaro B, Ivanov P, Fasih A. 2012. <a href="https://doi.org/10.1016/j.parco.2011.09.001">PyCUDA and PyOpenCL: A scripting-based approach to GPU run-time code generation</a>. <em>Parallel Computing</em>. 38(3):157–74</div>
+<div class="csl-left-margin">109. </div><div class="csl-right-inline">Klöckner A, Pinto N, Lee Y, Catanzaro B, Ivanov P, Fasih A. 2012. <a href="https://doi.org/10.1016/j.parco.2011.09.001">PyCUDA and PyOpenCL: A scripting-based approach to GPU run-time code generation</a>. <em>Parallel Computing</em>. 38(3):157–74</div>
 </div>
 <div id="ref-ITQaZvrQ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">108. </div><div class="csl-right-inline">Haas A, Rossberg A, Schuff DL, Titzer BL, Holman M, et al. 2017. <a href="https://doi.org/10.1145/3062341.3062363">Bringing the web up to speed with WebAssembly</a></div>
+<div class="csl-left-margin">110. </div><div class="csl-right-inline">Haas A, Rossberg A, Schuff DL, Titzer BL, Holman M, et al. 2017. <a href="https://doi.org/10.1145/3062341.3062363">Bringing the web up to speed with WebAssembly</a></div>
 </div>
 <div id="ref-Z0f406Zs" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">109. </div><div class="csl-right-inline"><em>Biowasm</em>. <a href="https://biowasm.com/">https://biowasm.com/</a></div>
+<div class="csl-left-margin">111. </div><div class="csl-right-inline"><em>Biowasm</em>. <a href="https://biowasm.com/">https://biowasm.com/</a></div>
 </div>
 <div id="ref-1DswCJYT0" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">110. </div><div class="csl-right-inline">Lun A, Kancherla J. 2022. <em><a href="https://doi.org/10.1101/2022.03.02.482701">Powering single-cell analyses in the browser with WebAssembly</a></em></div>
+<div class="csl-left-margin">112. </div><div class="csl-right-inline">Lun A, Kancherla J. 2022. <em><a href="https://doi.org/10.1101/2022.03.02.482701">Powering single-cell analyses in the browser with WebAssembly</a></em></div>
 </div>
 <div id="ref-WhJVE7a4" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">111. </div><div class="csl-right-inline">Ji D, Aboukhalil R, Moshiri N. 2024. <a href="https://doi.org/10.1093/bioinformatics/btae018">ViralWasm: a client-side user-friendly web application suite for viral genomics</a>. <em>Bioinformatics</em>. 40(1):</div>
+<div class="csl-left-margin">113. </div><div class="csl-right-inline">Ji D, Aboukhalil R, Moshiri N. 2024. <a href="https://doi.org/10.1093/bioinformatics/btae018">ViralWasm: a client-side user-friendly web application suite for viral genomics</a>. <em>Bioinformatics</em>. 40(1):</div>
 </div>
 </div>
 <!-- default theme -->
