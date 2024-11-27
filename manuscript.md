@@ -32,8 +32,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-27" />
   <meta name="citation_publication_date" content="2024-11-27" />
   <meta property="article:published_time" content="2024-11-27" />
-  <meta name="dc.modified" content="2024-11-27T19:27:57+00:00" />
-  <meta property="article:modified_time" content="2024-11-27T19:27:57+00:00" />
+  <meta name="dc.modified" content="2024-11-27T19:51:12+00:00" />
+  <meta property="article:modified_time" content="2024-11-27T19:51:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -71,9 +71,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8e2cda57ccf69401573eeed495fca9f4035eba53/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8e2cda57ccf69401573eeed495fca9f4035eba53/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8e2cda57ccf69401573eeed495fca9f4035eba53/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/893b5268940a77b1b197616f244cae3b4fac41cf/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/893b5268940a77b1b197616f244cae3b4fac41cf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/893b5268940a77b1b197616f244cae3b4fac41cf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -101,9 +101,9 @@ _Subirana-Granés M, Hoffman J, Zhang H, Akirtava C, Nandi S, Fotso K, Pividori 
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8e2cda57ccf69401573eeed495fca9f4035eba53/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/893b5268940a77b1b197616f244cae3b4fac41cf/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@8e2cda5](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/8e2cda57ccf69401573eeed495fca9f4035eba53)
+from [pivlab/annual_review_of_biomedical_data_science@893b526](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/893b5268940a77b1b197616f244cae3b4fac41cf)
 on November 27, 2024.
 </em></small>
 
@@ -417,7 +417,7 @@ This suggests that, at least for height, not all genes play a role in the trait 
 
 Furthermore, the omnigenic model has been criticized for its binary classification of genes into core and peripheral categories, which might oversimplify biological systems and potentially underestimate their true complexity [@doi:10.1016/j.cell.2018.05.051].
 It also fails to account for gene-environment interactions, which play a crucial role in shaping complex traits [@doi:10.1371/journal.pgen.1008519].
-Additionally, while the model provides a conceptual framework, it remains unclear how to translate it into a practical statistical model [@doi:10.1101/2024.02.01.578486].
+Additionally, while the model provides a conceptual framework, it remains unclear how to translate it into a practical statistical model [@doi:10.1073/pnas.2402340121].
 
 As George E. P. Box remarked, "all models are wrong, but some are useful." While we acknowledge that the omnigenic model simplifies the inherent complexity of biological systems and may not universally apply to all traits, we maintain that it remains a valuable framework for elucidating genetic architectures.
 The model effectively bridges quantitative and molecular genetics, offering comprehensive mechanistic insights with predictions on quantitative variation.
@@ -630,7 +630,7 @@ Additionally, metabolic networks influence enzyme activities and metabolite leve
 Thus, incorporating multiple data modalities into gene module construction is a critical next step to capture this biological complexity more fully.
 By integrating diverse types of omics data such as epigenomics, proteomics, metabolomics, and chromatin accessibility, gene modules can be refined to reflect not just co-expression patterns but also shared regulatory mechanisms and functional interactions.
 For instance, combining transcriptomic data with chromatin immunoprecipitation sequencing (ChIP-seq) can identify transcription factors that regulate module genes, while integrating methylation profiles can reveal epigenetic modifications that influence gene expression within modules.
-An example of this integrative approach is the quantitative omnigenic model (QOM) proposed by Ružičková et al. [@doi:10.1101/2024.02.01.578486], which demonstrates the power of integrating genomic data with regulatory network information to predict gene expression levels more accurately.
+An example of this integrative approach is the quantitative omnigenic model (QOM) proposed by Ružičková et al. [@doi:10.1073/pnas.2402340121], which demonstrates the power of integrating genomic data with regulatory network information to predict gene expression levels more accurately.
 By utilizing the topology of gene regulatory networks, the QOM captures both direct genetic effects (*cis* effects) and indirect effects propagated through the network (*trans* effects), leading to improved performance over traditional GWAS with fewer parameters [@doi:10.1073/pnas.2402340121].
 Similarly, in the context of psychiatric disorders, integrating epigenetic data into the omnigenic model has been proposed to refine gene modules and enhance the understanding of the complex interplay between genetics and epigenetics in these conditions.
 Evidence shows widespread epigenetic abnormalities, including DNA methylation changes across multiple brain regions in disorders such as schizophrenia, bipolar disorder, and major depressive disorder.
