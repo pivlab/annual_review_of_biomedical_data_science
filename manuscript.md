@@ -32,8 +32,8 @@ header-includes: |
   <meta name="dc.date" content="2024-11-27" />
   <meta name="citation_publication_date" content="2024-11-27" />
   <meta property="article:published_time" content="2024-11-27" />
-  <meta name="dc.modified" content="2024-11-27T15:06:19+00:00" />
-  <meta property="article:modified_time" content="2024-11-27T15:06:19+00:00" />
+  <meta name="dc.modified" content="2024-11-27T19:27:57+00:00" />
+  <meta property="article:modified_time" content="2024-11-27T19:27:57+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -71,9 +71,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/f3f8288b127ad39bba3ecee3ab0a102318363d66/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/f3f8288b127ad39bba3ecee3ab0a102318363d66/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/f3f8288b127ad39bba3ecee3ab0a102318363d66/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8e2cda57ccf69401573eeed495fca9f4035eba53/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8e2cda57ccf69401573eeed495fca9f4035eba53/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8e2cda57ccf69401573eeed495fca9f4035eba53/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -101,9 +101,9 @@ _Subirana-Granés M, Hoffman J, Zhang H, Akirtava C, Nandi S, Fotso K, Pividori 
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/f3f8288b127ad39bba3ecee3ab0a102318363d66/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/8e2cda57ccf69401573eeed495fca9f4035eba53/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@f3f8288](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/f3f8288b127ad39bba3ecee3ab0a102318363d66)
+from [pivlab/annual_review_of_biomedical_data_science@8e2cda5](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/8e2cda57ccf69401573eeed495fca9f4035eba53)
 on November 27, 2024.
 </em></small>
 
@@ -626,7 +626,16 @@ While the integration of gene modules with gene-trait associations and gene-drug
 Biological networks extend far beyond these initial layers, involving intricate, multilayered systems such as histone modifications, transcription factor binding sites, *cis*-regulatory networks, and chromatin conformation—all of which contribute to the co-regulation of gene transcription.
 Moreover, this complexity includes protein-protein interaction networks, which form the backbone of signaling pathways and facilitate the transmission of signals both within and between cells.
 Additionally, metabolic networks influence enzyme activities and metabolite levels, propagating changes that affect numerous other molecules [@doi:10.1371/journal.pgen.1008519; @doi:10.1371/journal.pcbi.1008819].
-Incorporating and quantifying these additional biological layers will enhance gene module construction, offering a more comprehensive and accurate representation of the intricate nature of real biological networks.
+
+Thus, incorporating multiple data modalities into gene module construction is a critical next step to capture this biological complexity more fully.
+By integrating diverse types of omics data such as epigenomics, proteomics, metabolomics, and chromatin accessibility, gene modules can be refined to reflect not just co-expression patterns but also shared regulatory mechanisms and functional interactions.
+For instance, combining transcriptomic data with chromatin immunoprecipitation sequencing (ChIP-seq) can identify transcription factors that regulate module genes, while integrating methylation profiles can reveal epigenetic modifications that influence gene expression within modules.
+An example of this integrative approach is the quantitative omnigenic model (QOM) proposed by Ružičková et al. [@doi:10.1101/2024.02.01.578486], which demonstrates the power of integrating genomic data with regulatory network information to predict gene expression levels more accurately.
+By utilizing the topology of gene regulatory networks, the QOM captures both direct genetic effects (*cis* effects) and indirect effects propagated through the network (*trans* effects), leading to improved performance over traditional GWAS with fewer parameters [@doi:10.1073/pnas.2402340121].
+Similarly, in the context of psychiatric disorders, integrating epigenetic data into the omnigenic model has been proposed to refine gene modules and enhance the understanding of the complex interplay between genetics and epigenetics in these conditions.
+Evidence shows widespread epigenetic abnormalities, including DNA methylation changes across multiple brain regions in disorders such as schizophrenia, bipolar disorder, and major depressive disorder.
+Peedicayil and Grayson discussed how incorporating epigenetic mechanisms, such as DNA methylation, histone modifications, and noncoding RNAs—into the omnigenic model could help explain the extensive genetic and epigenetic factors contributing to these disorders [@doi:10.1016/j.jtbi.2018.01.027].
+Although this multimodal approach has not been widely exploited, it holds great promise for uncovering the underlying mechanisms of complex traits and diseases, aiming to create better predictive models.
 
 A gene module approach that integrates genetic studies has several important components: 1) gene expression data relevant to the research problem, such as large heterogeneous datasets that span different conditions, or otherwise focused, smaller datasets that capture more subtle, unique, and disease-specific gene modules; 2) unbiased and relevant prior information that can be used during or after module extraction to distinguish relevant transcriptomic signatures from technical noise; and 3) reliable single variant/gene associations with the complex traits of interest.
 Therefore, it is important to emphasize that a gene module approach is by no means a replacement for current single variant/gene approaches.
