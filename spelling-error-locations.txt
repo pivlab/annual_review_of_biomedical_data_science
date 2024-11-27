@@ -352,7 +352,7 @@ content/06.a-gene-module-perspective-for-genetic-studies.md:6:PLIER
 content/06.a-gene-module-perspective-for-genetic-studies.md:6:transcriptome
 content/06.a-gene-module-perspective-for-genetic-studies.md:7:PLIER
 content/06.a-gene-module-perspective-for-genetic-studies.md:8:LINCS
-content/06.a-gene-module-perspective-for-genetic-studies.md:8:Transcriptome
+content/06.a-gene-module-perspective-for-genetic-studies.md:8:LVs
 content/06.a-gene-module-perspective-for-genetic-studies.md:9:LINCS
 content/06.a-gene-module-perspective-for-genetic-studies.md:9:reporposing
 content/06.a-gene-module-perspective-for-genetic-studies.md:12:ACACA

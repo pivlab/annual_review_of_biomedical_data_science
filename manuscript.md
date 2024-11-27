@@ -9,7 +9,7 @@ keywords:
 - QTL
 - complex traits
 lang: en-US
-date-meta: '2024-10-11'
+date-meta: '2024-11-27'
 author-meta:
 - Marc Subirana-Granés
 - Jill Hoffman
@@ -29,11 +29,11 @@ header-includes: |
   <meta name="citation_title" content="Genetic studies through the lens of gene networks" />
   <meta property="og:title" content="Genetic studies through the lens of gene networks" />
   <meta property="twitter:title" content="Genetic studies through the lens of gene networks" />
-  <meta name="dc.date" content="2024-10-11" />
-  <meta name="citation_publication_date" content="2024-10-11" />
-  <meta property="article:published_time" content="2024-10-11" />
-  <meta name="dc.modified" content="2024-10-11T04:52:40+00:00" />
-  <meta property="article:modified_time" content="2024-10-11T04:52:40+00:00" />
+  <meta name="dc.date" content="2024-11-27" />
+  <meta name="citation_publication_date" content="2024-11-27" />
+  <meta property="article:published_time" content="2024-11-27" />
+  <meta name="dc.modified" content="2024-11-27T15:06:19+00:00" />
+  <meta property="article:modified_time" content="2024-11-27T15:06:19+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -71,9 +71,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/900bb0b23bfe5c64983d88235029d34129875e1e/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/900bb0b23bfe5c64983d88235029d34129875e1e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/900bb0b23bfe5c64983d88235029d34129875e1e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/f3f8288b127ad39bba3ecee3ab0a102318363d66/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/f3f8288b127ad39bba3ecee3ab0a102318363d66/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/f3f8288b127ad39bba3ecee3ab0a102318363d66/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -101,10 +101,10 @@ _Subirana-Granés M, Hoffman J, Zhang H, Akirtava C, Nandi S, Fotso K, Pividori 
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/900bb0b23bfe5c64983d88235029d34129875e1e/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/f3f8288b127ad39bba3ecee3ab0a102318363d66/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@900bb0b](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/900bb0b23bfe5c64983d88235029d34129875e1e)
-on October 11, 2024.
+from [pivlab/annual_review_of_biomedical_data_science@f3f8288](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/f3f8288b127ad39bba3ecee3ab0a102318363d66)
+on November 27, 2024.
 </em></small>
 
 
@@ -522,7 +522,7 @@ From now on, we refer to a gene module as a pattern extracted by any unsupervise
 Each panel shows a component of the PhenoPLIER framework [@doi:10.1038/s41467-023-41057-4].
 *(a)* First, latent variables (LVs) or gene modules are learned from transcriptome data using the Pathway-Level Information Extractor (PLIER) matrix factorization method.
 PLIER generates matrix $\mathbf{Z}$, which has gene weights for each module, and matrix $\mathbf{B}$, which has the samples in the latent space.
-*(b)* Schematic of gene-trait associations from Transcriptome-wide association studies (TWAS) and gene-drug scores from LINCS L1000 being projected into the latent space for a joint analysis.
+*(b)* Schematic illustrating how gene-trait associations from TWAS and gene-drug scores from LINCS L1000 are projected into the latent space for joint analysis. This involves a matrix multiplication that transforms a traits × genes matrix into a traits × LVs matrix, enabling integration and interpretation at the gene module level.
 *(c)* Schematic of a gene module-based drug reporposing framework, where the projection of TWAS and LINCS L1000 data is used to compute a drug-disease score.
 *(d)* Schematic of a regression model that tests whether genes that belong to a module (using a column of $\mathbf{Z}$) tend to be more strongly associated with a trait (using $p$-values from TWAS).
 *(e)* (top) Example of a gene module identified as LV246 analyzed in [@doi:10.1038/s41467-023-41057-4].
