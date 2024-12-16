@@ -9,7 +9,7 @@ keywords:
 - QTL
 - complex traits
 lang: en-US
-date-meta: '2024-11-27'
+date-meta: '2024-12-16'
 author-meta:
 - Marc Subirana-Granés
 - Jill Hoffman
@@ -29,11 +29,11 @@ header-includes: |
   <meta name="citation_title" content="Genetic studies through the lens of gene networks" />
   <meta property="og:title" content="Genetic studies through the lens of gene networks" />
   <meta property="twitter:title" content="Genetic studies through the lens of gene networks" />
-  <meta name="dc.date" content="2024-11-27" />
-  <meta name="citation_publication_date" content="2024-11-27" />
-  <meta property="article:published_time" content="2024-11-27" />
-  <meta name="dc.modified" content="2024-11-27T19:51:12+00:00" />
-  <meta property="article:modified_time" content="2024-11-27T19:51:12+00:00" />
+  <meta name="dc.date" content="2024-12-16" />
+  <meta name="citation_publication_date" content="2024-12-16" />
+  <meta property="article:published_time" content="2024-12-16" />
+  <meta name="dc.modified" content="2024-12-16T18:48:17+00:00" />
+  <meta property="article:modified_time" content="2024-12-16T18:48:17+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -71,9 +71,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/893b5268940a77b1b197616f244cae3b4fac41cf/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/893b5268940a77b1b197616f244cae3b4fac41cf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/893b5268940a77b1b197616f244cae3b4fac41cf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2aa1e5438f21bab396ba32874f07ffb3eb581cfc/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2aa1e5438f21bab396ba32874f07ffb3eb581cfc/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2aa1e5438f21bab396ba32874f07ffb3eb581cfc/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -101,10 +101,10 @@ _Subirana-Granés M, Hoffman J, Zhang H, Akirtava C, Nandi S, Fotso K, Pividori 
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/893b5268940a77b1b197616f244cae3b4fac41cf/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2aa1e5438f21bab396ba32874f07ffb3eb581cfc/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@893b526](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/893b5268940a77b1b197616f244cae3b4fac41cf)
-on November 27, 2024.
+from [pivlab/annual_review_of_biomedical_data_science@2aa1e54](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/2aa1e5438f21bab396ba32874f07ffb3eb581cfc)
+on December 16, 2024.
 </em></small>
 
 
