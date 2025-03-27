@@ -242,7 +242,6 @@ content/04.from-single-genes-to-gene-networks.md:62:omnigenic
 content/04.from-single-genes-to-gene-networks.md:62:phenotypic
 content/04.from-single-genes-to-gene-networks.md:63:polygenic
 content/04.from-single-genes-to-gene-networks.md:66:heritability
-content/04.from-single-genes-to-gene-networks.md:68:cis
 content/04.from-single-genes-to-gene-networks.md:68:heritability
 content/04.from-single-genes-to-gene-networks.md:69:heritability
 content/04.from-single-genes-to-gene-networks.md:73:omnigenic
@@ -277,17 +276,13 @@ content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:24:coe
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:27:dimensionality
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:27:omics
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:28:coexpression
-content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:28:datasets
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:29:omics
-content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:36:datasets
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:36:WGCNA
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:38:CCC
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:38:Clustermatch
-content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:38:datasets
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:40:DL
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:40:PCA
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:41:transcriptional
-content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:45:datasets
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:48:dimensionality
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:48:PCA
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:49:interpretability
@@ -295,8 +290,6 @@ content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:50:Gen
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:50:PLIER
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:53:GenomicSuperSignature
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:53:PCA
-content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:54:datasets
-content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:54:datasets
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:55:interpretable
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:55:PLIER
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:57:PLIER
@@ -308,12 +301,8 @@ content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:60:PLI
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:61:LVs
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:61:PLIER
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:63:PLIER
-content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:64:datasets
-content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:65:datasets
-content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:65:datasets
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:65:PLIER
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:66:interpretability
-content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:68:datasets
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:68:PLIER
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:69:HTP
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:69:karyotype
@@ -332,7 +321,6 @@ content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:81:DL
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:82:autoencoders
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:82:DL
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:83:autoencoders
-content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:83:datasets
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:84:dimensionality
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:84:VAEs
 content/05.from-gene-networks-to-machine-learning-derived-gene-modules.md:85:interpretability
@@ -374,10 +362,8 @@ content/06.a-gene-module-perspective-for-genetic-studies.md:28:repurposing
 content/06.a-gene-module-perspective-for-genetic-studies.md:29:interpretability
 content/06.a-gene-module-perspective-for-genetic-studies.md:29:PhenoPLIER
 content/06.a-gene-module-perspective-for-genetic-studies.md:29:PLIER
-content/06.a-gene-module-perspective-for-genetic-studies.md:30:datasets
 content/06.a-gene-module-perspective-for-genetic-studies.md:32:PhenoPLIER
 content/06.a-gene-module-perspective-for-genetic-studies.md:32:transcriptional
-content/06.a-gene-module-perspective-for-genetic-studies.md:33:dataset
 content/06.a-gene-module-perspective-for-genetic-studies.md:35:Biobank
 content/06.a-gene-module-perspective-for-genetic-studies.md:35:PhenoPLIER
 content/06.a-gene-module-perspective-for-genetic-studies.md:35:PrediXcan
@@ -443,9 +429,7 @@ content/06.a-gene-module-perspective-for-genetic-studies.md:71:PhenoPLIER
 content/06.a-gene-module-perspective-for-genetic-studies.md:71:PrediXcan
 content/06.a-gene-module-perspective-for-genetic-studies.md:73:eQTL
 content/06.a-gene-module-perspective-for-genetic-studies.md:73:omnigenic
-content/06.a-gene-module-perspective-for-genetic-studies.md:75:datasets
 content/06.a-gene-module-perspective-for-genetic-studies.md:77:interpretability
-content/06.a-gene-module-perspective-for-genetic-studies.md:79:datasets
 content/06.a-gene-module-perspective-for-genetic-studies.md:79:DS
 content/06.a-gene-module-perspective-for-genetic-studies.md:79:Trisome
 content/06.a-gene-module-perspective-for-genetic-studies.md:80:DS
@@ -464,15 +448,12 @@ content/06.a-gene-module-perspective-for-genetic-studies.md:95:interpretable
 content/06.a-gene-module-perspective-for-genetic-studies.md:95:transcriptional
 content/07.future-perspectives .md:4:phenotypes
 content/07.future-perspectives .md:4:phenotypic
-content/07.future-perspectives .md:5:datasets
-content/07.future-perspectives .md:7:datasets
 content/07.future-perspectives .md:7:GWAS
 content/07.future-perspectives .md:7:transcriptional
 content/07.future-perspectives .md:7:transcriptomic
 content/07.future-perspectives .md:8:interpretable
 content/07.future-perspectives .md:8:repurposing
 content/07.future-perspectives .md:10:omnigenic
-content/07.future-perspectives .md:12:cis
 content/07.future-perspectives .md:12:histone
 content/07.future-perspectives .md:17:epigenomics
 content/07.future-perspectives .md:17:metabolomics
@@ -485,7 +466,6 @@ content/07.future-perspectives .md:18:transcriptomic
 content/07.future-perspectives .md:19:genomic
 content/07.future-perspectives .md:19:omnigenic
 content/07.future-perspectives .md:19:Ružičková
-content/07.future-perspectives .md:20:cis
 content/07.future-perspectives .md:20:GWAS
 content/07.future-perspectives .md:21:epigenetic
 content/07.future-perspectives .md:21:epigenetics
@@ -502,11 +482,8 @@ content/07.future-perspectives .md:23:omnigenic
 content/07.future-perspectives .md:23:Peedicayil
 content/07.future-perspectives .md:23:RNAs
 content/07.future-perspectives .md:24:multimodal
-content/07.future-perspectives .md:26:datasets
-content/07.future-perspectives .md:26:datasets
 content/07.future-perspectives .md:26:transcriptomic
 content/07.future-perspectives .md:29:omnigenic
-content/07.future-perspectives .md:31:datasets
 content/07.future-perspectives .md:32:bioinformatics
 content/07.future-perspectives .md:33:WebAssembly
 content/07.future-perspectives .md:35:bioinformatics

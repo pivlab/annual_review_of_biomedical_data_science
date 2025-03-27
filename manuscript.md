@@ -9,7 +9,7 @@ keywords:
 - QTL
 - complex traits
 lang: en-US
-date-meta: '2024-12-16'
+date-meta: '2025-02-12'
 author-meta:
 - Marc Subirana-Granés
 - Jill Hoffman
@@ -29,11 +29,11 @@ header-includes: |
   <meta name="citation_title" content="Genetic studies through the lens of gene networks" />
   <meta property="og:title" content="Genetic studies through the lens of gene networks" />
   <meta property="twitter:title" content="Genetic studies through the lens of gene networks" />
-  <meta name="dc.date" content="2024-12-16" />
-  <meta name="citation_publication_date" content="2024-12-16" />
-  <meta property="article:published_time" content="2024-12-16" />
-  <meta name="dc.modified" content="2024-12-16T18:48:17+00:00" />
-  <meta property="article:modified_time" content="2024-12-16T18:48:17+00:00" />
+  <meta name="dc.date" content="2025-02-12" />
+  <meta name="citation_publication_date" content="2025-02-12" />
+  <meta property="article:published_time" content="2025-02-12" />
+  <meta name="dc.modified" content="2025-03-27T23:00:24+00:00" />
+  <meta property="article:modified_time" content="2025-03-27T23:00:24+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -71,9 +71,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/" />
   <meta name="citation_pdf_url" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2aa1e5438f21bab396ba32874f07ffb3eb581cfc/" />
-  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2aa1e5438f21bab396ba32874f07ffb3eb581cfc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2aa1e5438f21bab396ba32874f07ffb3eb581cfc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c4cb0c6958c022c451e3e04e17581813a3cb424e/" />
+  <meta name="manubot_html_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c4cb0c6958c022c451e3e04e17581813a3cb424e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c4cb0c6958c022c451e3e04e17581813a3cb424e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -95,18 +95,19 @@ manubot-clear-requests-cache: false
 
 [
 <i class="fas fa-info-circle fa-lg"></i> **When citing this paper, please use the following:**<br><br>
-_Subirana-Granés M, Hoffman J, Zhang H, Akirtava C, Nandi S, Fotso K, Pividori M. Genetic studies through the lens of gene networks. 2025. Annu. Rev. Biomed. Data Sci. 8. https://doi.org/10.1146/annurev-biodatasci-103123-095355_
+_Subirana-Granés M, Hoffman J, Zhang H, Akirtava C, Nandi S, Fotso K, Pividori M. Genetic studies through the lens of gene networks. 2025. Annu. Rev. Biomed. Data Sci. 8. [https://doi.org/10.1146/annurev-biodatasci-103123-095355](https://doi.org/10.1146/annurev-biodatasci-103123-095355)_
 ]{.banner .lightblue}
 
 
 <small><em>
 This manuscript
-([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/2aa1e5438f21bab396ba32874f07ffb3eb581cfc/))
+([permalink](https://pivlab.github.io/annual_review_of_biomedical_data_science/v/c4cb0c6958c022c451e3e04e17581813a3cb424e/))
 was automatically generated
-from [pivlab/annual_review_of_biomedical_data_science@2aa1e54](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/2aa1e5438f21bab396ba32874f07ffb3eb581cfc)
-on December 16, 2024.
+from [pivlab/annual_review_of_biomedical_data_science@c4cb0c6](https://github.com/pivlab/annual_review_of_biomedical_data_science/tree/c4cb0c6958c022c451e3e04e17581813a3cb424e)
+on March 27, 2025.
 </em></small>
 
+Published: February 12, 2025
 
 
 ## Authors
